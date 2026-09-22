@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+  <link rel="icon" href="./favicon.svg">
+  <meta name="theme-color" content="#07090e">
+  <title>SECOND HANDS — Floor Prototype</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main id="app" data-mode="title">
+    <canvas id="game-canvas" aria-label="SECOND HANDS game view"></canvas>
+
+    <section id="title-screen" class="screen title-screen" aria-labelledby="game-title">
+      <div class="title-mark" aria-hidden="true">
+        <span class="title-ring ring-a"></span>
+        <span class="title-ring ring-b"></span>
+        <span class="title-hand"></span>
+        <span class="title-jewel"></span>
+      </div>
+      <p class="eyebrow">A CLOCKWORK HEIST</p>
+      <h1 id="game-title"><span>SECOND</span> HANDS</h1>
+      <p class="tagline">Program the crew by playing.</p>
+      <button disabled id="start-button" data-testdisabled id="start-button" class="primary-button" type="button">
+        <span>START HEIST</span><small>Tap to enter the vault</small>
+      </button>
+      <p class="prototype-notice">DEVELOPMENT FLOOR · REPLACE ALL 3D OBJECTS THROUGH 404</p>
+    </section>
+
+    <section id="hud" class="hud" aria-live="polite">
+      <div class="objective-card">
+        <span class="micro-label">CHAMBER 01</span>
+        <strong id="objective-text">EXPLORE THE FLOOR</strong>
+      </div>
+
+      <div class="clock-widget" aria-label="Loop timer not implemented">
+        <svg class="clock-svg" viewBox="0 0 72 72" aria-hidden="true">
+          <circle class="clock-track" cx="36" cy="36" r="30"></circle>
+          <circle id="clock-progress" class="clock-progress" cx="36" cy="36" r="30"></circle>
+        </svg>
+        <span id="clock-seconds">—</span>
+      </div>
+
+      <div id="echo-slots" class="echo-slots" aria-label="Zero Second Hands, replay not implemented">
+        <span class="echo-slot echo-cyan" data-slot="0"><i></i></span>
+        <span class="echo-slot echo-violet" data-slot="1"><i></i></span>
+        <span class="echo-slot echo-amber" data-slot="2"><i></i></span>
+      </div>
+
+      <div id="interaction-prompt" class="interaction-prompt" hidden>
+        <span>ACT</span><strong id="interaction-label">TAKE CHRONOGLASS</strong>
+      </div>
+    </section>
+
+    <section id="touch-controls" class="touch-controls" aria-label="Game controls">
+      <div id="joystick-zone" data-testid="joystick" class="joystick-zone" aria-label="Move">
+        <div class="joystick-base"><div id="joystick-knob" class="joystick-knob"></div></div>
+        <span>MOVE</span>
+      </div>
+      <div class="action-stack">
+        <button id="act-button" data-testid="act-button" class="control-button act-button" type="button"><span>ACT</span></button>
+        <button id="rewind-button" data-testid="rewind-button" class="control-button rewind-button" type="button">
+          <span class="rewind-icon">↶</span><strong>REWIND</strong>
+        </button>
+      </div>
+    </section>
+
+    <p id="control-status" role="status">MOVE AROUND THE TEST ROOM</p>
+    <p id="keyboard-hint">WASD / ARROWS · <b class="act-key">E / SPACE: ACT</b> · <b class="rewind-key">R: REWIND</b></p>
+    <div id="debug-badge" class="debug-badge">FLOOR PROTOTYPE</div>
+  </main>
+  <script type="module">
+    window.__READY__ = false;
+    import('./main.js').catch((error) => {
+      window.__READY__ = false;
+      document.querySelector('.tagline').textContent = 'Unable to load the floor. Reload after checking setup.';
+      console.error(error);
+    });
+  </script>
+</body>
+</html>

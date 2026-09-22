@@ -1,0 +1,24 @@
+{
+  "name": "second-hands",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Development scaffold for SECOND HANDS. Prototype geometry must be replaced through the 404 recipe before submission.",
+  "scripts": {
+    "setup": "node scripts/copy-three.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "gate": "node tools/second-hands-gate.mjs http://127.0.0.1:4173/game/",
+    "smoke": "node tools/floor-smoke.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "puppeteer": "25.11.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

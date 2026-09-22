@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+coverage/
+.tmp/
+production/gate-runs/*.json
+production/gate-runs/*.png
+
+.env
+.env.*
+!.env.example
+.codex/config.toml

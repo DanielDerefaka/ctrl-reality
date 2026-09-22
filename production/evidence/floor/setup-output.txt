@@ -1,0 +1,5 @@
+
+> second-hands@0.1.0 setup
+> node scripts/copy-three.mjs
+
+Copied Three.js 0.180.0 module, core, and license to /Users/dx/Documents/second-hands/game/vendor/

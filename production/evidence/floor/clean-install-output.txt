@@ -1,0 +1,66 @@
+Fresh temporary checkout of final package/runtime/scripts/tests: /tmp/second-hands-clean-bfyyxago
+No node_modules or vendor supplied.
+
+$ npm install
+
+added 28 packages, and audited 29 packages in 1s
+
+9 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Exit: 0
+
+$ npm run setup
+
+> second-hands@0.1.0 setup
+> node scripts/copy-three.mjs
+
+Copied Three.js 0.180.0 module, core, and license to /private/tmp/second-hands-clean-bfyyxago/game/vendor/
+Exit: 0
+
+$ npm test
+
+> second-hands@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ room collision clamps to radius (0.304833ms)
+✔ closed gate blocks crossing and open gate permits it (0.083417ms)
+✔ fixed clock advances in stable steps (1.020834ms)
+✔ fixed clock clamps pathological frame delta (0.272833ms)
+✔ fixed simulation agrees at 30, 60, and 120 render Hz (1.46275ms)
+✔ long frames limit catch-up to five steps but report actual elapsed time (0.074375ms)
+✔ clock reset discards hidden time (0.042208ms)
+✔ FPS does not turn a five-second frame into healthy performance (0.047459ms)
+✔ normalization preserves analogue magnitude and caps diagonals (0.303709ms)
+✔ joystick dead zone, analogue response and extreme drags (0.052291ms)
+✔ joystick returns to zero on clear, blur, and visibility loss (0.263417ms)
+✔ switching devices never leaves the previous direction active (0.140875ms)
+✔ overlapping keyboard and touch actions release independently (0.087083ms)
+✔ room contains the entire actor circle at every angle (0.136042ms)
+✔ circle-box resolution handles faces, corners, and embedded centres (0.064542ms)
+✔ sustained movement cannot cross closed gate or room edge (1.003417ms)
+✔ reset registry restores immutable baseline copy (1.131208ms)
+✔ track interpolation is deterministic (0.336833ms)
+✔ track holds final pose (0.055541ms)
+✔ events are emitted once for a time interval (0.277584ms)
+✔ recorder captures at requested cadence (0.383917ms)
+✔ recorder tracks final held interaction (0.064417ms)
+✔ meaningful movement rejects empty accidental rewind (0.049375ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 44.942042
+Exit: 0
+
+$ npm run check
+
+> second-hands@0.1.0 check
+> node scripts/check.mjs
+
+Static check PASS: 20 modules parsed, 25 local references verified; pinned vendor matches; no forbidden mesh files.
+Exit: 0

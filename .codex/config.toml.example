@@ -1,0 +1,12 @@
+# Copy to .codex/config.toml only after you trust this project.
+# Codex supports project-scoped MCP configuration in trusted projects.
+# Use the exact official 404 MCP command or Streamable HTTP URL supplied by 404.
+# Do not guess values from this placeholder.
+#
+# Example shape only:
+# [mcp_servers."404"]
+# command = "<official-command>"
+# args = ["<official-argument>"]
+#
+# Or, for an official remote server, use the exact current configuration
+# from the organizer. Keep credentials out of git.

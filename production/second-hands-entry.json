@@ -1,0 +1,24 @@
+{
+  "title": "SECOND HANDS: A Clockwork Heist",
+  "slug": "second-hands",
+  "team": [
+    "REPLACE_WITH_GITHUB_HANDLE"
+  ],
+  "play_url": "REPLACE_WITH_FINAL_HTTPS_PLAY_URL",
+  "source_url": "REPLACE_WITH_PUBLIC_REPOSITORY_URL",
+  "commit": "REPLACE_WITH_FINAL_COMMIT_SHA",
+  "genre": "other",
+  "agent": "Codex \u2014 replace with actual model/version; 404 MCP/recipe \u2014 replace with actual tools",
+  "models": [
+    "REPLACE_WITH_ACTUAL_CODING_MODEL",
+    "REPLACE_WITH_ACTUAL_404_GENERATION_MODEL_IF_EXPOSED",
+    "REPLACE_WITH_ACTUAL_IMAGE_OR_AUDIO_MODEL_IF_USED"
+  ],
+  "own_art": false,
+  "own_art_list": [
+    "REPLACE_WITH_EXACT_TEAM-CREATED_OR_GENERATED_ASSET_DECLARATIONS"
+  ],
+  "what_i_found": "Every attempt becomes a porcelain Second Hand that replays the player's movements and interactions. The vault is solved by choreographing with previous versions of yourself, using past runs to hold mechanisms and open a path for the current thief. Rewind is not undo; it is how you program the crew.",
+  "wallet": "REPLACE_WITH_SS58_WALLET",
+  "contact": "REPLACE_WITH_CONTACT"
+}
