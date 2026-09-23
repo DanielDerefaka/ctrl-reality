@@ -1,3 +1,5 @@
+> **SUPERSEDED — DO NOT EXECUTE.** The user stopped shooter expansion. Resume only the Midnight Express NYRA_MASK pipeline described in prompt 10.
+
 # Next task — Zero Hour Section 1 production
 
 Read AGENTS.md, the active Zero Hour design/style/architecture, production/ZERO_HOUR_MILESTONE_REPORT.md and CRITIC_LOG.md. Preserve floor-prototype-v1 and all receipts.

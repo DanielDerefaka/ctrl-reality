@@ -30,3 +30,7 @@ Review uses actual browser frames under `zero-hour/screenshots/` and keyboard/mo
 ## Remaining visual work
 
 Rigid temporary operative, flat box architecture, sparse material detail and missing authored animation/rain/temporal-collapse dressing prevent any commercial-quality claim. The damaging foundation issues (distant camera, unreadable weapon, overlapping HUD and close-wall target obstruction) were addressed and recaptured. Further silhouette, materials, animation and atmosphere should use the verified Section 1 production workflow rather than polishing temporary primitives into final assets.
+
+## 2026-09-23 — Midnight Express visual review pending
+
+The user stopped shooter expansion. This task is a mask-pipeline proof, not a game visual round. No real Higgsfield mask reference or 404 candidates exist because credentials/account model documentation are absent. No silhouette verdict, comparison sheet or recommendation fabricated. Preserve existing Zero Hour/floor frames; inspect actual mask reference and all candidate verifier views after live generation, then present a recommendation for the user's selection. Do not integrate automatically.

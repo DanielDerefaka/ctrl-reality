@@ -1,3 +1,13 @@
+# Current task authority — MIDNIGHT EXPRESS mask proof
+
+The latest user instruction supersedes Zero Hour gameplay expansion. Selected direction is SECOND HANDS: MIDNIGHT EXPRESS, a non-shooting stealth/time heist. **Do not modify or expand the main game until the NYRA_MASK generation pipeline is proved and the user approves a candidate.** Preserve all history, floor screenshots and Zero Hour evidence.
+
+Read `docs/MIDNIGHT_EXPRESS_PIPELINE.md` and `production/MIDNIGHT_PIPELINE_REPORT.md`. Current scope: audit real MCP status, official recipe self-test, secure development-only Higgsfield and RunPod tools, one isolated Nyra mask reference, three real 404 candidates, official wrap/verification, visual recommendation, then stop for explicit user selection. No invented endpoint, fake receipt, fallback generator, full character, train assets, shooting, drones or weapons. Never commit credentials or place them in game/. Missing credentials permit safe scaffold work only; report the blocker honestly.
+
+The prior instructions below describe the frozen Zero Hour prototype and its engineering history. Its gameplay plans and next-production prompt are superseded; compliance, truthful evidence and resource/input discipline remain relevant.
+
+---
+
 # AGENTS.md — SECOND HANDS: ZERO HOUR
 
 ## Current authority

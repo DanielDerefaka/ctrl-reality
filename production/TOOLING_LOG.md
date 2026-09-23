@@ -116,3 +116,11 @@ Pre-commit inspection: secret-pattern filename scan returned no matches. Full in
 - Commands: `npm test` => 35 passed / 0 failed; `npm run check` => 24 modules parsed / 25 local references verified, pinned vendor matches, no forbidden meshes; `npm run smoke` => 34 passed / 0 failed, exit 0. Raw outputs in `production/zero-hour/`.
 - Failed evidence retained: browser-round2-failed.json and browser-round2-output.txt report 30 passed / 1 failed plus two pointer-capture DOM exceptions. The corrected final browser-result.json contains zero errors. The initial new unit run had 34 passed / 1 failed at the six-second endpoint; its output is in the task tool history, not a separately saved file.
 - No organizer live gate, physical phone, cellular throttle, deployment, sound audition or final asset verification performed in this pivot milestone.
+
+## 2026-09-23 — Midnight Express pipeline audit
+
+Codex/GPT-6 authored development-only tooling, no subagents and no generation services called. Official OpenAI docs skill used to verify MCP configuration/TUI semantics; actual CLI/server-name and session tool inventories are sanitized in production/midnight-pipeline. No 404 MCP exposed; enabled configuration is not a successful handshake. Public recipe offers RunPod and agent-written geometry, not an assumed MCP endpoint.
+
+Read official Higgsfield shared authentication/lifecycle/polling/status docs and pinned official 404 recipe. Account model docs remain absent. .env.local created blank with mode 0600 and ignored; .env.example blank. No real credentials printed, committed or put in game/. Scaffold uses documented auth, no POST retry, bounded polling, streaming, archived overwrite handling and official wrapping/verification with stripped credential environment. It has not made a real request. All 20 new protocol tests use explicit offline fixtures.
+
+Official npm run selftest exit 0 (bad fixtures caught, clean 4/4, loader 7/7). Existing prototype 35 unit + 34 browser checks passed. Final 55 unit tests passed; static 24 modules/25 references passed. Separate receipts under production/midnight-pipeline; no historic receipts overwritten. Both provider preflights exited 1 on missing credentials, before network access. See MIDNIGHT_PIPELINE_REPORT.md for exact commands and limitations.

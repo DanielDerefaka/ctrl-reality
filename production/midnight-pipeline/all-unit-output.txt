@@ -1,0 +1,67 @@
+
+> second-hands@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ credentials fail closed with names only (2.275792ms)
+✔ receipt redaction removes secret values and nested credential fields (0.182416ms)
+✔ Higgsfield model must be reviewed and cannot redirect credentials to another origin (0.919209ms)
+✔ poll follows queued and in_progress to completed with capped backoff (9.9475ms)
+✔ poll stops on failed, moderated, canceled and unknown states (0.543334ms)
+✔ poll retries transient failures but never retries authentication failure (0.217792ms)
+✔ poll refuses cross-origin status URL before sending any credential (0.057584ms)
+✔ poll has a bounded total wait (0.170042ms)
+✔ HTTP errors never expose server response bodies (0.097875ms)
+✔ image download has no authorization and checks media bytes (3.618ms)
+✔ stream decoder survives byte-split UTF-8, CRLF and comments (0.983875ms)
+✔ stream rejects truncation, token-limit and server errors (0.926125ms)
+✔ RunPod endpoint is HTTPS proxy v1, without URL credentials (0.099917ms)
+✔ code preparation never executes generated code and refuses contract violations (0.253917ms)
+✔ official verification receives no inherited secrets and uses the official harness path (0.055708ms)
+✔ evidence refuses overwrite and game paths; explicit replacement archives evidence (3.685208ms)
+✔ missing Higgsfield credentials send zero requests (0.143291ms)
+✔ offline reference lifecycle writes a local image and secret-free request receipt (4.081208ms)
+✔ ambiguous submission is not retried and keeps a failure receipt (1.413917ms)
+✔ resume leaves a malformed receipt intact and sends no request (1.214625ms)
+✔ room collision clamps to radius (0.425833ms)
+✔ closed gate blocks crossing and open gate permits it (0.101208ms)
+✔ fixed clock advances in stable steps (0.334375ms)
+✔ fixed clock clamps pathological frame delta (0.070625ms)
+✔ fixed simulation agrees at 30, 60, and 120 render Hz (1.084541ms)
+✔ long frames limit catch-up to five steps but report actual elapsed time (0.080417ms)
+✔ clock reset discards hidden time (0.037958ms)
+✔ FPS does not turn a five-second frame into healthy performance (0.046625ms)
+✔ normalization preserves analogue magnitude and caps diagonals (0.273584ms)
+✔ joystick dead zone, analogue response and extreme drags (0.05575ms)
+✔ joystick returns to zero on clear, blur, and visibility loss (0.249125ms)
+✔ switching devices never leaves the previous direction active (0.314583ms)
+✔ overlapping keyboard and touch actions release independently (0.1245ms)
+✔ room contains the entire actor circle at every angle (0.383458ms)
+✔ circle-box resolution handles faces, corners, and embedded centres (0.080292ms)
+✔ sustained movement cannot cross closed gate or room edge (0.749959ms)
+✔ reset registry restores immutable baseline copy (1.909375ms)
+✔ track interpolation is deterministic (0.363333ms)
+✔ track holds final pose (0.048833ms)
+✔ events are emitted once for a time interval (0.285291ms)
+✔ recorder captures at requested cadence (0.398959ms)
+✔ recorder tracks final held interaction (0.066791ms)
+✔ meaningful movement rejects empty accidental rewind (0.049958ms)
+✔ camera-relative movement rotates without increasing diagonal speed (0.343791ms)
+✔ weapon cadence, magazine and reserve are conserved (0.110125ms)
+✔ empty magazine starts reload but never creates extra ammunition (0.04175ms)
+✔ recording automatically caps at six seconds and stores aim and events (0.340708ms)
+✔ echo dispatches each event once and expires rather than holding final pose (0.092583ms)
+✔ one stored track is immutable while current player repositions (0.045167ms)
+✔ left echo and right player attacks break shield only when synchronized (0.101584ms)
+✔ same actor, same direction or late fire cannot bypass shield (0.063917ms)
+✔ echo recording drives crossfire event through deterministic playback (0.071125ms)
+✔ scene entries reset transient tracks and have explicit encounters and spawns (0.389042ms)
+✔ results never claim core secured or a rank for an incomplete evaluation (0.05475ms)
+✔ camera segment stops before wall and stays above floor (0.087333ms)
+ℹ tests 55
+ℹ suites 0
+ℹ pass 55
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 83.958

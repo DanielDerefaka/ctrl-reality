@@ -1,0 +1,49 @@
+
+> second-hands@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ room collision clamps to radius (0.289125ms)
+✔ closed gate blocks crossing and open gate permits it (0.081625ms)
+✔ fixed clock advances in stable steps (0.470209ms)
+✔ fixed clock clamps pathological frame delta (0.078625ms)
+✔ fixed simulation agrees at 30, 60, and 120 render Hz (2.030584ms)
+✔ long frames limit catch-up to five steps but report actual elapsed time (0.178708ms)
+✔ clock reset discards hidden time (0.082959ms)
+✔ FPS does not turn a five-second frame into healthy performance (0.098291ms)
+✔ normalization preserves analogue magnitude and caps diagonals (2.50975ms)
+✔ joystick dead zone, analogue response and extreme drags (0.087416ms)
+✔ joystick returns to zero on clear, blur, and visibility loss (0.411625ms)
+✔ switching devices never leaves the previous direction active (0.161042ms)
+✔ overlapping keyboard and touch actions release independently (0.085334ms)
+✔ room contains the entire actor circle at every angle (0.298625ms)
+✔ circle-box resolution handles faces, corners, and embedded centres (0.0765ms)
+✔ sustained movement cannot cross closed gate or room edge (0.898958ms)
+✔ reset registry restores immutable baseline copy (2.25275ms)
+✔ track interpolation is deterministic (0.345916ms)
+✔ track holds final pose (0.045959ms)
+✔ events are emitted once for a time interval (0.281833ms)
+✔ recorder captures at requested cadence (0.91775ms)
+✔ recorder tracks final held interaction (0.1615ms)
+✔ meaningful movement rejects empty accidental rewind (0.106833ms)
+✔ camera-relative movement rotates without increasing diagonal speed (0.330625ms)
+✔ weapon cadence, magazine and reserve are conserved (0.101084ms)
+✔ empty magazine starts reload but never creates extra ammunition (0.042625ms)
+✔ recording automatically caps at six seconds and stores aim and events (0.331833ms)
+✔ echo dispatches each event once and expires rather than holding final pose (0.08775ms)
+✔ one stored track is immutable while current player repositions (0.044875ms)
+✔ left echo and right player attacks break shield only when synchronized (0.099375ms)
+✔ same actor, same direction or late fire cannot bypass shield (0.061083ms)
+✔ echo recording drives crossfire event through deterministic playback (0.076042ms)
+✔ scene entries reset transient tracks and have explicit encounters and spawns (0.567875ms)
+✔ results never claim core secured or a rank for an incomplete evaluation (0.064375ms)
+✔ camera segment stops before wall and stays above floor (0.097125ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 73.868791
+
+EXIT_CODE=0

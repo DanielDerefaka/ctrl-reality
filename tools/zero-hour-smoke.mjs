@@ -1,7 +1,8 @@
 import puppeteer from 'puppeteer';
 import assert from 'node:assert/strict';
 import {mkdir,writeFile} from 'node:fs/promises';
-const out=new URL('../production/zero-hour/',import.meta.url);await mkdir(out,{recursive:true});
+// Optional evidence destination keeps historical screenshots immutable during audits.
+const out=new URL(process.env.SMOKE_OUT || '../production/zero-hour/',import.meta.url);await mkdir(new URL('screenshots/',out),{recursive:true});
 const browser=await puppeteer.launch({headless:true});const checks=[],errors=[],missing=[],external=[],frames=[];let page,desktop,mobile,report={};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const ok=(name,value=true)=>{assert.ok(value,name);checks.push(name);};

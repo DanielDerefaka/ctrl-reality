@@ -83,3 +83,7 @@
 - Normal hero framing ~23% of viewport height. Near-wall crossfire frame ~69% due camera retraction, with transparent hero to keep the sentinel visible; further polish needed.
 - Results accurately show UNRANKED, core unsecured and damage taken zero; no enemy offense exists yet. No boss/extraction or complete mission claimed.
 - Next: prompts/09_ZERO_HOUR_SECTION_1_PRODUCTION.md. Main risk is target-only combat and unproven physical-phone aim/comfort, not current automated correctness.
+
+## 2026-09-23 — frozen prototype regression only
+
+Re-ran the existing Zero Hour browser suite with separate evidence output: 34 passed / 0 failed, 0 page/console errors, 0 missing/failed requests, 0 outside-game runtime requests. Actual mouse/keyboard/touch emulation used; no physical device. Screenshots under production/midnight-pipeline/prototype-browser/screenshots/. This is preserved prototype regression evidence, not a Midnight Express playtest. Main game unchanged. No new Nyra art exists to evaluate.

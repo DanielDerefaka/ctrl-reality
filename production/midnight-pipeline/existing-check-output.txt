@@ -1,0 +1,7 @@
+
+> second-hands@0.1.0 check
+> node scripts/check.mjs
+
+Static check PASS: 24 modules parsed, 25 local references verified; pinned vendor matches; no forbidden mesh files.
+
+EXIT_CODE=0

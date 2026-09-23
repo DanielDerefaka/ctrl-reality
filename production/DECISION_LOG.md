@@ -44,3 +44,9 @@ The circular floor is a technical control, not final art. The camera is too dist
 - The initial six-second unit boundary was 5.9999999999 from floating-point accumulation. Saturate the recording endpoint at exactly six seconds; final suite passes.
 - Mobile inspection drove separation of notifications/echo panel, compact health placement, visible weapon pose and scrollable menu sheets. Preserve intermediate and failure screenshots. See CRITIC_LOG.md.
 - Associated focused commit: `pivot: establish Zero Hour third-person presentation foundation` (resolve SHA from Git history; a commit cannot contain its own hash).
+
+## 2026-09-23 — Midnight Express scope stop
+
+The user stopped the generic drone-shooter direction and selected SECOND HANDS: MIDNIGHT EXPRESS, a non-shooting train time heist. Freeze the active game at Zero Hour commit 6002604 and preserve floor-prototype-v1 plus all captures/history. This task only audits the real toolchain and prepares a NYRA_MASK proof. No new game, enemy, weapon, full character or train asset.
+
+The official recipe is not an MCP. No 404 server exists in the inspected configuration/session. Use the requested RunPod model route for this proof, not an unannounced agent-written fallback. Missing local credentials and model-specific account docs permit a tested scaffold but block live generation. Do not confuse offline protocol tests or verifier fixtures with real assets. User candidate approval is a hard stop before integration.
