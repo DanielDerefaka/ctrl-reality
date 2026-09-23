@@ -1,3 +1,5 @@
+> Historical production-pack reference. The user-approved Zero Hour design in docs/03_GAME_DESIGN_DOCUMENT.md supersedes conflicting clockwork scope, controls, camera, timing and palette. Original wording is retained for provenance.
+
 # Judge Demo and Pitch
 
 A judge should understand the game before anyone explains its lore.

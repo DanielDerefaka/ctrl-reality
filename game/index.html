@@ -1,82 +1,15 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
-  <link rel="icon" href="./favicon.svg">
-  <meta name="theme-color" content="#07090e">
-  <title>SECOND HANDS — Floor Prototype</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <main id="app" data-mode="title">
-    <canvas id="game-canvas" aria-label="SECOND HANDS game view"></canvas>
-
-    <section id="title-screen" class="screen title-screen" aria-labelledby="game-title">
-      <div class="title-mark" aria-hidden="true">
-        <span class="title-ring ring-a"></span>
-        <span class="title-ring ring-b"></span>
-        <span class="title-hand"></span>
-        <span class="title-jewel"></span>
-      </div>
-      <p class="eyebrow">A CLOCKWORK HEIST</p>
-      <h1 id="game-title"><span>SECOND</span> HANDS</h1>
-      <p class="tagline">Program the crew by playing.</p>
-      <button disabled id="start-button" data-testdisabled id="start-button" class="primary-button" type="button">
-        <span>START HEIST</span><small>Tap to enter the vault</small>
-      </button>
-      <p class="prototype-notice">DEVELOPMENT FLOOR · REPLACE ALL 3D OBJECTS THROUGH 404</p>
-    </section>
-
-    <section id="hud" class="hud" aria-live="polite">
-      <div class="objective-card">
-        <span class="micro-label">CHAMBER 01</span>
-        <strong id="objective-text">EXPLORE THE FLOOR</strong>
-      </div>
-
-      <div class="clock-widget" aria-label="Loop timer not implemented">
-        <svg class="clock-svg" viewBox="0 0 72 72" aria-hidden="true">
-          <circle class="clock-track" cx="36" cy="36" r="30"></circle>
-          <circle id="clock-progress" class="clock-progress" cx="36" cy="36" r="30"></circle>
-        </svg>
-        <span id="clock-seconds">—</span>
-      </div>
-
-      <div id="echo-slots" class="echo-slots" aria-label="Zero Second Hands, replay not implemented">
-        <span class="echo-slot echo-cyan" data-slot="0"><i></i></span>
-        <span class="echo-slot echo-violet" data-slot="1"><i></i></span>
-        <span class="echo-slot echo-amber" data-slot="2"><i></i></span>
-      </div>
-
-      <div id="interaction-prompt" class="interaction-prompt" hidden>
-        <span>ACT</span><strong id="interaction-label">TAKE CHRONOGLASS</strong>
-      </div>
-    </section>
-
-    <section id="touch-controls" class="touch-controls" aria-label="Game controls">
-      <div id="joystick-zone" data-testid="joystick" class="joystick-zone" aria-label="Move">
-        <div class="joystick-base"><div id="joystick-knob" class="joystick-knob"></div></div>
-        <span>MOVE</span>
-      </div>
-      <div class="action-stack">
-        <button id="act-button" data-testid="act-button" class="control-button act-button" type="button"><span>ACT</span></button>
-        <button id="rewind-button" data-testid="rewind-button" class="control-button rewind-button" type="button">
-          <span class="rewind-icon">↶</span><strong>REWIND</strong>
-        </button>
-      </div>
-    </section>
-
-    <p id="control-status" role="status">MOVE AROUND THE TEST ROOM</p>
-    <p id="keyboard-hint">WASD / ARROWS · <b class="act-key">E / SPACE: ACT</b> · <b class="rewind-key">R: REWIND</b></p>
-    <div id="debug-badge" class="debug-badge">FLOOR PROTOTYPE</div>
-  </main>
-  <script type="module">
-    window.__READY__ = false;
-    import('./main.js').catch((error) => {
-      window.__READY__ = false;
-      document.querySelector('.tagline').textContent = 'Unable to load the floor. Reload after checking setup.';
-      console.error(error);
-    });
-  </script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover"><meta name="theme-color" content="#05070C"><meta name="description" content="SECOND HANDS: ZERO HOUR. Infiltrate a collapsing chrono-reactor and fight beside holographic recordings of your own previous actions."><title>SECOND HANDS: ZERO HOUR</title><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./styles.css"></head>
+<body><main id="app" data-mode="boot"><canvas id="game-canvas" aria-label="Zero Hour third-person game"></canvas><div class="film-grain" aria-hidden="true"></div>
+<section class="screen boot" data-screen="boot"><p class="eyebrow">NEXUS SYSTEMS / AUTHENTICATING</p><h1>SECOND HANDS</h1><p id="boot-status">Establishing temporal link…</p><div class="loading-line"></div></section>
+<header class="masthead"><span class="brand">SH<span> / </span>ZERO HOUR</span><span class="connection"><i></i> TEMPORAL LINK ONLINE</span></header>
+<section class="screen main-menu" data-screen="menu" hidden><div class="menu-copy"><p class="eyebrow">A SECOND HANDS OPERATION</p><h1>ZERO<br><span>HOUR</span></h1><p class="tagline">YOUR BEST SQUADMATE IS YOU,<br>SIX SECONDS AGO.</p><nav><button class="primary" data-action="operations"><span>01</span> OPERATIONS <b>↗</b></button><button data-action="how"><span>02</span> HOW TO PLAY</button><button data-action="settings"><span>03</span> SETTINGS</button><button data-action="credits"><span>04</span> CREDITS</button></nav></div><div class="menu-caption"><span>OPERATIVE / ECHO DIVISION</span><strong>ONE BODY.<br>TWO LINES OF FIRE.</strong></div><footer>NEXUS-9 <span>23:59:54 / SIX SECONDS TO CHANGE EVERYTHING</span></footer></section>
+<section class="screen sheet" data-screen="operations" hidden><div class="panel"><p class="eyebrow">MISSION SELECT / 01</p><h2>OPERATION:<br><em>DEAD CLOCK</em></h2><div class="mission-map"><span>NEXUS–9</span><i></i><b>CHRONO FACILITY</b></div><dl class="mission-data"><div><dt>PRIMARY OBJECTIVE</dt><dd>STEAL THE CHRONO CORE</dd></div><div><dt>THREAT</dt><dd class="alert">CRITICAL</dd></div><div><dt>ESTIMATED TIME</dt><dd>8 MINUTES · FULL MISSION TARGET</dd></div></dl><p class="muted">Presentation evaluation: Skybridge + Security Spine. Full mission and core encounter are still in development.</p><div class="segmented" aria-label="Difficulty"><button data-difficulty="normal" aria-pressed="true">NORMAL</button><button data-difficulty="hard" aria-pressed="false">HARD</button></div><button class="primary" data-action="briefing">LAUNCH MISSION <b>→</b></button><button data-action="menu">BACK</button></div></section>
+<section class="screen briefing" data-screen="briefing" hidden><div class="panel"><p class="eyebrow">INSERTION / NEXUS-9</p><h2>THE CLOCK<br>IS ALREADY<br><em>RUNNING.</em></h2><p>Cross the skybridge. Clear the security spine. Your temporal rig can store six seconds of action, then replay it beside you.</p><ol><li>SKYBRIDGE INSERTION <span>Establish a foothold</span></li><li>SECURITY SPINE <span>Break the phase shield</span></li><li>CHRONO CORE <span>Full encounter in development</span></li></ol><button class="primary" data-action="insert">INSERT NOW <b>→</b></button><button data-action="insert">SKIP BRIEFING</button></div></section>
+<section class="screen sheet" data-screen="how" hidden><div class="panel"><p class="eyebrow">FIELD MANUAL</p><h2>MAKE YOUR<br><em>OWN BACKUP.</em></h2><p>Q / ECHO records up to six seconds. Press again to store early. Reposition, then press once more to deploy. The echo repeats your shots and scanner interactions.</p><p>Break a sentinel shield by attacking from different sides with your echo within 0.8 seconds.</p><dl class="manual"><dt>MOVE / LOOK</dt><dd>WASD + mouse · left stick + right drag</dd><dt>FIRE / PRECISION</dt><dd>Left / right mouse · FIRE / AIM</dd><dt>DODGE / INTERACT</dt><dd>Space / E · DODGE / contextual USE</dd><dt>RELOAD / PAUSE</dt><dd>R / Escape · ammo control / pause</dd></dl><button class="primary" data-action="menu">UNDERSTOOD</button></div></section>
+<section class="screen sheet" data-screen="settings" hidden><div class="panel"><p class="eyebrow">OPERATIVE CONFIGURATION</p><h2>SETTINGS</h2><label class="setting">LOOK SENSITIVITY <output id="sensitivity-value">1.0</output><input id="sensitivity" type="range" min="0.3" max="2" step="0.1" value="1"></label><button id="invert" aria-pressed="false">INVERT Y <b>OFF</b></button><button id="sound" aria-pressed="true">SOUND <b>ON</b></button><button id="haptics" aria-pressed="true">HAPTICS <b>ON</b></button><button class="primary" data-action="back-settings">BACK</button></div></section>
+<section class="screen sheet" data-screen="credits" hidden><div class="panel"><p class="eyebrow">BUILT IN THE OPEN</p><h2>SECOND HANDS:<br><em>ZERO HOUR</em></h2><p>Design direction: project creator.<br>Engineering and prototype geometry: Codex (GPT-6).<br>Renderer: Three.js 0.180.0 (MIT).</p><p>All current 3D objects are temporary code prototypes. No verified 404 production assets are present. No external meshes, textures or music are used.</p><p>Carbine audio is original procedural Web Audio synthesis. Final assets will follow the official 404 reference → three candidates → verification workflow.</p><button class="primary" data-action="menu">BACK</button></div></section>
+<section id="hud" hidden aria-label="Mission HUD"><div class="hud-objective"><span id="section-name">SKYBRIDGE INSERTION</span><strong id="objective">ELIMINATE THE SCOUT DRONE</strong></div><div class="compass"><span id="heading">N · 000</span><b id="objective-distance">↓ 17 M</b></div><div class="echo-panel"><span>TEMPORAL RIG</span><strong id="echo-state">READY</strong><div class="meter"><i id="echo-meter"></i></div><small id="echo-count">0 / 1 ECHO ACTIVE</small></div><div class="vitals"><span>OPERATIVE / ACTIVE</span><div id="health" class="health"></div><b id="armor">ARMOR 50</b></div><button id="weapon" data-control="reload"><span>PC–06 / PULSE CARBINE</span><strong><b id="ammo">24</b><small id="reserve"> / 144</small></strong><small id="reload-state">R / TAP TO RELOAD</small></button><div class="reticle" id="reticle"><i></i><i></i><i></i><i></i><b id="hit-marker">×</b></div><div id="enemy-info" hidden><span id="enemy-name"></span><progress id="enemy-health" max="100" value="100"></progress></div><p id="interaction" hidden></p><div id="temporal-treatment"></div><div id="damage-feedback"></div><p id="event-notice" role="status"></p><button id="pause-button" aria-label="Pause" data-action="pause">Ⅱ</button><div id="mobile-controls"><div id="look-zone" aria-label="Drag to look"></div><div id="stick" aria-label="Move"><i id="stick-knob"></i></div><div class="combat-controls"><button data-control="aim">AIM</button><button class="fire" data-control="fire">FIRE</button><button data-control="dodge">DODGE</button><button class="echo-control" data-control="echo">ECHO</button></div><button id="use-button" data-control="interact" hidden>USE</button></div></section>
+<section class="screen sheet pause" data-screen="pause" hidden><div class="panel"><p class="eyebrow">TEMPORAL LINK SUSPENDED</p><h2>PAUSED</h2><button class="primary" data-action="resume">RESUME</button><button data-action="settings">SETTINGS</button><button data-action="restart">RESTART EVALUATION</button><button data-action="results">END EVALUATION</button><button data-action="menu">RETURN TO COMMAND BAY</button></div></section>
+<section class="screen sheet" data-screen="results" hidden><div class="panel"><p class="eyebrow">AFTER ACTION REPORT</p><h2>EVALUATION<br><em>CONCLUDED.</em></h2><dl id="result-stats" class="results-grid"></dl><p class="muted">Core encounter not yet available. This evaluation does not award a mission-completion rank.</p><button class="primary" data-action="operations">OPERATIONS</button><button data-action="menu">COMMAND BAY</button></div></section>
+</main><script type="module">window.__READY__=false;import('./main.js').catch(e=>{document.querySelector('#boot-status').textContent='Unable to initialize. Check local runtime setup.';console.error(e);});</script></body></html>

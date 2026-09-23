@@ -1,3 +1,5 @@
+> Historical production-pack reference. The user-approved Zero Hour design in docs/03_GAME_DESIGN_DOCUMENT.md supersedes conflicting clockwork scope, controls, camera, timing and palette. Original wording is retained for provenance.
+
 # Build Schedule — West Africa Time
 
 This schedule begins on Tuesday, September 22, 2026 at approximately 22:00 WAT. The official deadline is September 26 at 00:59 WAT. The internal submission deadline is **Friday, September 25 at 19:00 WAT**.

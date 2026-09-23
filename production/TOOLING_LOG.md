@@ -104,3 +104,15 @@ Commands run from the game root unless the recipe root is specified:
 The source under test is the uncommitted initial milestone, subsequently committed with the required message. Resolve its SHA with `git log -1 --format=%H --grep='prototype: establish mobile floor build and truthful telemetry'`. No prior SHA existed; no fabricated SHA attached to evidence.
 
 Pre-commit inspection: secret-pattern filename scan returned no matches. Full initial `git diff --cached --check` reports existing Markdown hard-break trailing spaces, an existing final blank line in diagrams/README.md, and upstream Three.js indentation. Preserved supplied docs and exact vendor bytes. The authored-code/evidence check excluding vendor passed. No node_modules, credentials or cache files staged.
+
+## 2026-09-23 — Zero Hour pivot provenance
+
+- Coding and visual review: Codex / GPT-6, no subagents. Node/npm/Three/Puppeteer unchanged from the verified environment above. Browser reports Chrome/153.0.8010.36.
+- Work performed only in `/Users/dx/Documents/second-hands`. Original production-pack directory and preserved floor evidence were not edited.
+- New meshes are original Three.js prototype construction in `game/zero/scene.js`, explicitly PROTOTYPE_ONLY. No imported mesh, image/texture download, asset service or production 404 generation. Existing locally vendored Three.js remains byte-verified by the static check.
+- New sound is an original short triangle-oscillator envelope in `game/zero/main.js` using Web Audio. No recorded audio files or external sound library. Audible quality and device vibration were not physically tested. Browser runs disabled sound via the functional setting.
+- Screenshots are actual running-browser captures, not generated pictures or mockups. Puppeteer/CDP delivered mouse, keyboard and touch input; telemetry was read for assertions/navigation, with no teleport or injected combat success.
+- Prior 404 discovery remains the only connection receipt; no new 404 connection or verifier success is claimed. Rediscover actual tools before Section 1 final asset generation.
+- Commands: `npm test` => 35 passed / 0 failed; `npm run check` => 24 modules parsed / 25 local references verified, pinned vendor matches, no forbidden meshes; `npm run smoke` => 34 passed / 0 failed, exit 0. Raw outputs in `production/zero-hour/`.
+- Failed evidence retained: browser-round2-failed.json and browser-round2-output.txt report 30 passed / 1 failed plus two pointer-capture DOM exceptions. The corrected final browser-result.json contains zero errors. The initial new unit run had 34 passed / 1 failed at the six-second endpoint; its output is in the task tool history, not a separately saved file.
+- No organizer live gate, physical phone, cellular throttle, deployment, sound audition or final asset verification performed in this pivot milestone.

@@ -1,12 +1,6 @@
-# SECOND HANDS Project
+# SECOND HANDS: ZERO HOUR
 
-Start with `START_HERE.md`, then run:
-
-```bash
-npm install
-npm run setup
-npm test
-npm run serve
-```
-
-The current 3D geometry is a floor prototype only. Follow the numbered Codex prompts and verified 404 asset process before submission.
+Active project: /Users/dx/Documents/second-hands.
+Current direction: docs/03_GAME_DESIGN_DOCUMENT.md.
+Floor baseline: floor-prototype-v1.
+Entry is still a prototype; no final 404 assets or live gate pass.

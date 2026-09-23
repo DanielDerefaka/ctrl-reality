@@ -30,3 +30,17 @@ Record decisions when they are made. Do not rewrite earlier rationale after seei
 ## 2026-09-23 — user-directed Zero Hour pivot
 
 The circular floor is a technical control, not final art. The camera is too distant; presentation is too static; the environment lacks depth; the UI feels like developer telemetry; the game does not yet communicate a premium third-person action experience. Preserve this result and its honest limitations under floor-prototype-v1. The user explicitly replaces the earlier camera, scope, identity and palette with SECOND HANDS: ZERO HOUR. No floor geometry is claimed as verified 404 production art. Desktop and 390×844 captures and the complete existing test results are preserved in production/floor-build/.
+
+## 2026-09-23 — Zero Hour foundation decisions
+
+- Preserve the floor at `floor-prototype-v1` (`88be3bb47c45ac16f5c4d0acb5d61affec870a5f`) and implement on `feature/zero-hour-vertical-slice`. The user-directed pivot supersedes the prior fixed-camera puzzle brief; historical documents remain available in Git and superseded planning files are labelled.
+- Separate pure combat/replay rules, input ownership, scene resources and presentation under `game/zero/`. Retain the floor logic/tests for provenance; the active entry point imports only the new runtime.
+- Use one fixed 60 Hz simulation, 30 Hz transform recording, timestamped events and one stored/one active echo. Crossfire requires player plus echo, angular separation and an 0.8-second window; same-actor, same-direction and late hits fail.
+- Use 52°/42° shoulder framing. Normal gameplay hero height is about 23%; wall retraction can enlarge the hero, so fade it at close range to preserve the target. This is a prototype mitigation, not a final animation/camera polish pass.
+- Keep one scene root, one render loop, one input listener set and owned disposal on transition. Core and Extraction are explicit unavailable configurations, not fake completed scenes.
+- Use original synthesized Web Audio shot feedback and opt-in supported vibration. All geometry remains PROTOTYPE_ONLY; no production asset generator was invoked.
+- Show truthful UNRANKED evaluation results with core unsecured. Health/armor HUD exists, but enemy offense, damage-taking and final mission scoring are future work.
+- Browser testing caught pointer capture being requested under mouse pointer lock. Guard capture while locked and consume fire-edge/held input separately. Final real-input crossfire/browser run passes without that exception.
+- The initial six-second unit boundary was 5.9999999999 from floating-point accumulation. Saturate the recording endpoint at exactly six seconds; final suite passes.
+- Mobile inspection drove separation of notifications/echo panel, compact health placement, visible weapon pose and scrollable menu sheets. Preserve intermediate and failure screenshots. See CRITIC_LOG.md.
+- Associated focused commit: `pivot: establish Zero Hour third-person presentation foundation` (resolve SHA from Git history; a commit cannot contain its own hash).

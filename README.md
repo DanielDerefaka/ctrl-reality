@@ -1,11 +1,12 @@
-# SECOND HANDS: A Clockwork Heist
+# SECOND HANDS: ZERO HOUR
 
-Milestone 01 is a **temporary floor prototype**, not a playable replay puzzle or a submission build.
-One real tap/click starts one room. Keyboard and pointer/touch controls drive a circular actor through a fixed 60 Hz simulation. ACT and REWIND provide press feedback only. The loop timer, score and puzzle telemetry stay at zero/false.
+**YOUR BEST SQUADMATE IS YOU, SIX SECONDS AGO.**
 
-## Run
+A third-person action presentation foundation: live command bay, menu/operations/briefing, Skybridge target encounter, Security Spine crossfire evaluation, and a six-second holographic combat echo. This is not yet the full 8–10 minute mission. Every visible 3D object is PROTOTYPE_ONLY, disclosed in Credits.
 
-Node **22.12 or newer** is required by the pinned browser test tooling (tested on Node 24.15.0).
+## Run and test
+
+Node >=22.12.0. Three.js stays pinned to 0.180.0; Puppeteer 25.11.0 is development-only.
 
 ```sh
 npm install
@@ -13,27 +14,16 @@ npm run setup
 npm test
 npm run check
 npm run serve
-```
-
-Open http://127.0.0.1:4173/game/ . With that server still running:
-
-```sh
+# In another terminal, with the server running:
 npm run smoke
 ```
 
-`npm run setup` copies pinned Three.js **0.180.0**, its required core module, and MIT license into `game/vendor/`. The runtime uses only local files. `npm ci` is also supported by the committed lockfile. `npm run check` parses modules, checks local dependencies, verifies vendor bytes, and rejects mesh files. The server exposes only `game/`; for a physical phone on the same LAN, use this computer's LAN IP and port 4173.
+Open http://127.0.0.1:4173/game/ . Runtime dependencies remain entirely local under game/.
 
-## Controls
+Desktop: WASD, mouse look, left fire, right precision aim, Space dodge, Q record/store/deploy, E interact, R reload, Escape pause. Mobile: joystick, right drag, Fire/Echo/Dodge/Aim/Use, ammo tap to reload and Pause. Sensitivity/invert/sound/haptics are in Settings.
 
-- Phone/pointer: joystick, ACT, REWIND. Buttons capture their pointer until release/cancel.
-- Laptop: WASD or arrow keys; E or Space for ACT feedback; R for REWIND feedback.
-- Blur/backgrounding clears held input and pauses; returning resumes without catch-up.
-- The camera stays fixed; the player circle remains inside radius 6 and collides with the temporary gate/pedestal.
+To prove crossfire: record firing at the sentinel from its left, store, reposition right, deploy and fire while the echo attacks. Shield requires separate actors and sufficiently different directions within 0.8 seconds. The scanner is echo-eligible. Core encounter and final rank are unavailable; End Evaluation reports raw statistics and UNRANKED.
 
-All 3D content is labelled **PROTOTYPE_ONLY**. Existing recorder, replay, reset, audio and puzzle-gate scaffold files remain for later milestones, but replay/audio are not imported by the active runtime. `npm run gate` is the existing future replay-puzzle gate and is **not expected to pass this floor**; use `npm run smoke` now.
+Floor history: `floor-prototype-v1`; preserved screenshots in production/floor-build/. Old `tools/floor-smoke.mjs` and `tools/second-hands-gate.mjs` apply to prior/future clockwork scaffolds, not this runtime. Current smoke is `tools/zero-hour-smoke.mjs`.
 
-## Evidence and scope
-
-See [the milestone report](production/MILESTONE_01_REPORT.md), [tooling](production/TOOLING_LOG.md), [decisions](production/DECISION_LOG.md), and [playtests](production/PLAYTEST_LOG.md). Real browser CDP touch input is automated emulation, **not a physical-phone test**. All measured performance is unthrottled localhost on a desktop GPU, not a live 4G jam gate.
-
-Next: `prompts/02_CORE_REPLAY_MECHANIC.md`. Production asset generation and release gates remain later work.
+See production/ZERO_HOUR_MILESTONE_REPORT.md, CRITIC_LOG.md, TOOLING_LOG.md and PLAYTEST_LOG.md for exact evidence and limitations. Next prompt: prompts/09_ZERO_HOUR_SECTION_1_PRODUCTION.md.

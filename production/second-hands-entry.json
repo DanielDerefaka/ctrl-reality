@@ -1,5 +1,5 @@
 {
-  "title": "SECOND HANDS: A Clockwork Heist",
+  "title": "SECOND HANDS: ZERO HOUR",
   "slug": "second-hands",
   "team": [
     "REPLACE_WITH_GITHUB_HANDLE"
@@ -8,7 +8,7 @@
   "source_url": "REPLACE_WITH_PUBLIC_REPOSITORY_URL",
   "commit": "REPLACE_WITH_FINAL_COMMIT_SHA",
   "genre": "other",
-  "agent": "Codex \u2014 replace with actual model/version; 404 MCP/recipe \u2014 replace with actual tools",
+  "agent": "Codex (GPT-6); no 404 production assets generated yet",
   "models": [
     "REPLACE_WITH_ACTUAL_CODING_MODEL",
     "REPLACE_WITH_ACTUAL_404_GENERATION_MODEL_IF_EXPOSED",
@@ -18,7 +18,7 @@
   "own_art_list": [
     "REPLACE_WITH_EXACT_TEAM-CREATED_OR_GENERATED_ASSET_DECLARATIONS"
   ],
-  "what_i_found": "Every attempt becomes a porcelain Second Hand that replays the player's movements and interactions. The vault is solved by choreographing with previous versions of yourself, using past runs to hold mechanisms and open a path for the current thief. Rewind is not undo; it is how you program the crew.",
+  "what_i_found": "Record six seconds of your own movement and attacks, then reposition and deploy a holographic ally that repeats them. A prototype phase shield breaks only when the current player and echo attack from different directions within a short synchronization window. This turns a demonstrated combat route into a cooperative crossfire plan.",
   "wallet": "REPLACE_WITH_SS58_WALLET",
   "contact": "REPLACE_WITH_CONTACT"
 }

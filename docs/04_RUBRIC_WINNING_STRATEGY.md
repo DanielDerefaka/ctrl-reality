@@ -1,3 +1,5 @@
+> Historical production-pack reference. The user-approved Zero Hour design in docs/03_GAME_DESIGN_DOCUMENT.md supersedes conflicting clockwork scope, controls, camera, timing and palette. Original wording is retained for provenance.
+
 # Rubric Strategy
 
 The game should be built directly against the published 40/30/20/10 weighting. This document translates each criterion into observable evidence.

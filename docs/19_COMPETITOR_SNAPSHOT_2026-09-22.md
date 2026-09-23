@@ -1,3 +1,5 @@
+> Historical production-pack reference. The user-approved Zero Hour design in docs/03_GAME_DESIGN_DOCUMENT.md supersedes conflicting clockwork scope, controls, camera, timing and palette. Original wording is retained for provenance.
+
 # Competitor Snapshot — September 22, 2026
 
 This is a dated snapshot of the six visible open pull requests in the official jam repository. New entries may appear before close. Recheck the official pull-request list before finalizing the originality statement.

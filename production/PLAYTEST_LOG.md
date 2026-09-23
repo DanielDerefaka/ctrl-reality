@@ -69,3 +69,17 @@
 - Replay, plate activation, vault logic and pickup: deliberately inactive; not tested as gameplay.
 - Largest current risk: real-phone touch/performance and small hero readability are not yet validated.
 - Next session: `prompts/02_CORE_REPLAY_MECHANIC.md`; keep a real phone check early.
+
+## 2026-09-23 — Zero Hour automated evaluation
+
+- Tester: Codex automation plus actual screenshot inspection; not a fresh-player or physical-device playtest.
+- Local URL: http://127.0.0.1:4173/game/; branch feature/zero-hour-vertical-slice, working tree subsequently committed as `pivot: establish Zero Hour third-person presentation foundation`.
+- Chrome/153.0.8010.36 on desktop macOS/Apple M5; desktop 1440×900, emulated touch 390×844.
+- Units: 35 passed / 0 failed (23 retained plus 12 new). Static: 24 modules / 25 local references verified. Browser: 34 passed / 0 failed; page/console errors 0; failed or missing requests 0; requests outside local game 0.
+- Real-input proof: fire at and defeat scout; record/deploy/expire echo; reload; walk to airlock and interact; record left attack; walk right; deploy echo and fire; Security Spine sentinel shield becomes false and synchronized count becomes 1. No state injection.
+- Touch proof: menu/Operations/briefing entered through taps, joystick moves/cancels, right drag changes camera, Fire releases outside button, Echo begins recording, Pause works. Essential tested buttons >=64px. No gameplay page scroll or zoom observed. Full shield proof was desktop input, not a physical-phone crossfire claim.
+- Three repeated scene cycles retained one root and a stable geometry count. This checks bounded lifecycle behavior, not a complete long-duration heap/thermal audit.
+- Sample metrics: Command Bay 106 draws / 1272 triangles; mobile Skybridge 76 draws / 1364 triangles; shield-break frame 96 draws / 1604 triangles. Local ready: 138.2ms desktop and 74.7ms phone emulation; sampled FPS about 60. These are individual desktop-host snapshots, not peak budgets or phone measurements. Pivot transfer bytes not measured.
+- Normal hero framing ~23% of viewport height. Near-wall crossfire frame ~69% due camera retraction, with transparent hero to keep the sentinel visible; further polish needed.
+- Results accurately show UNRANKED, core unsecured and damage taken zero; no enemy offense exists yet. No boss/extraction or complete mission claimed.
+- Next: prompts/09_ZERO_HOUR_SECTION_1_PRODUCTION.md. Main risk is target-only combat and unproven physical-phone aim/comfort, not current automated correctness.

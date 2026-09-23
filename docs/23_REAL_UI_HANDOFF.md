@@ -1,3 +1,5 @@
+> Historical production-pack reference. The user-approved Zero Hour design in docs/03_GAME_DESIGN_DOCUMENT.md supersedes conflicting clockwork scope, controls, camera, timing and palette. Original wording is retained for provenance.
+
 # Real UI Handoff
 
 The editable reference lives in `ui-prototype/`. The screenshots under `ui-prototype/screenshots/` show the intended 390 × 844 presentation.
