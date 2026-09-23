@@ -1,3 +1,7 @@
+
+> second-hands@0.1.0 smoke
+> node tools/floor-smoke.mjs
+
 {
   "pass": true,
   "passed": 42,

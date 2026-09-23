@@ -26,3 +26,7 @@ Record decisions when they are made. Do not rewrite earlier rationale after seei
 - Pin Puppeteer 25.11.0 and require Node >=22.12.0. The original 24.16.0 install reported four high findings through extract-zip; the patched dev-only dependency reports zero. No runtime Three.js upgrade.
 - No 404 MCP is exposed. Read the cloned official recipe at `4effad311c5e137bca316257259fe5bffd6737de`; its self-test passes. Only temporary primitives were used; no production asset generation or external mesh service.
 - The first multi-touch smoke run failed due to the driver ending the remaining contact rather than the released contact. Corrected the CDP event format using the installed Puppeteer implementation. Preserve the failed result and screenshot alongside the passing run.
+
+## 2026-09-23 — user-directed Zero Hour pivot
+
+The circular floor is a technical control, not final art. The camera is too distant; presentation is too static; the environment lacks depth; the UI feels like developer telemetry; the game does not yet communicate a premium third-person action experience. Preserve this result and its honest limitations under floor-prototype-v1. The user explicitly replaces the earlier camera, scope, identity and palette with SECOND HANDS: ZERO HOUR. No floor geometry is claimed as verified 404 production art. Desktop and 390×844 captures and the complete existing test results are preserved in production/floor-build/.

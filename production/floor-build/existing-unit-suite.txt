@@ -1,0 +1,35 @@
+
+> second-hands@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ room collision clamps to radius (0.698708ms)
+✔ closed gate blocks crossing and open gate permits it (0.375833ms)
+✔ fixed clock advances in stable steps (0.674416ms)
+✔ fixed clock clamps pathological frame delta (0.154667ms)
+✔ fixed simulation agrees at 30, 60, and 120 render Hz (1.257041ms)
+✔ long frames limit catch-up to five steps but report actual elapsed time (0.086458ms)
+✔ clock reset discards hidden time (0.042542ms)
+✔ FPS does not turn a five-second frame into healthy performance (0.046583ms)
+✔ normalization preserves analogue magnitude and caps diagonals (0.280875ms)
+✔ joystick dead zone, analogue response and extreme drags (0.056875ms)
+✔ joystick returns to zero on clear, blur, and visibility loss (0.2605ms)
+✔ switching devices never leaves the previous direction active (0.133459ms)
+✔ overlapping keyboard and touch actions release independently (0.078666ms)
+✔ room contains the entire actor circle at every angle (0.136625ms)
+✔ circle-box resolution handles faces, corners, and embedded centres (0.064ms)
+✔ sustained movement cannot cross closed gate or room edge (0.640916ms)
+✔ reset registry restores immutable baseline copy (0.346416ms)
+✔ track interpolation is deterministic (0.317541ms)
+✔ track holds final pose (0.046ms)
+✔ events are emitted once for a time interval (0.270625ms)
+✔ recorder captures at requested cadence (0.370709ms)
+✔ recorder tracks final held interaction (0.064667ms)
+✔ meaningful movement rejects empty accidental rewind (0.0465ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43.704125
