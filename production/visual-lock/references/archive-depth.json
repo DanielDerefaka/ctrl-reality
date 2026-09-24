@@ -1,0 +1,30 @@
+{
+  "name": "archive-depth",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "16:9",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. Single distant layer of suspended impossibly detailed ivory architectural fragments, bronze suspension rings and obsidian spires, warm directional sun edges, softly hazed neutral dark charcoal sky. Asymmetric grouping along RIGHT edge and top, open soft hazy center, immense scale. No foreground floor, no character, no person, no text. Useful as a far background card."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.440",
+    "usd": "0.090",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "d676f86a-0de0-4590-bc78-5d0234202a94",
+    "status_url": "https://platform.higgsfield.ai/requests/d676f86a-0de0-4590-bc78-5d0234202a94/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/d676f86a-0de0-4590-bc78-5d0234202a94/cancel"
+  },
+  "date": "2026-09-24T03:27:51.005Z",
+  "local": "production/visual-lock/references/archive-depth.png",
+  "sha256": "aab3822d69ba53205050ff715db94a19c42e187c3ae35809f43ae8493113c21e",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/72c086be-5f93-4948-80ed-d9782b8a52a4.png"
+}

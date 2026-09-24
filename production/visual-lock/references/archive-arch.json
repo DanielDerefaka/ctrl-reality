@@ -1,0 +1,30 @@
+{
+  "name": "archive-arch",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated monumental pointed ivory ceramic ARCH, curving tapering ribs, obsidian recessed panel insets, narrow warm bronze inset seams, layered cornice and open pointed arch opening, elegant asymmetrical chipped outer edge. Three-quarter view showing depth and buttressed plinths. Full object fits frame, plain neutral warm gray background, evenly lit."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "7f1b759b-1fcd-461e-a1f6-fbc8acf2d28b",
+    "status_url": "https://platform.higgsfield.ai/requests/7f1b759b-1fcd-461e-a1f6-fbc8acf2d28b/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/7f1b759b-1fcd-461e-a1f6-fbc8acf2d28b/cancel"
+  },
+  "date": "2026-09-24T03:28:37.576Z",
+  "local": "production/visual-lock/references/archive-arch.jpg",
+  "sha256": "a05cad6a4fbf98e599699605282cd873dce228ff8f32cee8160bc64246a5053c",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/ffe8cc57-8440-48c3-b8a3-c7aafedabbcf.jpeg"
+}

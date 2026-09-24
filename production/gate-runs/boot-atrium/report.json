@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24T03:22:17.355Z",
+  "date": "2026-09-24T04:13:07.642Z",
   "checks": [
     "Title is real DOM; boot has no autoplay audio",
     "How-to opens",
@@ -30,20 +30,28 @@
   "devices": [
     {
       "name": "desktop",
-      "readyObservedMs": 1428,
-      "startLatency": 14.400000005960464,
+      "readyObservedMs": 12156,
+      "startLatency": 27,
       "metrics": {
-        "drawCalls": 91,
-        "triangles": 26704
+        "drawCalls": 274,
+        "triangles": 207554,
+        "fps": 60,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.4,
+        "fov": 52
       },
-      "transfer": 3830198
+      "transfer": 3782710
     },
     {
       "name": "390×844 touch emulation",
-      "startLatency": 11.700000002980232,
+      "startLatency": 13.799999997019768,
       "metrics": {
-        "drawCalls": 147,
-        "triangles": 28346
+        "drawCalls": 392,
+        "triangles": 320466,
+        "fps": 59.2,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.2,
+        "fov": 52
       },
       "physicalDevice": false
     }

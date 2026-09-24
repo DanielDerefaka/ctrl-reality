@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 2,
+  "tris": 328,
+  "materials": 2,
+  "size": [
+   1.323,
+   3.017,
+   0.551
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1585,
+    "edgeDensity": 0.134
+   },
+   "right": {
+    "coverage": 0.1272,
+    "edgeDensity": 0.0926
+   },
+   "back": {
+    "coverage": 0.1597,
+    "edgeDensity": 0.0732
+   },
+   "left": {
+    "coverage": 0.1314,
+    "edgeDensity": 0.0767
+   }
+  },
+  "error": null,
+  "name": "01-chipped-profile",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 5,
+  "tris": 460,
+  "materials": 3,
+  "size": [
+   1.118,
+   2.844,
+   0.482
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1155,
+    "edgeDensity": 0.135
+   },
+   "right": {
+    "coverage": 0.1093,
+    "edgeDensity": 0.0852
+   },
+   "back": {
+    "coverage": 0.1168,
+    "edgeDensity": 0.0634
+   },
+   "left": {
+    "coverage": 0.1045,
+    "edgeDensity": 0.084
+   }
+  },
+  "error": null,
+  "name": "02-shattered-rib",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 4,
+  "tris": 476,
+  "materials": 3,
+  "size": [
+   0.87,
+   2.813,
+   0.525
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1288,
+    "edgeDensity": 0.1773
+   },
+   "right": {
+    "coverage": 0.105,
+    "edgeDensity": 0.2959
+   },
+   "back": {
+    "coverage": 0.1296,
+    "edgeDensity": 0.1067
+   },
+   "left": {
+    "coverage": 0.1027,
+    "edgeDensity": 0.1696
+   }
+  },
+  "error": null,
+  "name": "03-layered-vault",
+  "problems": []
+ }
+]

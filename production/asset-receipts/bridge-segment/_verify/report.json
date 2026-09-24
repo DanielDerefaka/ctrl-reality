@@ -1,0 +1,119 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 7,
+  "tris": 2804,
+  "materials": 4,
+  "size": [
+   2.828,
+   0.427,
+   0.528
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1392,
+    "edgeDensity": 0.0855
+   },
+   "right": {
+    "coverage": 0.0732,
+    "edgeDensity": 0.0938
+   },
+   "back": {
+    "coverage": 0.1372,
+    "edgeDensity": 0.075
+   },
+   "left": {
+    "coverage": 0.0791,
+    "edgeDensity": 0.0925
+   }
+  },
+  "error": null,
+  "name": "01-sculpted-corbel",
+  "problems": []
+ },
+ {
+  "ok": false,
+  "mounts": null,
+  "meshes": 10,
+  "tris": 2234,
+  "materials": 4,
+  "size": [
+   2.824,
+   0.425,
+   0.524
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1244,
+    "edgeDensity": 0.2704
+   },
+   "right": {
+    "coverage": 0.0727,
+    "edgeDensity": 0.0693
+   },
+   "back": {
+    "coverage": 0.1238,
+    "edgeDensity": 0.3131
+   },
+   "left": {
+    "coverage": 0.0727,
+    "edgeDensity": 0.0678
+   }
+  },
+  "error": null,
+  "name": "02-swept-keel",
+  "problems": [
+   "right face is nearly featureless next to the others, it was probably never modelled",
+   "left face is nearly featureless next to the others, it was probably never modelled"
+  ]
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 8,
+  "tris": 800,
+  "materials": 4,
+  "size": [
+   2.833,
+   0.429,
+   0.529
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1147,
+    "edgeDensity": 0.2382
+   },
+   "right": {
+    "coverage": 0.0696,
+    "edgeDensity": 0.1564
+   },
+   "back": {
+    "coverage": 0.1119,
+    "edgeDensity": 0.2325
+   },
+   "left": {
+    "coverage": 0.0696,
+    "edgeDensity": 0.1543
+   }
+  },
+  "error": null,
+  "name": "03-winged-tiles",
+  "problems": []
+ }
+]

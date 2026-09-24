@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 12,
+  "tris": 9108,
+  "materials": 5,
+  "size": [
+   0.548,
+   1.122,
+   0.548
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2052,
+    "edgeDensity": 0.1692
+   },
+   "right": {
+    "coverage": 0.1734,
+    "edgeDensity": 0.159
+   },
+   "back": {
+    "coverage": 0.1976,
+    "edgeDensity": 0.1385
+   },
+   "left": {
+    "coverage": 0.1732,
+    "edgeDensity": 0.1616
+   }
+  },
+  "error": null,
+  "name": "01-split-petals",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 10,
+  "tris": 4496,
+  "materials": 4,
+  "size": [
+   0.56,
+   1.122,
+   0.56
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.215,
+    "edgeDensity": 0.1035
+   },
+   "right": {
+    "coverage": 0.2017,
+    "edgeDensity": 0.1518
+   },
+   "back": {
+    "coverage": 0.2132,
+    "edgeDensity": 0.0945
+   },
+   "left": {
+    "coverage": 0.211,
+    "edgeDensity": 0.1
+   }
+  },
+  "error": null,
+  "name": "02-carved-shells",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 12,
+  "tris": 5198,
+  "materials": 4,
+  "size": [
+   0.56,
+   1.122,
+   0.56
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2235,
+    "edgeDensity": 0.161
+   },
+   "right": {
+    "coverage": 0.1401,
+    "edgeDensity": 0.1678
+   },
+   "back": {
+    "coverage": 0.2128,
+    "edgeDensity": 0.12
+   },
+   "left": {
+    "coverage": 0.1406,
+    "edgeDensity": 0.1629
+   }
+  },
+  "error": null,
+  "name": "03-suspended-gimbal",
+  "problems": []
+ }
+]

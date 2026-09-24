@@ -7,3 +7,5 @@ Simulation runs at 60Hz with normalized diagonal movement and bounded catch-up. 
 Static architectural surfaces are merged by material to reduce draw calls; geometry is procedurally constructed. Floor engraving and soft light sprites are authored canvas textures. No imported meshes or runtime generation APIs. Animation joints have named pivots; procedural states blend over 190ms. Detailed final coat deformation and foot planting remain production work.
 
 Results derive elapsed simulation time, resets, collected fragments and control moves from actual play. The screen reports sector restoration and explicitly marks later chapters as future work.
+
+Visual-lock renderer: selected 404 modules through the official local loader; one distant image plane only for noninteractive archive scale. Desktop/portrait camera FOV52/54, limited adjustment and raycast camera boom. Floor reflection is 768×512 desktop / 512×384 portrait, every third/fourth frame; performance reports include reflection and shadow passes. Gameplay bridge timing is unchanged; twelve distinct visible segments assemble in order. No gameplay collision is taken from matte images.

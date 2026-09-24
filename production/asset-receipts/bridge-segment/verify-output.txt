@@ -1,0 +1,12 @@
+ok    01-sculpted-corbel       2804 tris  7 meshes  2.828x0.427x0.528m
+WARN  02-swept-keel            2234 tris  10 meshes  2.824x0.425x0.524m
+        right face is nearly featureless next to the others, it was probably never modelled
+        left face is nearly featureless next to the others, it was probably never modelled
+ok    03-winged-tiles           800 tris  8 meshes  2.833x0.429x0.529m
+
+2/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/bridge-segment/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/bridge-segment/_verify/report.json
+
+Look at the sheet before you fix anything. The measurements below flag structure,
+they cannot tell you whether the asset resembles what you asked for.

@@ -1,0 +1,122 @@
+[
+ {
+  "ok": false,
+  "mounts": null,
+  "meshes": 12,
+  "tris": 5124,
+  "materials": 4,
+  "size": [
+   0.322,
+   0.442,
+   0.106
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3563,
+    "edgeDensity": 0.103
+   },
+   "right": {
+    "coverage": 0.1492,
+    "edgeDensity": 0.1284
+   },
+   "back": {
+    "coverage": 0.3877,
+    "edgeDensity": 0.0327
+   },
+   "left": {
+    "coverage": 0.1493,
+    "edgeDensity": 0.1197
+   }
+  },
+  "error": null,
+  "name": "01-ceramic-spine",
+  "problems": [
+   "back face is nearly featureless next to the others, it was probably never modelled"
+  ]
+ },
+ {
+  "ok": false,
+  "mounts": null,
+  "meshes": 3,
+  "tris": 1336,
+  "materials": 3,
+  "size": [
+   0.29,
+   0.48,
+   0.072
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3411,
+    "edgeDensity": 0.0648
+   },
+   "right": {
+    "coverage": 0.1018,
+    "edgeDensity": 0.108
+   },
+   "back": {
+    "coverage": 0.3511,
+    "edgeDensity": 0.0145
+   },
+   "left": {
+    "coverage": 0.1019,
+    "edgeDensity": 0.1018
+   }
+  },
+  "error": null,
+  "name": "02-clipped-glass",
+  "problems": [
+   "back face is nearly featureless next to the others, it was probably never modelled"
+  ]
+ },
+ {
+  "ok": false,
+  "mounts": null,
+  "meshes": 8,
+  "tris": 6412,
+  "materials": 4,
+  "size": [
+   0.31,
+   0.456,
+   0.079
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3665,
+    "edgeDensity": 0.0497
+   },
+   "right": {
+    "coverage": 0.1138,
+    "edgeDensity": 0.0848
+   },
+   "back": {
+    "coverage": 0.3726,
+    "edgeDensity": 0.0174
+   },
+   "left": {
+    "coverage": 0.1137,
+    "edgeDensity": 0.0856
+   }
+  },
+  "error": null,
+  "name": "03-four-corner-clasp",
+  "problems": [
+   "back face is nearly featureless next to the others, it was probably never modelled"
+  ]
+ }
+]

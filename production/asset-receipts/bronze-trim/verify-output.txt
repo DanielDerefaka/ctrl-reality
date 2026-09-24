@@ -1,0 +1,7 @@
+ok    01-swept-channel          624 tris  5 meshes  3.09x0.257x0.17m
+ok    02-profile-channel        650 tris  2 meshes  3.016x0.358x0.16m
+ok    03-articulated-seam       336 tris  28 meshes  3.014x0.234x0.13m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/bronze-trim/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/bronze-trim/_verify/report.json

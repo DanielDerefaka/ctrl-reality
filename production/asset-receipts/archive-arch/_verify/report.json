@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 15,
+  "tris": 9276,
+  "materials": 3,
+  "size": [
+   7.446,
+   9.162,
+   1.386
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1275,
+    "edgeDensity": 0.3289
+   },
+   "right": {
+    "coverage": 0.0729,
+    "edgeDensity": 0.1826
+   },
+   "back": {
+    "coverage": 0.127,
+    "edgeDensity": 0.1978
+   },
+   "left": {
+    "coverage": 0.0729,
+    "edgeDensity": 0.1693
+   }
+  },
+  "error": null,
+  "name": "01-profile-inlay",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 18,
+  "tris": 3616,
+  "materials": 3,
+  "size": [
+   7.438,
+   9.119,
+   1.307
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0927,
+    "edgeDensity": 0.4014
+   },
+   "right": {
+    "coverage": 0.087,
+    "edgeDensity": 0.537
+   },
+   "back": {
+    "coverage": 0.0911,
+    "edgeDensity": 0.2501
+   },
+   "left": {
+    "coverage": 0.0873,
+    "edgeDensity": 0.2918
+   }
+  },
+  "error": null,
+  "name": "02-swept-buttresses",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 74,
+  "tris": 36600,
+  "materials": 3,
+  "size": [
+   7.4,
+   9.136,
+   1.35
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1011,
+    "edgeDensity": 0.3064
+   },
+   "right": {
+    "coverage": 0.0755,
+    "edgeDensity": 0.1791
+   },
+   "back": {
+    "coverage": 0.1002,
+    "edgeDensity": 0.2787
+   },
+   "left": {
+    "coverage": 0.0755,
+    "edgeDensity": 0.1736
+   }
+  },
+  "error": null,
+  "name": "03-cut-voussoirs",
+  "problems": []
+ }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "foreground-frame",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated dramatic broken half-arch of ivory ceramic, thick curving irregular rib with detailed bronze seam and black glass inlays, chipped ends exposing dark core, substantial three dimensional side structure. Full object visible in three-quarter studio view warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "98e55ce9-f97a-4b73-a230-9b98af50ae55",
+    "status_url": "https://platform.higgsfield.ai/requests/98e55ce9-f97a-4b73-a230-9b98af50ae55/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/98e55ce9-f97a-4b73-a230-9b98af50ae55/cancel"
+  },
+  "date": "2026-09-24T03:36:52.810Z",
+  "local": "production/visual-lock/references/foreground-frame.jpg",
+  "sha256": "aef2226c4971b9f931081146d4d0f2591a6df28fed695217dc1b6568914aef91",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/eb7064c1-001e-498d-9835-c12778b99a77.jpeg"
+}

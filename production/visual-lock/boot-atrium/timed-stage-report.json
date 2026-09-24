@@ -1,0 +1,42 @@
+[
+  {
+    "file": "desktop-socket-accept.jpg",
+    "observedBridge": 0.017543859649122806,
+    "frameTelemetryDifferenceMs": 0.20166015625,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "method": "Unretouched Chrome screencast frame during real keyboard installation. Nearest read-only animation-frame telemetry is recorded. No time manipulation or game-state changes."
+  },
+  {
+    "file": "desktop-bridge-half.jpg",
+    "observedBridge": 0.49122807017543857,
+    "frameTelemetryDifferenceMs": 0.7919921875,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    },
+    "method": "Unretouched Chrome screencast frame during real keyboard installation. Nearest read-only animation-frame telemetry is recorded. No time manipulation or game-state changes."
+  },
+  {
+    "file": "mobile-socket-accept.jpg",
+    "observedBridge": 0.10526315789473684,
+    "frameTelemetryDifferenceMs": 2.726806640625,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "method": "Unretouched Chrome screencast frame during real keyboard installation. Nearest read-only animation-frame telemetry is recorded. No time manipulation or game-state changes."
+  },
+  {
+    "file": "mobile-bridge-half.jpg",
+    "observedBridge": 0.49122807017543857,
+    "frameTelemetryDifferenceMs": 2.73388671875,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "method": "Unretouched Chrome screencast frame during real keyboard installation. Nearest read-only animation-frame telemetry is recorded. No time manipulation or game-state changes."
+  }
+]

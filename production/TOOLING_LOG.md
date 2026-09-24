@@ -9,3 +9,11 @@ Geometry: Three.js0.180.0 local vendor. No 404 generation or verification claime
 Audio: tools/generate-audio.mjs authors original waveforms/composition offline; ffmpeg loudnorm and libmp3lame encode local files. No third-party music or samples. Fonts: Google Fonts official distributions, SIL OFL files bundled. Code and generated canvas textures: Codex.
 
 Browser evidence uses installed Puppeteer/Chromium with software WebGL where required. This is emulation, not a physical-device test. ffprobe verifies no audio stream in title video. Generator source references and raw media are production-only, excluded from shipped game/.
+
+## Boot Atrium visual-lock update
+
+No 404 MCP tools were exposed. Used the recipe's explicit agent-authored workflow: clean reference, three separate construction strategies per family, official multiview verification, visual selection and retained rejections. Official recipe self-test passed. The exact 11 shipped modules pass the final verifier. This supersedes the earlier greybox statement that no 404 verification was performed.
+
+Higgsfield produced twelve new references/layers; one compressed distant matte is shipped. The alternate depth plate is retained only as reference. No Atlas outputs are used. Runtime images are local. Final captures used hardware ANGLE Metal on Apple M5, not SwiftShader; portrait captures remain emulation. Chrome screencast frames provide precise short-stage evidence after normal PNG encoding missed the first attempt. No game state was injected.
+
+New modal/noise Atrium audio has its own synthesis receipt. All rendering passes are included in reported draw calls and triangles. See visual-lock/REPORT.md.

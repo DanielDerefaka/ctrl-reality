@@ -1,0 +1,7 @@
+ok    01-broken-gothic          900 tris  3 meshes  3.797x7.091x0.985m
+ok    02-twin-rib-frame         648 tris  7 meshes  3.416x6.683x1.137m
+ok    03-split-ornament        9144 tris  18 meshes  3.79x7.548x0.67m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/foreground-frame/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/foreground-frame/_verify/report.json

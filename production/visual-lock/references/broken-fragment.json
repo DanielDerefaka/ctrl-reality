@@ -1,0 +1,30 @@
+{
+  "name": "broken-fragment",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated broken floating ivory architectural voussoir, sculpted curving vault rib section with chipped ceramic ends, thin bronze internal seam and dark obsidian inset, substantial interesting asymmetric shape. Full three-quarter studio view warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "4c6a13d2-8a3a-4bf4-81ff-a4e5d7d487ac",
+    "status_url": "https://platform.higgsfield.ai/requests/4c6a13d2-8a3a-4bf4-81ff-a4e5d7d487ac/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/4c6a13d2-8a3a-4bf4-81ff-a4e5d7d487ac/cancel"
+  },
+  "date": "2026-09-24T03:31:15.234Z",
+  "local": "production/visual-lock/references/broken-fragment.jpg",
+  "sha256": "a95d736b19118e5dab190e274508798ce385b82e62398360d9667c1be0438056",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/2499945a-b04a-4ae5-9aeb-baed27f5144c.jpeg"
+}

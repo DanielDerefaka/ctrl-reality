@@ -1,0 +1,7 @@
+ok    01-orbital-bands        15120 tris  54 meshes  8.694x10.515x9.829m
+ok    02-armillary-ribs       18176 tris  81 meshes  5.869x11.503x11.51m
+ok    03-segmented-halo       15496 tris  49 meshes  6.127x10.47x11.946m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/kernel-assembly/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/kernel-assembly/_verify/report.json

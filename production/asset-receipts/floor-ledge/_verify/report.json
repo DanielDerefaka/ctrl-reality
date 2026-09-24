@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 34,
+  "tris": 10228,
+  "materials": 3,
+  "size": [
+   11.21,
+   3.281,
+   13.21
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.203,
+    "edgeDensity": 0.1184
+   },
+   "right": {
+    "coverage": 0.2104,
+    "edgeDensity": 0.1138
+   },
+   "back": {
+    "coverage": 0.2028,
+    "edgeDensity": 0.117
+   },
+   "left": {
+    "coverage": 0.2106,
+    "edgeDensity": 0.1001
+   }
+  },
+  "error": null,
+  "name": "01-corbel-profile",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 19,
+  "tris": 4104,
+  "materials": 3,
+  "size": [
+   11.071,
+   3.323,
+   13.05
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1936,
+    "edgeDensity": 0.0797
+   },
+   "right": {
+    "coverage": 0.1807,
+    "edgeDensity": 0.0381
+   },
+   "back": {
+    "coverage": 0.1931,
+    "edgeDensity": 0.0919
+   },
+   "left": {
+    "coverage": 0.1808,
+    "edgeDensity": 0.0403
+   }
+  },
+  "error": null,
+  "name": "02-radial-supports",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 20,
+  "tris": 6570,
+  "materials": 3,
+  "size": [
+   11.06,
+   3.288,
+   13.02
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.188,
+    "edgeDensity": 0.0279
+   },
+   "right": {
+    "coverage": 0.1797,
+    "edgeDensity": 0.0323
+   },
+   "back": {
+    "coverage": 0.1877,
+    "edgeDensity": 0.0289
+   },
+   "left": {
+    "coverage": 0.1798,
+    "edgeDensity": 0.0451
+   }
+  },
+  "error": null,
+  "name": "03-vaulted-modules",
+  "problems": []
+ }
+]

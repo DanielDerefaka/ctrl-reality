@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 3,
+  "tris": 900,
+  "materials": 3,
+  "size": [
+   3.797,
+   7.091,
+   0.985
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1057,
+    "edgeDensity": 0.2021
+   },
+   "right": {
+    "coverage": 0.0721,
+    "edgeDensity": 0.1324
+   },
+   "back": {
+    "coverage": 0.1068,
+    "edgeDensity": 0.0892
+   },
+   "left": {
+    "coverage": 0.1044,
+    "edgeDensity": 0.0961
+   }
+  },
+  "error": null,
+  "name": "01-broken-gothic",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 7,
+  "tris": 648,
+  "materials": 3,
+  "size": [
+   3.416,
+   6.683,
+   1.137
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0636,
+    "edgeDensity": 0.2538
+   },
+   "right": {
+    "coverage": 0.0667,
+    "edgeDensity": 0.2482
+   },
+   "back": {
+    "coverage": 0.0635,
+    "edgeDensity": 0.185
+   },
+   "left": {
+    "coverage": 0.1127,
+    "edgeDensity": 0.1657
+   }
+  },
+  "error": null,
+  "name": "02-twin-rib-frame",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 18,
+  "tris": 9144,
+  "materials": 3,
+  "size": [
+   3.79,
+   7.548,
+   0.67
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.083,
+    "edgeDensity": 0.1951
+   },
+   "right": {
+    "coverage": 0.0498,
+    "edgeDensity": 0.2197
+   },
+   "back": {
+    "coverage": 0.0824,
+    "edgeDensity": 0.193
+   },
+   "left": {
+    "coverage": 0.0683,
+    "edgeDensity": 0.2298
+   }
+  },
+  "error": null,
+  "name": "03-split-ornament",
+  "problems": []
+ }
+]

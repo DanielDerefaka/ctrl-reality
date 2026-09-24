@@ -1,0 +1,7 @@
+ok    01-lofted-couture       17326 tris  84 meshes  0.61x1.8x0.427m
+ok    02-tailored-profiles    11810 tris  77 meshes  0.751x1.8x0.436m
+ok    03-segmented-panels     22054 tris  108 meshes  0.758x1.8x0.513m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/mara/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/mara/_verify/report.json

@@ -1,0 +1,12 @@
+ok    01-ceramic-spine         7628 tris  20 meshes  0.322x0.442x0.126m
+WARN  02-clipped-glass         1336 tris  3 meshes  0.29x0.48x0.072m
+        back face is nearly featureless next to the others, it was probably never modelled
+WARN  03-four-corner-clasp     6412 tris  8 meshes  0.31x0.456x0.079m
+        back face is nearly featureless next to the others, it was probably never modelled
+
+1/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/card-housing/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/card-housing/_verify/report.json
+
+Look at the sheet before you fix anything. The measurements below flag structure,
+they cannot tell you whether the asset resembles what you asked for.

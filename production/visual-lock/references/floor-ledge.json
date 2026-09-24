@@ -1,0 +1,30 @@
+{
+  "name": "floor-ledge",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated polished obsidian architectural LEDGE, gently curved clipped perimeter, several broad inlaid floor panels and delicate radial engraving, slim bronze perimeter seam, substantial ivory corbel buttresses and suspended structural ribs beneath, believable designed architecture not a flat slab. Three-quarter overhead view, plain neutral warm gray background, evenly lit."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "a3bdb8ee-d20b-43f2-b617-e1b5a69efa4e",
+    "status_url": "https://platform.higgsfield.ai/requests/a3bdb8ee-d20b-43f2-b617-e1b5a69efa4e/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/a3bdb8ee-d20b-43f2-b617-e1b5a69efa4e/cancel"
+  },
+  "date": "2026-09-24T03:29:06.942Z",
+  "local": "production/visual-lock/references/floor-ledge.jpg",
+  "sha256": "c76178543136170c0d0bb68f2e298a6d1644f45c2e3c10c44dc7175815fb43b5",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/c3ad0033-bc1c-4a04-90d3-489f172ebc71.jpeg"
+}

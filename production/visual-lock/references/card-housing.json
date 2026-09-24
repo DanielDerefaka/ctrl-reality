@@ -1,0 +1,30 @@
+{
+  "name": "card-housing",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated thin physical interface card housing, small obsidian glass rectangle with softly clipped corners, ivory rear ceramic spine, fine bronze structural frame, cyan inset center showing abstract radial sun geometry only, no letters or words. Full three-quarter studio view warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "4087ca89-9cc4-4d91-a9a3-7db4c90c8189",
+    "status_url": "https://platform.higgsfield.ai/requests/4087ca89-9cc4-4d91-a9a3-7db4c90c8189/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/4087ca89-9cc4-4d91-a9a3-7db4c90c8189/cancel"
+  },
+  "date": "2026-09-24T03:37:10.825Z",
+  "local": "production/visual-lock/references/card-housing.jpg",
+  "sha256": "209e3ce7bd7ab23aab019c2f0289f2b0861b4d413e8f2a4a085fa7505505dbd5",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/d4aebfd1-2d4b-4937-858c-5b22d875580d.jpeg"
+}

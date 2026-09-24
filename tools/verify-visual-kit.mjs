@@ -1,0 +1,3 @@
+import fs from 'node:fs/promises';import{spawn}from'node:child_process';
+const families=['archive-arch','floor-ledge','socket-pedestal','bridge-segment','kernel-assembly','broken-fragment','bronze-trim','foreground-frame','archive-mechanism','card-housing'];
+for(const name of families){const dir='production/asset-receipts/'+name;const log=await fs.open(dir+'/verify-output.txt','w');const code=await new Promise(resolve=>{const p=spawn(process.execPath,['/Users/dx/Documents/404-game-recipe/harness/verify.mjs',dir,'--size=400'],{stdio:['ignore',log.fd,log.fd]});p.on('exit',resolve);});await log.close();console.log(name,'verifier exit',code);}

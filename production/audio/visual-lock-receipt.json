@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-24T03:59:56.911Z",
+  "generator": "Original Codex-authored modal synthesis and seeded filtered contact noise",
+  "command": "node tools/generate-atrium-audio.mjs",
+  "scope": "Boot Atrium tactile sounds only. Existing title composition and archive bed retained.",
+  "mix": "MP3 24kHz mono; loudnorm targets per file, true-peak ceiling −2dBTP. Listening approval remains with the user.",
+  "files": [
+    {
+      "file": "game/media/audio/sfx/footstep-1.mp3",
+      "duration": 0.34,
+      "bytes": 3501,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-2.mp3",
+      "duration": 0.34,
+      "bytes": 3501,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-3.mp3",
+      "duration": 0.34,
+      "bytes": 3501,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-4.mp3",
+      "duration": 0.34,
+      "bytes": 3501,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-5.mp3",
+      "duration": 0.34,
+      "bytes": 3501,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/ui-hover.mp3",
+      "duration": 0.3,
+      "bytes": 3117,
+      "targetLUFS": -34
+    },
+    {
+      "file": "game/media/audio/sfx/ui-tick.mp3",
+      "duration": 0.18,
+      "bytes": 2157,
+      "targetLUFS": -31
+    },
+    {
+      "file": "game/media/audio/sfx/ui-confirm.mp3",
+      "duration": 0.65,
+      "bytes": 5997,
+      "targetLUFS": -27
+    },
+    {
+      "file": "game/media/audio/sfx/control-pickup.mp3",
+      "duration": 0.8,
+      "bytes": 7149,
+      "targetLUFS": -26
+    },
+    {
+      "file": "game/media/audio/sfx/socket-valid.mp3",
+      "duration": 0.7,
+      "bytes": 6381,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/control-socket.mp3",
+      "duration": 1.5,
+      "bytes": 12717,
+      "targetLUFS": -23
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-reveal.mp3",
+      "duration": 1.45,
+      "bytes": 12333,
+      "targetLUFS": -26
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-complete.mp3",
+      "duration": 1.2,
+      "bytes": 10221,
+      "targetLUFS": -27
+    },
+    {
+      "file": "game/media/audio/sfx/checkpoint.mp3",
+      "duration": 1.5,
+      "bytes": 12717,
+      "targetLUFS": -27
+    },
+    {
+      "file": "game/media/audio/sfx/pause-open.mp3",
+      "duration": 0.5,
+      "bytes": 4653,
+      "targetLUFS": -30
+    },
+    {
+      "file": "game/media/audio/sfx/pause-close.mp3",
+      "duration": 0.5,
+      "bytes": 4653,
+      "targetLUFS": -30
+    },
+    {
+      "file": "game/media/audio/sfx/control-drag.mp3",
+      "duration": 2,
+      "bytes": 16749,
+      "targetLUFS": -32
+    }
+  ]
+}

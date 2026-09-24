@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 9,
+  "tris": 4916,
+  "materials": 3,
+  "size": [
+   1.77,
+   2.616,
+   2.439
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1027,
+    "edgeDensity": 0.3794
+   },
+   "right": {
+    "coverage": 0.0863,
+    "edgeDensity": 0.458
+   },
+   "back": {
+    "coverage": 0.1059,
+    "edgeDensity": 0.3274
+   },
+   "left": {
+    "coverage": 0.1083,
+    "edgeDensity": 0.3609
+   }
+  },
+  "error": null,
+  "name": "01-counterweight-cage",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 16,
+  "tris": 4044,
+  "materials": 3,
+  "size": [
+   1.844,
+   2.654,
+   0.163
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1195,
+    "edgeDensity": 0.3719
+   },
+   "right": {
+    "coverage": 0.0434,
+    "edgeDensity": 0.2854
+   },
+   "back": {
+    "coverage": 0.1191,
+    "edgeDensity": 0.2999
+   },
+   "left": {
+    "coverage": 0.0434,
+    "edgeDensity": 0.1979
+   }
+  },
+  "error": null,
+  "name": "02-pendulum-braces",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 21,
+  "tris": 2244,
+  "materials": 3,
+  "size": [
+   2.423,
+   2.72,
+   0.14
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2048,
+    "edgeDensity": 0.2221
+   },
+   "right": {
+    "coverage": 0.0241,
+    "edgeDensity": 0.2931
+   },
+   "back": {
+    "coverage": 0.2041,
+    "edgeDensity": 0.1982
+   },
+   "left": {
+    "coverage": 0.0239,
+    "edgeDensity": 0.2631
+   }
+  },
+  "error": null,
+  "name": "03-radial-fins",
+  "problems": []
+ }
+]

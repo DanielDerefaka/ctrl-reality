@@ -1,0 +1,30 @@
+{
+  "name": "socket-pedestal",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated interface socket PEDESTAL, 1.05 meter tall, ivory tapered sculptural ceramic body like an opened split petal, narrow bronze mechanical gimbal embracing a recessed dark cyan glass rectangular receptacle tilted toward the user. Delicate seams, stepped circular foot integrated into body, no floating diamond or text. Full three-quarter studio view, warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "be967dda-7d50-4f1a-af6e-bb18d1efe6a2",
+    "status_url": "https://platform.higgsfield.ai/requests/be967dda-7d50-4f1a-af6e-bb18d1efe6a2/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/be967dda-7d50-4f1a-af6e-bb18d1efe6a2/cancel"
+  },
+  "date": "2026-09-24T03:29:41.675Z",
+  "local": "production/visual-lock/references/socket-pedestal.jpg",
+  "sha256": "8db3b6f8f63134d47a000878bc548d96e3f2688b9a3e17d50716ff3dae10aef0",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/e6051c10-e242-4ff1-b149-3c643d6331c9.jpeg"
+}

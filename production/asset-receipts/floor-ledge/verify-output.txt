@@ -1,0 +1,7 @@
+ok    01-corbel-profile       10228 tris  34 meshes  11.21x3.281x13.21m
+ok    02-radial-supports       4104 tris  19 meshes  11.071x3.323x13.05m
+ok    03-vaulted-modules       6570 tris  20 meshes  11.06x3.288x13.02m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/floor-ledge/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/floor-ledge/_verify/report.json

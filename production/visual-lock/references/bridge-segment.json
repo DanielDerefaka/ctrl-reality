@@ -1,0 +1,30 @@
+{
+  "name": "bridge-segment",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated floating archive BRIDGE SEGMENT, wide and short, obsidian glass walking surface, two warm ivory curved structural ribs below, narrow liquid bronze channels curling along the side and underside, tiny cyan edge channels; substantive elegant depth, supported cantilever architecture, not a ladder or slab. Full three-quarter studio view, warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "8348e9b8-e6ed-4e26-ada1-1b49db75cecf",
+    "status_url": "https://platform.higgsfield.ai/requests/8348e9b8-e6ed-4e26-ada1-1b49db75cecf/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/8348e9b8-e6ed-4e26-ada1-1b49db75cecf/cancel"
+  },
+  "date": "2026-09-24T03:30:10.847Z",
+  "local": "production/visual-lock/references/bridge-segment.jpg",
+  "sha256": "d194dc68697358abb9a2953fc0116e1c62db88e1f9d45d96cbe16c4e7ab2c8ad",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/4e7ff72d-3b99-4680-bc94-a461891a613d.jpeg"
+}

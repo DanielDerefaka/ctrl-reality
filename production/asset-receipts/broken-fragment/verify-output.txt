@@ -1,0 +1,7 @@
+ok    01-chipped-profile        328 tris  2 meshes  1.323x3.017x0.551m
+ok    02-shattered-rib          460 tris  5 meshes  1.118x2.844x0.482m
+ok    03-layered-vault          476 tris  4 meshes  0.87x2.813x0.525m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/broken-fragment/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/broken-fragment/_verify/report.json

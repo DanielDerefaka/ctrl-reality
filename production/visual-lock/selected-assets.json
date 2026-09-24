@@ -1,0 +1,134 @@
+[
+  {
+    "family": "mara",
+    "candidate": "01-lofted-couture",
+    "triangles": 17476,
+    "size": [
+      0.61,
+      1.8,
+      0.427
+    ],
+    "verified": true,
+    "sha256": "efc0b154257044987fb590ce6c9b53166638d8121ecba32c9ef2b76780dfc5b9"
+  },
+  {
+    "family": "archive-arch",
+    "candidate": "01-profile-inlay",
+    "triangles": 20908,
+    "size": [
+      7.446,
+      9.162,
+      1.386
+    ],
+    "verified": true,
+    "sha256": "af6b07efa566c86755e226df6fefd3167b2aadcb5691142a3a88f5f6d3e32404"
+  },
+  {
+    "family": "floor-ledge",
+    "candidate": "01-corbel-profile",
+    "triangles": 11908,
+    "size": [
+      11.21,
+      3.304,
+      13.21
+    ],
+    "verified": true,
+    "sha256": "56aeb19062c4d46bfdb75b2b3d437d4d23c52c1b34e4d77de570a3d498aeb341"
+  },
+  {
+    "family": "socket-pedestal",
+    "candidate": "01-split-petals",
+    "triangles": 9108,
+    "size": [
+      0.548,
+      1.122,
+      0.548
+    ],
+    "verified": true,
+    "sha256": "141a72dfb04fa3472cda6b1ead5fb539af3c361197493dc0659db7fbacd95caa"
+  },
+  {
+    "family": "bridge-segment",
+    "candidate": "01-sculpted-corbel",
+    "triangles": 2804,
+    "size": [
+      2.828,
+      0.454,
+      0.528
+    ],
+    "verified": true,
+    "sha256": "b1ac97abcd28a87f618823e18284ab6fc6f1897d21d035199dc3dd43087d254c"
+  },
+  {
+    "family": "kernel-assembly",
+    "candidate": "01-orbital-bands",
+    "triangles": 15120,
+    "size": [
+      8.694,
+      10.515,
+      9.829
+    ],
+    "verified": true,
+    "sha256": "dc2660afe016e7bf09cc07b1bcd45538aca6dd640e3466450d613798e99549a9"
+  },
+  {
+    "family": "broken-fragment",
+    "candidate": "02-shattered-rib",
+    "triangles": 460,
+    "size": [
+      1.118,
+      2.844,
+      0.482
+    ],
+    "verified": true,
+    "sha256": "ef09a7a48ba80ab0286219ab3659364e6b640acb35ed1257fb86d4b5eb8bfac1"
+  },
+  {
+    "family": "bronze-trim",
+    "candidate": "01-swept-channel",
+    "triangles": 624,
+    "size": [
+      3.09,
+      0.257,
+      0.17
+    ],
+    "verified": true,
+    "sha256": "d0cc65a3a188903534197db6e86f513148e2377462bc940b5dc771a533b71fb1"
+  },
+  {
+    "family": "foreground-frame",
+    "candidate": "01-broken-gothic",
+    "triangles": 900,
+    "size": [
+      3.797,
+      7.091,
+      0.985
+    ],
+    "verified": true,
+    "sha256": "15a925aee15e93fb7102d0dd66abc00a48957b48ebd696386b727bc798e6e0bb"
+  },
+  {
+    "family": "archive-mechanism",
+    "candidate": "01-counterweight-cage",
+    "triangles": 4916,
+    "size": [
+      1.77,
+      2.616,
+      2.439
+    ],
+    "verified": true,
+    "sha256": "86bb26f56a2269ec384043e1c92896c8cdbbc6d4d25a4f7f58b98a0793c07a55"
+  },
+  {
+    "family": "card-housing",
+    "candidate": "01-ceramic-spine",
+    "triangles": 7628,
+    "size": [
+      0.322,
+      0.442,
+      0.126
+    ],
+    "verified": true,
+    "sha256": "774321b828ec318f21f00fb61ef96719027ea6a0bfc2d886ff65912344128e12"
+  }
+]

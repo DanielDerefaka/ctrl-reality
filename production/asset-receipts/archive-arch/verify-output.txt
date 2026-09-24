@@ -1,0 +1,7 @@
+ok    01-profile-inlay         9276 tris  15 meshes  7.446x9.162x1.386m
+ok    02-swept-buttresses      3616 tris  18 meshes  7.438x9.119x1.307m
+ok    03-cut-voussoirs        36600 tris  74 meshes  7.4x9.136x1.35m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/archive-arch/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/archive-arch/_verify/report.json

@@ -1,0 +1,15 @@
+ok    archive-arch            20908 tris  47 meshes  7.446x9.162x1.386m
+ok    archive-mechanism        4916 tris  9 meshes  1.77x2.616x2.439m
+ok    bridge-segment           2804 tris  7 meshes  2.828x0.454x0.528m
+ok    broken-fragment           460 tris  5 meshes  1.118x2.844x0.482m
+ok    bronze-trim               624 tris  5 meshes  3.09x0.257x0.17m
+ok    card-housing             7628 tris  20 meshes  0.322x0.442x0.126m
+ok    floor-ledge             11908 tris  48 meshes  11.21x3.304x13.21m
+ok    foreground-frame          900 tris  3 meshes  3.797x7.091x0.985m
+ok    kernel-assembly         15120 tris  54 meshes  8.694x10.515x9.829m
+ok    mara                    17476 tris  85 meshes  0.61x1.8x0.427m
+ok    socket-pedestal          9108 tris  12 meshes  0.548x1.122x0.548m
+
+11/11 clean
+sheet:  /Users/dx/Documents/second-hands/production/visual-lock/selected-verification/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/visual-lock/selected-verification/_verify/report.json

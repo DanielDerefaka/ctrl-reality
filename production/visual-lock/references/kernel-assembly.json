@@ -1,0 +1,30 @@
+{
+  "name": "kernel-assembly",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated monumental Reality Kernel mechanism: nested enormous thin champagne-bronze rings with ivory ceramic arc counterweights, a small luminous pearl-white energy core and fine mechanical ribs; asymmetrical intersecting orbital planes, elegant precision, restrained cyan channels. Full three-quarter studio view on warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "aa74b886-3409-4619-b065-c4a6ed59a22c",
+    "status_url": "https://platform.higgsfield.ai/requests/aa74b886-3409-4619-b065-c4a6ed59a22c/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/aa74b886-3409-4619-b065-c4a6ed59a22c/cancel"
+  },
+  "date": "2026-09-24T03:30:34.664Z",
+  "local": "production/visual-lock/references/kernel-assembly.jpg",
+  "sha256": "447043039873bfe863288db2a56189fd29f566829dc19861b8516a6cac1357b6",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/d5ecba3c-18d7-4990-bb1f-1378c77e2001.jpeg"
+}

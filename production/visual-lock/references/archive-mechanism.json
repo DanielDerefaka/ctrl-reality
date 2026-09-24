@@ -1,0 +1,30 @@
+{
+  "name": "archive-mechanism",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated decorative archive mechanism, ivory ceramic cage cradling bronze rotating counterweight arcs and thin radial fins, mounted on an obsidian sculpted base, elegant clockwork without numbers or text. Full three-quarter studio view warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "f2683029-b2f4-4809-a238-ff95e88b0977",
+    "status_url": "https://platform.higgsfield.ai/requests/f2683029-b2f4-4809-a238-ff95e88b0977/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/f2683029-b2f4-4809-a238-ff95e88b0977/cancel"
+  },
+  "date": "2026-09-24T03:36:29.082Z",
+  "local": "production/visual-lock/references/archive-mechanism.jpg",
+  "sha256": "60c478d22e95ebb87d93f645c65e9f071dc7cca1eb9f55d103b8dffbf17ef79c",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/089653e9-9ae2-4ead-b6f0-a8bd8b5b359c.jpeg"
+}

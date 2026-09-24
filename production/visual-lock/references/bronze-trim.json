@@ -1,0 +1,30 @@
+{
+  "name": "bronze-trim",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "1:1",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. ONE isolated long curved liquid-bronze structural seam module with finely machined stepped profile, ivory attachment knuckles at each end, narrow cyan light-carrying recessed channel. Not broad yellow paint. Full three-quarter studio view warm gray background."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "6c547e76-3395-4caf-9548-57437bbeb9e8",
+    "status_url": "https://platform.higgsfield.ai/requests/6c547e76-3395-4caf-9548-57437bbeb9e8/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/6c547e76-3395-4caf-9548-57437bbeb9e8/cancel"
+  },
+  "date": "2026-09-24T03:31:38.927Z",
+  "local": "production/visual-lock/references/bronze-trim.jpg",
+  "sha256": "487e8c813c91f5702256568e876d659ab57e401f56dd97f1c3d8fd4563684247",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/5d76f834-bca7-48c0-bebd-935ade046f53.jpeg"
+}

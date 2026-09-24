@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 54,
+  "tris": 15120,
+  "materials": 3,
+  "size": [
+   8.694,
+   10.515,
+   9.829
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.052,
+    "edgeDensity": 0.8158
+   },
+   "right": {
+    "coverage": 0.0749,
+    "edgeDensity": 0.8015
+   },
+   "back": {
+    "coverage": 0.05,
+    "edgeDensity": 0.6769
+   },
+   "left": {
+    "coverage": 0.0662,
+    "edgeDensity": 0.7565
+   }
+  },
+  "error": null,
+  "name": "01-orbital-bands",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 81,
+  "tris": 18176,
+  "materials": 3,
+  "size": [
+   5.869,
+   11.503,
+   11.51
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0499,
+    "edgeDensity": 0.6859
+   },
+   "right": {
+    "coverage": 0.0538,
+    "edgeDensity": 0.7782
+   },
+   "back": {
+    "coverage": 0.0498,
+    "edgeDensity": 0.6605
+   },
+   "left": {
+    "coverage": 0.0541,
+    "edgeDensity": 0.698
+   }
+  },
+  "error": null,
+  "name": "02-armillary-ribs",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 49,
+  "tris": 15496,
+  "materials": 4,
+  "size": [
+   6.127,
+   10.47,
+   11.946
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0441,
+    "edgeDensity": 0.6843
+   },
+   "right": {
+    "coverage": 0.0698,
+    "edgeDensity": 0.7359
+   },
+   "back": {
+    "coverage": 0.0487,
+    "edgeDensity": 0.7016
+   },
+   "left": {
+    "coverage": 0.065,
+    "edgeDensity": 0.6846
+   }
+  },
+  "error": null,
+  "name": "03-segmented-halo",
+  "problems": []
+ }
+]

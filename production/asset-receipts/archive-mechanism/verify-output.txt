@@ -1,0 +1,7 @@
+ok    01-counterweight-cage    4916 tris  9 meshes  1.77x2.616x2.439m
+ok    02-pendulum-braces       4044 tris  16 meshes  1.844x2.654x0.163m
+ok    03-radial-fins           2244 tris  21 meshes  2.423x2.72x0.14m
+
+3/3 clean
+sheet:  /Users/dx/Documents/second-hands/production/asset-receipts/archive-mechanism/_verify/sheet.png
+report: /Users/dx/Documents/second-hands/production/asset-receipts/archive-mechanism/_verify/report.json

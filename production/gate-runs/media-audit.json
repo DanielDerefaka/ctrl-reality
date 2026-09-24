@@ -1,0 +1,261 @@
+{
+  "date": "2026-09-24T04:13:05.263Z",
+  "sizes": {
+    "total": 4410059,
+    "music": 1142010,
+    "sfx": 179019,
+    "video": 142473,
+    "poster": 94210
+  },
+  "limits": {
+    "total": 8500000,
+    "music": 2200000,
+    "sfx": 700000,
+    "video": 1200000,
+    "poster": 180000
+  },
+  "files": [
+    {
+      "file": "game/assets/mara.js",
+      "bytes": 3802
+    },
+    {
+      "file": "game/assets/production/archive-arch.js",
+      "bytes": 4019
+    },
+    {
+      "file": "game/assets/production/archive-mechanism.js",
+      "bytes": 3187
+    },
+    {
+      "file": "game/assets/production/bridge-segment.js",
+      "bytes": 3287
+    },
+    {
+      "file": "game/assets/production/broken-fragment.js",
+      "bytes": 3015
+    },
+    {
+      "file": "game/assets/production/bronze-trim.js",
+      "bytes": 2995
+    },
+    {
+      "file": "game/assets/production/card-housing.js",
+      "bytes": 3512
+    },
+    {
+      "file": "game/assets/production/floor-ledge.js",
+      "bytes": 3857
+    },
+    {
+      "file": "game/assets/production/foreground-frame.js",
+      "bytes": 3112
+    },
+    {
+      "file": "game/assets/production/kernel-assembly.js",
+      "bytes": 3341
+    },
+    {
+      "file": "game/assets/production/mara.js",
+      "bytes": 9282
+    },
+    {
+      "file": "game/assets/production/socket-pedestal.js",
+      "bytes": 4343
+    },
+    {
+      "file": "game/config.js",
+      "bytes": 222
+    },
+    {
+      "file": "game/favicon.svg",
+      "bytes": 189
+    },
+    {
+      "file": "game/index.html",
+      "bytes": 7820
+    },
+    {
+      "file": "game/main.js",
+      "bytes": 15531
+    },
+    {
+      "file": "game/media/audio/music/boot-atrium.mp3",
+      "bytes": 661005
+    },
+    {
+      "file": "game/media/audio/music/title-archive.mp3",
+      "bytes": 481005
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-complete.mp3",
+      "bytes": 10221
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-reveal.mp3",
+      "bytes": 12333
+    },
+    {
+      "file": "game/media/audio/sfx/checkpoint.mp3",
+      "bytes": 12717
+    },
+    {
+      "file": "game/media/audio/sfx/control-drag.mp3",
+      "bytes": 16749
+    },
+    {
+      "file": "game/media/audio/sfx/control-invalid.mp3",
+      "bytes": 3885
+    },
+    {
+      "file": "game/media/audio/sfx/control-pickup.mp3",
+      "bytes": 7149
+    },
+    {
+      "file": "game/media/audio/sfx/control-retrieve.mp3",
+      "bytes": 9453
+    },
+    {
+      "file": "game/media/audio/sfx/control-socket.mp3",
+      "bytes": 12717
+    },
+    {
+      "file": "game/media/audio/sfx/failure-fracture.mp3",
+      "bytes": 3309
+    },
+    {
+      "file": "game/media/audio/sfx/failure-reverse.mp3",
+      "bytes": 10221
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-1.mp3",
+      "bytes": 3501
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-2.mp3",
+      "bytes": 3501
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-3.mp3",
+      "bytes": 3501
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-4.mp3",
+      "bytes": 3501
+    },
+    {
+      "file": "game/media/audio/sfx/footstep-5.mp3",
+      "bytes": 3501
+    },
+    {
+      "file": "game/media/audio/sfx/fragment.mp3",
+      "bytes": 11181
+    },
+    {
+      "file": "game/media/audio/sfx/pause-close.mp3",
+      "bytes": 4653
+    },
+    {
+      "file": "game/media/audio/sfx/pause-open.mp3",
+      "bytes": 4653
+    },
+    {
+      "file": "game/media/audio/sfx/socket-valid.mp3",
+      "bytes": 6381
+    },
+    {
+      "file": "game/media/audio/sfx/ui-confirm.mp3",
+      "bytes": 5997
+    },
+    {
+      "file": "game/media/audio/sfx/ui-hover.mp3",
+      "bytes": 3117
+    },
+    {
+      "file": "game/media/audio/sfx/ui-tick.mp3",
+      "bytes": 2157
+    },
+    {
+      "file": "game/media/audio/sfx/victory.mp3",
+      "bytes": 24621
+    },
+    {
+      "file": "game/media/environment/archive-matte.webp",
+      "bytes": 259220
+    },
+    {
+      "file": "game/media/fonts/cormorant-LICENSE.txt",
+      "bytes": 4387
+    },
+    {
+      "file": "game/media/fonts/cormorant.ttf",
+      "bytes": 290236
+    },
+    {
+      "file": "game/media/fonts/manrope-LICENSE.txt",
+      "bytes": 4387
+    },
+    {
+      "file": "game/media/fonts/manrope.ttf",
+      "bytes": 94972
+    },
+    {
+      "file": "game/media/video/mara-title-loop.mp4",
+      "bytes": 142473
+    },
+    {
+      "file": "game/media/video/mara-title-poster.webp",
+      "bytes": 94210
+    },
+    {
+      "file": "game/src/assetlib.js",
+      "bytes": 14340
+    },
+    {
+      "file": "game/src/audio.js",
+      "bytes": 4844
+    },
+    {
+      "file": "game/src/model.js",
+      "bytes": 2329
+    },
+    {
+      "file": "game/src/scene.js",
+      "bytes": 16824
+    },
+    {
+      "file": "game/src/surfaces.js",
+      "bytes": 13551
+    },
+    {
+      "file": "game/styles.css",
+      "bytes": 22963
+    },
+    {
+      "file": "game/vendor/BufferGeometryUtils.js",
+      "bytes": 35534
+    },
+    {
+      "file": "game/vendor/README.md",
+      "bytes": 128
+    },
+    {
+      "file": "game/vendor/Reflector.js",
+      "bytes": 9469
+    },
+    {
+      "file": "game/vendor/THREE-LICENSE.txt",
+      "bytes": 1081
+    },
+    {
+      "file": "game/vendor/three.core.js",
+      "bytes": 1403455
+    },
+    {
+      "file": "game/vendor/three.module.js",
+      "bytes": 603113
+    }
+  ],
+  "pass": true,
+  "note": "Uncompressed on-disk runtime bytes; browser transfer measured separately. Production reference files excluded."
+}

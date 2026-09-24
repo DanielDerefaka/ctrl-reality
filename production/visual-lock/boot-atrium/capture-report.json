@@ -1,0 +1,345 @@
+{
+  "date": "2026-09-24T04:08:33.596Z",
+  "captures": [
+    {
+      "name": "desktop-title",
+      "screen": "title",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": 0,
+        "z": 6
+      },
+      "metrics": {
+        "drawCalls": 291,
+        "triangles": 238374,
+        "fps": 60.8,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.1,
+        "fov": 52
+      }
+    },
+    {
+      "name": "desktop-enter",
+      "screen": "hud",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": 0,
+        "z": 6
+      },
+      "metrics": {
+        "drawCalls": 291,
+        "triangles": 238374,
+        "fps": 60.1,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.5,
+        "fov": 52
+      }
+    },
+    {
+      "name": "desktop-hud",
+      "screen": "hud",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": 0,
+        "z": 6
+      },
+      "metrics": {
+        "drawCalls": 291,
+        "triangles": 238374,
+        "fps": 60,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.1,
+        "fov": 52
+      }
+    },
+    {
+      "name": "desktop-drag",
+      "screen": "hud",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.006666666666664281
+      },
+      "metrics": {
+        "drawCalls": 296,
+        "triangles": 253170,
+        "fps": 59.7,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.2,
+        "fov": 52
+      }
+    },
+    {
+      "name": "desktop-socket-accept",
+      "screen": "hud",
+      "bridgeBefore": 0,
+      "bridgeAfter": 1,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.006666666666664281
+      },
+      "metrics": {
+        "drawCalls": 296,
+        "triangles": 253170,
+        "fps": 60.2,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.1,
+        "fov": 52
+      }
+    },
+    {
+      "name": "desktop-bridge-half",
+      "screen": "hud",
+      "bridgeBefore": 1,
+      "bridgeAfter": 1,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.006666666666664281
+      },
+      "metrics": {
+        "drawCalls": 618,
+        "triangles": 517910,
+        "fps": 59.9,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.2,
+        "fov": 52
+      }
+    },
+    {
+      "name": "desktop-bridge-complete",
+      "screen": "hud",
+      "bridgeBefore": 1,
+      "bridgeAfter": 1,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.006666666666664281
+      },
+      "metrics": {
+        "drawCalls": 392,
+        "triangles": 320466,
+        "fps": 60,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.1,
+        "fov": 52
+      }
+    },
+    {
+      "name": "desktop-pause",
+      "screen": "pause",
+      "bridgeBefore": 1,
+      "bridgeAfter": 1,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.006666666666664281
+      },
+      "metrics": {
+        "drawCalls": 392,
+        "triangles": 320466,
+        "fps": 60.1,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 22.1,
+        "fov": 52
+      }
+    },
+    {
+      "name": "mobile-title",
+      "screen": "title",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": 0,
+        "z": 6
+      },
+      "metrics": {
+        "drawCalls": 269,
+        "triangles": 207538,
+        "fps": 44.5,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.3,
+        "fov": 54
+      }
+    },
+    {
+      "name": "mobile-enter",
+      "screen": "hud",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": 0,
+        "z": 6
+      },
+      "metrics": {
+        "drawCalls": 269,
+        "triangles": 207538,
+        "fps": 60.1,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.4,
+        "fov": 54
+      }
+    },
+    {
+      "name": "mobile-hud",
+      "screen": "hud",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": 0,
+        "z": 6
+      },
+      "metrics": {
+        "drawCalls": 269,
+        "triangles": 207538,
+        "fps": 60.2,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.3,
+        "fov": 54
+      }
+    },
+    {
+      "name": "mobile-drag",
+      "screen": "hud",
+      "bridgeBefore": 0,
+      "bridgeAfter": 0,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.11999999999999761
+      },
+      "metrics": {
+        "drawCalls": 432,
+        "triangles": 355366,
+        "fps": 60.3,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.3,
+        "fov": 54
+      }
+    },
+    {
+      "name": "mobile-socket-accept",
+      "screen": "hud",
+      "bridgeBefore": 0.05263157894736842,
+      "bridgeAfter": 0.3333333333333333,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.11999999999999761
+      },
+      "metrics": {
+        "drawCalls": 281,
+        "triangles": 227718,
+        "fps": 59.9,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.3,
+        "fov": 54
+      }
+    },
+    {
+      "name": "mobile-bridge-half",
+      "screen": "hud",
+      "bridgeBefore": 0.40350877192982454,
+      "bridgeAfter": 0.7368421052631586,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.11999999999999761
+      },
+      "metrics": {
+        "drawCalls": 313,
+        "triangles": 250150,
+        "fps": 59.9,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.7,
+        "fov": 54
+      }
+    },
+    {
+      "name": "mobile-bridge-complete",
+      "screen": "hud",
+      "bridgeBefore": 1,
+      "bridgeAfter": 1,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.11999999999999761
+      },
+      "metrics": {
+        "drawCalls": 369,
+        "triangles": 289406,
+        "fps": 60,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.3,
+        "fov": 54
+      }
+    },
+    {
+      "name": "mobile-pause",
+      "screen": "pause",
+      "bridgeBefore": 1,
+      "bridgeAfter": 1,
+      "position": {
+        "x": -1.8133333333333328,
+        "z": -0.11999999999999761
+      },
+      "metrics": {
+        "drawCalls": 576,
+        "triangles": 456310,
+        "fps": 60,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 21.3,
+        "fov": 54
+      }
+    }
+  ],
+  "devices": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900,
+      "readyObservedMs": 5446,
+      "startLatency": 24,
+      "physicalMobile": false,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+      "drawCalls": {
+        "min": 392,
+        "max": 618
+      },
+      "triangles": {
+        "min": 320466,
+        "max": 517910
+      },
+      "fps": {
+        "min": 59.5,
+        "max": 60.4
+      },
+      "maraFrameHeight": 22.1,
+      "transferBytes": 3839242
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "readyObservedMs": 1684,
+      "startLatency": 49.5,
+      "physicalMobile": false,
+      "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+      "drawCalls": {
+        "min": 369,
+        "max": 576
+      },
+      "triangles": {
+        "min": 289406,
+        "max": 456310
+      },
+      "fps": {
+        "min": 58.3,
+        "max": 60.1
+      },
+      "maraFrameHeight": 21.3,
+      "transferBytes": 3843043
+    }
+  ],
+  "errors": [],
+  "note": "Actual browser frames and real input. No state mutation, overlays, generated gameplay images or hidden visual-only scene.",
+  "pass": true,
+  "timedCaptureReplacement": "socket-accept and bridge-half entries describe earlier PNG capture attempts. They are superseded by JPEG screencast frames and timed-stage-report.json; not used as proof of halfway progress."
+}

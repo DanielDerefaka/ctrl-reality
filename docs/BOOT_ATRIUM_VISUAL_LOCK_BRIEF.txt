@@ -1,0 +1,716 @@
+STOP ALL FEATURE DEVELOPMENT IMMEDIATELY.
+
+The current screenshot is not an acceptable visual foundation for the final
+game.
+
+It is a functional greybox only.
+
+Do not add PAUSE, UNDO, additional rooms, cinematics, collectibles, or more
+gameplay features until the Boot Atrium passes a strict visual approval gate.
+
+The current build has drifted away from the approved visual direction.
+
+REFERENCE A
+The first premium CTRL//REALITY UI concept board.
+
+REFERENCE B
+The approved visual-scenes and Mara presentation board.
+
+REFERENCE C
+The current in-game screenshot.
+
+REFERENCE C is a rejected direction.
+Do not polish Reference C.
+Do not treat it as the final environmental composition.
+Do not preserve its character design, repeated pillars, flat platforms,
+green trim, camera framing, lighting, or general visual language.
+
+References A and B are the visual targets.
+
+==================================================
+1. PRESERVE THE GREYBOX
+==================================================
+
+Before changing the visual layer:
+
+1. Run the current test suite.
+2. Capture the current desktop and mobile build.
+3. Save the screenshots under:
+
+production/discarded-directions/greybox-v2/
+
+4. Record this visual critique:
+
+- character resembles a toy or technical mannequin
+- environment is composed from repetitive rectangular primitives
+- platforms appear disconnected from the fictional architecture
+- camera framing is generic and too directly centered
+- scene lacks foreground, middle ground, and monumental background
+- lighting lacks hierarchy and atmospheric depth
+- material palette does not match the approved reference
+- green trim conflicts with the approved palette
+- interaction target resembles a debug marker
+- typography is too small and visually weak
+- scene does not communicate premium game quality
+
+5. Commit the existing functional state.
+6. Create a tag:
+
+ctrl-reality-greybox-v2
+
+7. Create and switch to:
+
+feature/boot-atrium-visual-lock
+
+Do not delete working gameplay systems.
+
+Preserve:
+- movement
+- input handling
+- card-drag logic
+- socket logic
+- bridge state logic
+- checkpoint logic
+- menu navigation
+- telemetry
+- tests
+
+Replace or redesign:
+- visible character
+- environment geometry
+- materials
+- lighting
+- camera composition
+- bridge visuals
+- socket visuals
+- world markers
+- HUD styling
+- typography
+- scene effects
+
+==================================================
+2. NEW MILESTONE
+==================================================
+
+The only current production milestone is:
+
+BOOT ATRIUM VISUAL LOCK
+
+Build one excellent scene.
+
+Do not build the complete game.
+
+The scene must demonstrate:
+
+- premium Mara presentation
+- strong third-person composition
+- professional environment art
+- real depth
+- approved material palette
+- polished interface typography
+- BRIGHTNESS card deployment
+- luminous bridge construction
+- atmospheric audio
+- stable desktop and mobile performance
+
+The milestone ends after the user reviews the resulting screenshots.
+
+Do not continue to Clock Gallery or Kernel Collapse without explicit approval.
+
+==================================================
+3. REFERENCE-LOCKED COMPOSITION
+==================================================
+
+Recreate the visual principles of References A and B.
+
+Do not copy text or accidental generated artifacts from the images.
+
+The final running-game screenshot should contain:
+
+FOREGROUND
+- a partial arch, machinery edge, broken ivory structure, or polished floor
+  element framing one side of the scene
+- subtle particles or architectural debris
+- enough foreground depth to avoid a flat stage appearance
+
+MIDDLE GROUND
+- Mara occupying approximately 18 to 24 percent of screen height
+- one clearly readable control socket
+- a bridge assembling from liquid-bronze and cyan energy
+- a playable route with believable architectural support
+- visible interaction between Mara, the card, and the socket
+
+BACKGROUND
+- monumental archive architecture
+- an enormous distant Reality Kernel or ring assembly
+- suspended architecture at multiple depths
+- warm light entering from above or behind
+- controlled atmospheric haze
+- enough parallax to communicate scale
+
+Do not compose the level as a centered corridor of identical pillars.
+
+Do not surround the player with empty black space.
+
+Do not place the character on a featureless rectangular slab.
+
+==================================================
+4. CAMERA RESET
+==================================================
+
+Replace the current camera framing.
+
+Use a controlled third-person three-quarter camera.
+
+Target behavior:
+
+- approximately 50 to 55 degree normal field of view
+- positioned behind Mara and slightly to one side
+- camera height near upper torso or shoulder level
+- Mara remains readable and important
+- destination and socket visible ahead
+- horizon or major architectural line placed near the upper third
+- subtle camera damping
+- limited player camera adjustment
+- camera collision against architecture
+- no floor clipping
+- no extreme orbit
+- no distant top-down framing
+- no completely centered corridor composition
+
+The camera should guide the player's attention toward:
+Mara → BRIGHTNESS card → socket → forming bridge → distant Kernel.
+
+Create separate intentional camera framing for desktop and portrait mobile.
+
+Do not simply crop the desktop composition for mobile.
+
+==================================================
+5. MARA MUST BE REPLACED
+==================================================
+
+The current character is a temporary technical mannequin.
+
+It is not acceptable as the final Mara.
+
+Use the approved character reference from Reference B.
+
+Mara must have:
+
+- ivory ceramic mask
+- elegant black-glass segmented coat
+- liquid-bronze structural seams
+- luminous cyan interface glove
+- articulated shoulders and limbs
+- strong full-body silhouette
+- long controlled coat panels
+- premium proportions
+- no weapon
+- no visible face
+- no loose realistic hair
+- no generic robot-cylinder appearance
+
+Use Higgsfield to produce a consistent visual reference set if the approved
+reference set does not already exist:
+
+- front three-quarter
+- back three-quarter
+- left side
+- right side
+- mask close-up
+- glove close-up
+
+Then use the official 404 workflow to produce the final Three.js Mara asset.
+
+Required process:
+
+1. Approved clean reference.
+2. Three independent 404 candidates.
+3. Multi-angle verification.
+4. Correct real-world scale.
+5. Candidate comparison.
+6. Preserve rejected candidates.
+7. Select the strongest candidate visually.
+8. Add named pivots and moving groups.
+9. Test inside the real gameplay camera.
+10. Save receipts.
+
+Do not make the final character from cylinders and capsules.
+
+Do not use an imported GLB, FBX, OBJ, or downloaded mesh.
+
+Do not claim the character is complete until it has been inspected from the
+actual gameplay camera.
+
+==================================================
+6. REQUIRED ENVIRONMENT ASSET KIT
+==================================================
+
+Build a focused production kit instead of hundreds of weak objects.
+
+Create these final 404 asset families:
+
+1. Monumental ivory archive arch.
+2. Obsidian floor and ledge module.
+3. Liquid-bronze structural trim.
+4. Broken floating architecture fragment.
+5. Control socket pedestal.
+6. Luminous bridge segment.
+7. Distant ring or Kernel assembly.
+8. Decorative archive mechanism.
+9. Foreground frame or broken arch element.
+10. Cyan interface card housing.
+
+Generate three candidates for major hero assets.
+
+Use modular repetition intelligently.
+
+Repetition must be disguised through:
+- rotation
+- scale
+- damage state
+- lighting
+- partial occlusion
+- placement
+- attached trim
+- foreground framing
+
+Do not repeat identical rectangular columns in parallel rows.
+
+==================================================
+7. USE A 2.5D BACKGROUND FOR SCALE
+==================================================
+
+The approved concept contains more detail than should be generated as unique
+interactive geometry.
+
+Use a controlled hybrid composition:
+
+INTERACTIVE 3D
+- Mara
+- playable floor
+- socket
+- bridge
+- nearby arches
+- foreground pieces
+- collision surfaces
+- nearby moving mechanisms
+
+DISTANT VISUAL LAYERS
+- archive skyline
+- distant towers
+- far architectural fragments
+- atmospheric rings
+- deep void structures
+- non-interactive monumental background
+
+Create the distant layers from approved Atlas or Higgsfield visual outputs.
+
+Use them only as:
+- background cards
+- environment layers
+- sky or matte textures
+- parallax planes
+- decorative non-interactive depth
+
+Do not use them as a substitute for interactive 3D objects.
+
+The guided camera must prevent the 2.5D layers from breaking perspective.
+
+The distant background should create the monumental scale seen in References
+A and B without exceeding the game's performance and transfer budgets.
+
+==================================================
+8. MATERIAL LANGUAGE
+==================================================
+
+Remove the existing green trim.
+
+Use only the approved material system:
+
+OBSIDIAN GLASS
+- near-black
+- subtle controlled reflection
+- soft roughness variation
+- no featureless pure black
+
+IVORY CERAMIC
+- warm off-white
+- finely engraved
+- slightly matte
+- used for major architectural forms and Mara's mask
+
+LIQUID BRONZE
+- warm metallic accent
+- narrow structural seams
+- light-carrying channels
+- never used as broad yellow paint
+
+ACTIVE CYAN
+- used for functioning interface systems
+- glove
+- card
+- socket
+- interaction trails
+- active route
+
+CORRUPTION VIOLET
+- absent or extremely restrained in the Boot Atrium
+- reserved for later danger and Kernel corruption
+
+Do not introduce unrelated green, saturated blue, or rainbow accents.
+
+==================================================
+9. LIGHTING RESET
+==================================================
+
+Create a deliberate lighting hierarchy.
+
+Required lighting roles:
+
+KEY LIGHT
+- warm directional or architectural light from behind or above the distant
+  archive
+- defines Mara and the major structures
+
+FILL LIGHT
+- soft cool environment fill
+- prevents the black materials from disappearing
+
+RIM LIGHT
+- restrained cyan edge light from Mara's glove or nearby interface systems
+- separates Mara from the background
+
+BRIDGE LIGHT
+- warm bronze and cyan light emitted during bridge construction
+- subtly affects nearby architecture and Mara
+
+BACKGROUND LIGHT
+- distant atmospheric illumination around the Kernel
+- creates depth without flattening the whole scene
+
+SHADOWS
+- soft enough to preserve detail
+- intentional contact shadows
+- no enormous featureless black regions
+- no harsh accidental shadow cutting across the playable area
+
+POST-PROCESSING
+- restrained bloom only on active light sources
+- subtle vignette
+- cinematic tone mapping
+- controlled atmospheric depth
+- no excessive blur
+- no neon haze covering the whole screen
+
+The floor must remain readable on mobile.
+
+==================================================
+10. BRIDGE REDESIGN
+==================================================
+
+The bridge must become a visual hero element.
+
+Current flat-platform presentation is rejected.
+
+The new bridge should:
+
+- be formed from distinct floating architectural segments
+- contain liquid-bronze structural lines
+- have cyan interface energy travelling through it
+- assemble progressively from socket to destination
+- produce visible depth and underside structure
+- cast light into the void
+- feel attached to the archive's architecture
+- remain readable at desktop and mobile scale
+
+Bridge construction sequence:
+
+1. Socket accepts BRIGHTNESS.
+2. Cyan line travels from card into pedestal.
+3. Bronze channels illuminate through the floor.
+4. First structural segment materializes.
+5. Additional segments assemble toward the destination.
+6. Fine particles settle.
+7. Final route emits a restrained completion pulse.
+8. The objective updates.
+
+Do not reveal a single flat rectangle instantly.
+
+==================================================
+11. SOCKET REDESIGN
+==================================================
+
+The socket must look like a designed physical mechanism.
+
+It should include:
+
+- ivory ceramic body
+- bronze mechanical ring
+- recessed cyan interface receptacle
+- visible inactive state
+- valid-target response
+- magnetic alignment response
+- physical lock animation
+- active glow after deployment
+
+Remove generic floating diamond markers near the socket.
+
+Use a restrained distance label only when needed.
+
+World interaction markers must feel integrated into the fiction.
+
+==================================================
+12. PROFESSIONAL UI RESET
+==================================================
+
+The HUD direction is closer to the target than the environment, but it still
+needs refinement.
+
+Typography rules:
+
+- use one locally bundled, licensed display typeface
+- use one locally bundled, licensed interface typeface
+- document the font licenses
+- never bake UI text into images or videos
+- never use generated text from concept art
+- use consistent capitalization
+- use proper punctuation
+- prevent awkward wrapping
+- prevent tiny labels
+
+Minimum practical desktop sizes:
+
+- section eyebrow: 12 to 14 px
+- objective body: 15 to 17 px
+- major section title: 26 to 34 px
+- control-card label: 13 to 15 px
+- important status number: 22 to 30 px
+
+Use larger responsive values on high-density mobile screens where necessary.
+
+Layout rules:
+
+- desktop safe margin: approximately 28 to 40 px
+- mobile safe margin: approximately 14 to 20 px plus safe-area inset
+- no controls touching viewport edges
+- no text placed over high-detail backgrounds without a controlled backing
+- no unnecessarily opaque large panels
+- no microscopic help text
+- no duplicate control instructions
+
+TOP LEFT
+Sector and objective.
+
+TOP CENTER
+Atrium, Gallery, Kernel progress.
+
+BOTTOM CENTER
+BRIGHTNESS, PAUSE, UNDO cards.
+
+BOTTOM LEFT
+Resets and fragments.
+
+TOP RIGHT
+One elegant pause control.
+
+Remove visible developer instructions such as:
+"WASD MOVE"
+"E INTERACT"
+"ESC PAUSE"
+
+Place input guidance inside HOW IT WORKS and contextual onboarding instead.
+
+==================================================
+13. TITLE SCREEN QUALITY
+==================================================
+
+Use the approved Higgsfield Mara cinematic loop or a high-quality poster
+fallback behind the real interface.
+
+The title screen must contain real HTML and CSS text:
+
+CTRL//REALITY
+
+THE WORLD BROKE.
+THE CONTROLS DID NOT.
+
+ENTER THE ARCHIVE
+HOW IT WORKS
+SETTINGS
+CREATION LOG
+
+Do not bake title text into the generated video.
+
+Use the cinematic loop only as atmosphere.
+
+The title interface must remain crisp, accessible, responsive, and functional.
+
+==================================================
+14. SOUND FOR THE VISUAL-LOCK SCENE
+==================================================
+
+Implement only the audio required for the Boot Atrium milestone:
+
+- title ambience
+- title confirm
+- Boot Atrium ambience
+- Mara footsteps
+- card pickup
+- card drag hum
+- valid socket pulse
+- socket lock
+- bridge assembly
+- bridge completion
+- checkpoint
+- pause open
+- pause close
+
+The sound must reinforce:
+- glass-like cyan systems
+- warm bronze machinery
+- monumental interior scale
+- Mara's restrained articulated costume
+
+Do not add unrelated arcade sounds.
+
+Do not use placeholder beeps in the reviewed build.
+
+==================================================
+15. REMOVE RELEASE-VISIBLE PROTOTYPE ART
+==================================================
+
+The visual-lock screenshot must not contain:
+
+- primitive-cylinder character limbs
+- capsule mannequin body
+- flat grey slabs
+- repeated box pillars
+- green trim
+- developer labels
+- generic diamonds
+- debug markers
+- default fonts
+- raw HTML buttons
+- unlit pure-black objects
+- floating objects without architectural support
+- giant empty areas with no intentional composition
+
+Invisible simplified collision geometry is allowed.
+
+Visible final geometry must use the approved production direction.
+
+==================================================
+16. SCREENSHOT APPROVAL GATE
+==================================================
+
+Produce actual running-game captures at:
+
+1440 × 900 desktop
+390 × 844 mobile portrait
+
+Capture these states:
+
+1. Title screen.
+2. Mara entering the Boot Atrium.
+3. BRIGHTNESS card being dragged.
+4. Socket accepting BRIGHTNESS.
+5. Bridge halfway assembled.
+6. Completed bridge.
+7. Pause screen.
+8. Mobile gameplay HUD.
+
+Store them under:
+
+production/visual-lock/boot-atrium/
+
+Create a side-by-side board containing:
+
+- Reference A
+- Reference B
+- new desktop screenshot
+- new mobile screenshot
+- rejected Reference C screenshot
+
+Do not use Atlas or Higgsfield concept art as proof that the running game has
+reached the quality target.
+
+The actual browser build must be shown.
+
+==================================================
+17. VISUAL ACCEPTANCE CRITERIA
+==================================================
+
+Do not declare the scene approved unless all are true:
+
+- Mara resembles the approved character.
+- Mara is not a primitive mannequin.
+- Mara occupies 18 to 24 percent of frame height.
+- Character silhouette is readable.
+- Scene has foreground, middle ground, and background.
+- Environment no longer resembles repeated box geometry.
+- No green trim remains.
+- The bridge feels physically integrated into the archive.
+- The distant world communicates monumental scale.
+- Lighting clearly separates Mara from the environment.
+- The floor remains readable.
+- UI text is sharp and professionally spaced.
+- No visible text is smaller than practical reading size.
+- No release-visible debug labels remain.
+- The scene remains coherent at 390 × 844.
+- The title screen resembles Reference A in quality and hierarchy.
+- The running-game screenshot cannot be mistaken for Reference C.
+- There are no console errors.
+- There are no missing files.
+- Controls still work.
+- BRIGHTNESS still works.
+- Performance remains inside budget.
+
+==================================================
+18. STOP CONDITION
+==================================================
+
+After the Boot Atrium visual-lock screenshots and report are ready:
+
+STOP.
+
+Do not begin Clock Gallery.
+Do not begin Kernel Collapse.
+Do not add PAUSE gameplay.
+Do not add UNDO gameplay.
+Do not generate more rooms.
+Do not create additional mechanics.
+
+Wait for explicit visual approval.
+
+==================================================
+19. END REPORT
+==================================================
+
+Report:
+
+1. Branch and commit.
+2. Greybox tag.
+3. Gameplay systems preserved.
+4. Systems changed.
+5. Atlas outputs used.
+6. Higgsfield outputs used.
+7. Final Mara asset status.
+8. 404 candidate and verification paths.
+9. Environment asset paths.
+10. Title-video path and size.
+11. Audio paths and sizes.
+12. Desktop screenshot paths.
+13. Mobile screenshot paths.
+14. Draw calls.
+15. Triangle count.
+16. Transfer size.
+17. Frame rate on desktop.
+18. Frame rate on physical mobile device, if actually tested.
+19. Console-error status.
+20. Missing-file status.
+21. Largest remaining visual difference from Reference A.
+22. Largest remaining visual difference from Reference B.
+23. Whether the Boot Atrium is ready for user approval.
+
+Do not call it approved yourself.

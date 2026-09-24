@@ -1,0 +1,30 @@
+{
+  "name": "archive-matte",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "16:9",
+    "prompt": "Original CTRL//REALITY impossible archive from supplied concept. Obsidian polished black glass, warm ivory ceramic, thin champagne bronze structural lines and restrained cyan interface light. No green, no violet, no saturated blue, no text or UI, no characters, no weapons, no watermark. Create a single cinematic architectural matte painting, monumental depth, not a collage: enormous bronze orrery offset to the upper RIGHT, distant intricate ivory spires and suspended broken vaults at multiple depths, glowing warm opening overhead, fine ivory ribs and obsidian surfaces. A deep archive canyon, elegant and realistic. Lower quarter opens to atmospheric warm-gray void, no playable floor in foreground. Composition asymmetrical, destination to right; no centered corridor or parallel rows of pillars. Camera shoulder-high on an imaginary near ledge, 52mm-like perspective. Intricate premium game environment lighting and detailed reflections. This will be a distant non-interactive backdrop behind real 3D platforms."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.440",
+    "usd": "0.090",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "620aaae8-a006-4e2b-8912-9b797b7b6b0c",
+    "status_url": "https://platform.higgsfield.ai/requests/620aaae8-a006-4e2b-8912-9b797b7b6b0c/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/620aaae8-a006-4e2b-8912-9b797b7b6b0c/cancel"
+  },
+  "date": "2026-09-24T03:27:09.483Z",
+  "local": "production/visual-lock/references/archive-matte.png",
+  "sha256": "c43a97bb21873b5bceca4ecac1c4152a294c4314cbec0cc946f1c06eab798447",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/9af74e92-28fd-469a-ae74-f7a602e4ec61.png"
+}

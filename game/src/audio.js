@@ -14,11 +14,17 @@ export class ArchiveAudio{
   // Fade outgoing beds once; ticket prevents late decode from restarting an old scene.
   for(const bed of this.beds){bed.gain.gain.setTargetAtTime(0,c.currentTime,.18);try{bed.source.stop(c.currentTime+.8);}catch{}}this.beds=[];
   if(mode==='silent')return;
-  const files=mode==='title'?[['music/title-archive.mp3','MUSIC']]:mode==='results'?[['music/boot-atrium.mp3','AMBIENCE']]:[['music/boot-atrium.mp3','AMBIENCE'],['music/title-archive.mp3','MUSIC']];
+  const files=mode==='title'?[['music/title-archive.mp3','MUSIC']]:mode==='results'?[['music/boot-atrium.mp3','AMBIENCE']]:[['music/boot-atrium.mp3','AMBIENCE']];
   for(const [file,bus]of files){const buffer=await this.buffer(file);if(!buffer||ticket!==this.epoch)return;const source=c.createBufferSource(),gain=c.createGain();source.buffer=buffer;source.loop=true;gain.gain.value=0;source.connect(gain);gain.connect(this.buses[bus]);source.start();gain.gain.setTargetAtTime(mode==='game'&&bus==='MUSIC'?.35:1,c.currentTime,.7);source.onended=()=>{source.disconnect();gain.disconnect();};this.beds.push({source,gain});}
  }
  async play(name,{bus='WORLD_SFX',volume=1,rate=1}={}){if(!this.ready)return;const now=performance.now();if(now-(this.last.get(name)||-10000)<70)return;this.last.set(name,now);const epoch=this.epoch,buffer=await this.buffer('sfx/'+name+'.mp3');if(!buffer||epoch!==this.epoch||this.shots.size>=16)return;const c=this.context,source=c.createBufferSource(),g=c.createGain();source.buffer=buffer;source.playbackRate.value=rate;g.gain.value=volume;source.connect(g);g.connect(this.buses[bus]);this.shots.add(source);source.onended=()=>{this.shots.delete(source);source.disconnect();g.disconnect();};source.start();}
- stopShots(){for(const s of this.shots){try{s.stop();}catch{}}this.shots.clear();}
+ async drag(active){
+  this.dragActive=active;const ticket=(this.dragTicket||0)+1;this.dragTicket=ticket;
+  if(this.dragSource){this.dragGain.gain.setTargetAtTime(0,this.context.currentTime,.035);this.dragSource.stop(this.context.currentTime+.15);this.dragSource=null;}
+  if(!active||!this.ready)return;const buffer=await this.buffer('sfx/control-drag.mp3');if(!buffer||ticket!==this.dragTicket)return;
+  const source=this.context.createBufferSource(),gain=this.context.createGain();source.buffer=buffer;source.loop=true;gain.gain.value=0;source.connect(gain);gain.connect(this.buses.WORLD_SFX);source.start();gain.gain.setTargetAtTime(.65,this.context.currentTime,.09);source.onended=()=>{source.disconnect();gain.disconnect();};this.dragSource=source;this.dragGain=gain;
+ }
+ stopShots(){this.drag(false);for(const s of this.shots){try{s.stop();}catch{}}this.shots.clear();}
  teardown(){this.stopShots();this.setMode('silent');this.context?.suspend();}
- get status(){return{unlocked:this.ready,state:this.context?.state||'locked',beds:this.beds.length,oneShots:this.shots.size,buses:['MASTER','MUSIC','AMBIENCE','WORLD_SFX','UI_SFX']};}
+ get status(){return{unlocked:this.ready,state:this.context?.state||'locked',beds:this.beds.length,dragLoop:!!this.dragSource,oneShots:this.shots.size,buses:['MASTER','MUSIC','AMBIENCE','WORLD_SFX','UI_SFX']};}
 }
