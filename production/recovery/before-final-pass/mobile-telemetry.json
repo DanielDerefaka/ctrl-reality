@@ -1,0 +1,69 @@
+{
+  "screen": "hud",
+  "state": {
+    "x": 0,
+    "z": 6,
+    "y": 0,
+    "yaw": 3.141592653589793,
+    "installed": false,
+    "bridge": 0,
+    "elapsed": 1.7833333333333319,
+    "resets": 0,
+    "moves": 0,
+    "fragments": [],
+    "checkpoint": {
+      "x": 0,
+      "z": 6,
+      "installed": false
+    },
+    "failure": 0,
+    "won": false,
+    "checkpointReached": false,
+    "moving": false
+  },
+  "settings": {
+    "master": 80,
+    "music": 65,
+    "effects": 80,
+    "sensitivity": 50,
+    "mute": false,
+    "reduced": false,
+    "touch": true,
+    "invert": false
+  },
+  "audio": {
+    "unlocked": true,
+    "state": "running",
+    "beds": 1,
+    "dragLoop": false,
+    "oneShots": 0,
+    "buses": [
+      "MASTER",
+      "MUSIC",
+      "AMBIENCE",
+      "WORLD_SFX",
+      "UI_SFX"
+    ]
+  },
+  "metrics": {
+    "drawCalls": 269,
+    "triangles": 207538,
+    "fps": 60.1,
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+    "maraFrameHeight": 21.3,
+    "fov": 54
+  },
+  "socket": {
+    "x": 101.30484107027351,
+    "y": 395.37530221869986,
+    "visible": true
+  },
+  "startLatency": 9.100000008940697,
+  "animation": "IDLE",
+  "video": {
+    "enabled": true,
+    "paused": true,
+    "src": false
+  },
+  "ready": true
+}
