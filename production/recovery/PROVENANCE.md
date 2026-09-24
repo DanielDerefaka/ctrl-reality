@@ -24,4 +24,4 @@ Cormorant Garamond and Manrope remain under their included SIL OFL licenses. Rec
 
 Browser checks use desktop Chrome with an Apple M5 GPU and emulated phone viewports/touch/network/CPU. They are not physical-phone tests. The jam harness runs against localhost; no public deployment or live-host gate is claimed. No comparison video was available in the supplied files. Structural 404 passes are not user visual approval.
 
-The direct recording and receipt are versioned. Its 600 original JPEG screencast frames are retained locally in `production/recovery/recording/frames/` (ignored, approximately 149 MB), rather than inflating repository history. The capture script regenerates the timing manifest and encoded review film.
+The direct recording and receipt are versioned. Its 761 original JPEG screencast frames are retained locally in `production/recovery/recording/frames/` (ignored; exact frame count and encoded dimensions are in the recording receipt), rather than inflating repository history. The capture script regenerates the timing manifest and encoded review film.

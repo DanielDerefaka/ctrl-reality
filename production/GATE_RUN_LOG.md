@@ -10,3 +10,7 @@ Exact final snapshots, screencast timing evidence and performance caveats: visua
 ## 2026-09-24 — final recovery pass
 
 Recovery logic tests pass 13/13; browser gate passes 39/39. Official 404 asset verifier: 3/3 fresh Mara candidates, 3/3 compact platform candidates and 12/12 shipped modules clean. First official jam smoke passed on localhost, but its 7.791-second readiness exceeded the stricter internal target; renderer and loading improvements followed. The final committed-build verdict and startup measurements are recorded in production/recovery/REPORT.md. No live deployment gate is claimed.
+
+## 2026-09-24 — final recovery gate on committed runtime
+
+Unmodified official jam harness PASS against localhost at runtime commit `892df8c`: ready 2.785 s; 2,113,644 body bytes / 1,591,756 wire bytes; 260 peak draws; 165,094 peak triangles; 43.1 median FPS; 2.03 m displacement; zero errors, missing requests, external hosts or outside-folder requests. Evidence: `production/recovery/jam/verdict.json`. Phone emulation only; no public deployment or physical-phone claim. Direct recording recaptured at verified 1440×900, 15.000 s. Full 23-item report: `production/recovery/REPORT.md`. Visual approval remains pending; work stops for review.
