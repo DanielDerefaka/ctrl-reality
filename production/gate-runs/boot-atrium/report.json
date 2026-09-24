@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-24T03:22:17.355Z",
+  "checks": [
+    "Title is real DOM; boot has no autoplay audio",
+    "How-to opens",
+    "Settings and mute update real audio state",
+    "Settings survive reload",
+    "Reduced motion leaves title video unloaded",
+    "Enter gives simulation control in under 1.5 seconds",
+    "Title video is stopped and unloaded in gameplay",
+    "Invalid remote drop returns the card",
+    "Void failure restores checkpoint once",
+    "Walking collects two real fragments",
+    "Real pointer drag installs BRIGHTNESS and reveals bridge",
+    "Installed control can be retrieved",
+    "Keyboard-only installation works",
+    "Pause freezes the simulation",
+    "Player crossed the restored bridge and reached checkpoint",
+    "Atrium can be completed with all three fragments",
+    "Results disclose one sector rather than a finished three-chapter game",
+    "Return to title resets game state",
+    "Phone starts with a real touch and shows its joystick",
+    "Real touch joystick moves Mara",
+    "Phone touch drag installs BRIGHTNESS",
+    "Phone settings fit the viewport",
+    "Resize retains a valid game state",
+    "No browser exceptions or failed runtime requests"
+  ],
+  "errors": [],
+  "devices": [
+    {
+      "name": "desktop",
+      "readyObservedMs": 1428,
+      "startLatency": 14.400000005960464,
+      "metrics": {
+        "drawCalls": 91,
+        "triangles": 26704
+      },
+      "transfer": 3830198
+    },
+    {
+      "name": "390×844 touch emulation",
+      "startLatency": 11.700000002980232,
+      "metrics": {
+        "drawCalls": 147,
+        "triangles": 28346
+      },
+      "physicalDevice": false
+    }
+  ],
+  "pass": true
+}

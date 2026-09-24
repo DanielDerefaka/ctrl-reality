@@ -1,7 +1,0 @@
-{
-  "reviewed": false,
-  "model": "",
-  "documentationUrl": "",
-  "endpoint": "",
-  "body": { "prompt": "{{PROMPT}}" }
-}

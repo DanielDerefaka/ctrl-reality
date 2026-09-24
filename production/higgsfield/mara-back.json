@@ -1,0 +1,30 @@
+{
+  "name": "mara-back",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "1k",
+    "aspect_ratio": "2:3",
+    "prompt": "Preserve EXACTLY the masked female interface conservator Mara shown in the reference board: slim elegant adult proportions, closed ivory ceramic mask with tiny cyan eye slits, no face or hair, black obsidian articulated long coat with fine champagne bronze seams, fitted waist and armored shoulder panels, black fitted trousers and elegant boots, luminous cyan LEFT glove. No weapon. No other character. Original game CTRL//REALITY. Realistic premium cinematic game key art. Never reproduce any text, UI, collage panels, labels, borders or watermark from the source. ONE isolated reference image: three-quarter rear full body. Plain dark gray studio background, soft even light, no floor reflections, no architecture, do not crop body or requested detail. Match original character geometry and costume exactly."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.120",
+    "usd": "0.070",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "b535cb7b-d8df-434c-9767-0a65dbaee206",
+    "status_url": "https://platform.higgsfield.ai/requests/b535cb7b-d8df-434c-9767-0a65dbaee206/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/b535cb7b-d8df-434c-9767-0a65dbaee206/cancel"
+  },
+  "date": "2026-09-24T03:05:22.703Z",
+  "local": "production/higgsfield/mara-back.jpg",
+  "sha256": "2ce51306c67b6425525051d08598cdf699329ab65df4f946789e1c3375a26ebc",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/507c3fe0-a0b0-4e14-9a60-ebb7ba00593b.jpeg"
+}

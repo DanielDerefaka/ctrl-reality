@@ -18,7 +18,7 @@ const TYPES = new Map([
   ['.png', 'image/png'],
   ['.webp', 'image/webp'],
   ['.ogg', 'audio/ogg'],
-  ['.wav', 'audio/wav'],
+  ['.wav', 'audio/wav'], ['.mp3','audio/mpeg'], ['.mp4','video/mp4'], ['.ttf','font/ttf'],
 ]);
 
 function safePath(urlPath) {
@@ -58,6 +58,6 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(port, host, () => {
-  console.log(`SECOND HANDS floor: http://127.0.0.1:${port}/game/`);
+  console.log(`CTRL//REALITY: http://127.0.0.1:${port}/game/`);
   if (host === '0.0.0.0') console.log('For phone testing, use this computer’s LAN IP with the same port.');
 });

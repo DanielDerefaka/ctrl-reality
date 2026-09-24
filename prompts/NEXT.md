@@ -1,0 +1,3 @@
+# Next production pass
+
+Read the two user briefs and the current milestone report. Continue improving Mara and Boot Atrium to the supplied reference without changing the identity or adding sectors. Prioritize final compliant 404 three-candidate Mara/environment production, animation foot planting and coat behavior, hands-on sound mix review, and real-phone drag/touch testing. Inspect the existing Atlas project's outcome before making another agent call; never assume the failed request produced a board or music. Preserve the HTML typography and working BRIGHTNESS gate. Only unlock PAUSE/UNDO after first-slice visual approval.

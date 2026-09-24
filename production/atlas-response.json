@@ -1,0 +1,13 @@
+{
+  "jsonrpc": 2.0,
+  "id": 12,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Error executing tool prompt_project_agent: AGENT_ERROR: Agent turn failed (HTTP 500)"
+      }
+    ],
+    "isError": true
+  }
+}

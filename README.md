@@ -1,31 +1,29 @@
-> **Current direction: SECOND HANDS: MIDNIGHT EXPRESS.** Gameplay expansion is stopped pending the Nyra mask art-pipeline proof and user candidate approval. Read [the bounded pipeline brief](docs/MIDNIGHT_EXPRESS_PIPELINE.md). The Zero Hour build described below is preserved unchanged as historical prototype evidence.
+# CTRL//REALITY
 
-# SECOND HANDS: ZERO HOUR
+An original third-person puzzle adventure. Mara, a masked interface conservator, repairs an impossible archive by moving controls from the HUD into the physical world.
 
-**YOUR BEST SQUADMATE IS YOU, SIX SECONDS AGO.**
+## Run
 
-A third-person action presentation foundation: live command bay, menu/operations/briefing, Skybridge target encounter, Security Spine crossfire evaluation, and a six-second holographic combat echo. This is not yet the full 8–10 minute mission. Every visible 3D object is PROTOTYPE_ONLY, disclosed in Credits.
+`npm install` · `npm run setup` · `npm run serve`
 
-## Run and test
+Open http://127.0.0.1:4173/game/ . Local runtime only; no account, generation service or network API is needed by the player.
 
-Node >=22.12.0. Three.js stays pinned to 0.180.0; Puppeteer 25.11.0 is development-only.
+## Boot Atrium development slice
 
-```sh
-npm install
-npm run setup
-npm test
-npm run check
-npm run serve
-# In another terminal, with the server running:
-npm run smoke
-```
+- ENTER THE ARCHIVE starts play. WASD/arrows move; E interacts. Touch uses the joystick and ACT.
+- Approach the cyan socket. Drag BRIGHTNESS from the HUD onto its reticle. Keyboard alternative: select BRIGHTNESS, then E.
+- The bridge forms. E/ACT at the socket retrieves the control. Cross the bridge, collect the three optional fragments, and restore the far pedestal with E/ACT.
+- Falling realigns Mara at the latest checkpoint. Escape pauses. Settings persist locally.
+- PAUSE and UNDO are visibly locked; this build contains one chamber, not the complete three-sector adventure.
 
-Open http://127.0.0.1:4173/game/ . Runtime dependencies remain entirely local under game/.
+## Checks
 
-Desktop: WASD, mouse look, left fire, right precision aim, Space dodge, Q record/store/deploy, E interact, R reload, Escape pause. Mobile: joystick, right drag, Fire/Echo/Dodge/Aim/Use, ammo tap to reload and Pause. Sensitivity/invert/sound/haptics are in Settings.
+`npm test` · `npm run check` · `npm run media:audit` · `npm run gate` (server must be running)
 
-To prove crossfire: record firing at the sentinel from its left, store, reposition right, deploy and fire while the echo attacks. Shield requires separate actors and sufficiently different directions within 0.8 seconds. The scanner is echo-eligible. Core encounter and final rank are unavailable; End Evaluation reports raw statistics and UNRANKED.
+Animation review: `/game/?review=1` offers every named state, three views and half speed. Tests use real keyboard, mouse and emulated touch input, with read-only telemetry; they do not teleport the player or set a success flag.
 
-Floor history: `floor-prototype-v1`; preserved screenshots in production/floor-build/. Old `tools/floor-smoke.mjs` and `tools/second-hands-gate.mjs` apply to prior/future clockwork scaffolds, not this runtime. Current smoke is `tools/zero-hour-smoke.mjs`.
+## Production status
 
-See production/ZERO_HOUR_MILESTONE_REPORT.md, CRITIC_LOG.md, TOOLING_LOG.md and PLAYTEST_LOG.md for exact evidence and limitations. Next prompt: prompts/09_ZERO_HOUR_SECTION_1_PRODUCTION.md.
+Mara and architecture are articulated code-built development assets. They are not final 404-verified production assets. The cinematic is Higgsfield-generated reference media; it is never used as gameplay. Original procedural audio is a development mix pending listening approval. Physical-phone QA, the official jam gate, 404 candidate verification and final submission are outstanding. See production/MILESTONE_REPORT.md and production/GATE_RUN_LOG.md for measured evidence and limitations.
+
+Previous game directions were removed from the working tree. Their genuine history is retained at Git tag `archive-before-ctrl-reality`.

@@ -1,0 +1,968 @@
+ADD THIS AS A NON-NEGOTIABLE PRODUCTION REQUIREMENT FOR CTRL//REALITY.
+
+The game requires a premium cinematic character introduction, top-quality
+character animation, professional music, professional sound effects, and
+precise audio mixing.
+
+Do not treat audio and animation as final-hour decoration.
+
+They are part of the game's core presentation and must be implemented,
+tested and refined alongside gameplay.
+
+==================================================
+1. CINEMATIC STRATEGY
+==================================================
+
+Create two related but technically distinct cinematic elements:
+
+A. HIGGSFIELD TITLE CINEMATIC
+A six-second seamless image-to-video loop behind the title-screen interface.
+
+B. IN-ENGINE ENTRY TRANSITION
+A maximum 1.2-second real-time Three.js transition after the player presses
+ENTER THE ARCHIVE.
+
+Do not place a long blocking video between the start button and gameplay.
+
+The player must have movement control no later than 1.5 seconds after pressing
+ENTER THE ARCHIVE.
+
+The official game-jam automation presses the start control, waits two seconds,
+and then attempts to move the player. Design around that requirement.
+
+==================================================
+2. HIGGSFIELD CONNECTION AND SECURITY
+==================================================
+
+Use the existing authenticated Higgsfield integration only during development.
+
+Never:
+- place Higgsfield credentials in browser code
+- put credentials inside game/
+- commit credentials
+- print credentials in logs
+- call Higgsfield from the shipped game
+- rely on a temporary Higgsfield output URL at runtime
+
+The Higgsfield integration must:
+
+1. Inspect the current model catalog available to this account.
+2. Select a model that supports reference-image video generation and strong
+   subject consistency.
+3. Use that model's actual current documented request schema.
+4. Submit the request asynchronously.
+5. store its request_id immediately.
+6. Poll the returned status URL.
+7. Download completed files into local development storage.
+8. Save request metadata without secrets.
+9. Record model, prompt, duration, aspect ratio and generation date.
+10. Preserve rejected generations as production receipts.
+
+Do not guess model endpoints or parameter names.
+
+==================================================
+3. TITLE CINEMATIC
+==================================================
+
+Create:
+
+game/media/video/mara-title-loop.mp4
+game/media/video/mara-title-poster.webp
+
+The title cinematic should be generated from the approved Mara character
+reference and approved title-screen environment reference.
+
+DURATION
+5 to 6 seconds.
+
+FRAMING
+16:9 cinematic landscape.
+
+SHOT
+
+- Camera begins behind and slightly below Mara at a rear three-quarter angle.
+- Mara faces the vast broken archive.
+- The camera performs a very slow controlled push forward.
+- Mara takes one deliberate step.
+- Her cyan interface glove activates gradually.
+- A narrow cyan pulse moves through the glove.
+- Mara turns her masked head slightly toward the distant Reality Kernel.
+- Her segmented coat panels respond subtly to movement.
+- Giant bronze archive rings rotate slowly in the distance.
+- Floating architectural fragments drift.
+- Warm light moves across the wet obsidian floor.
+- A distant bridge briefly flickers into existence.
+- The final pose and camera position should transition smoothly back to the
+  opening pose for a seamless loop.
+
+CHARACTER CONSISTENCY
+
+Mara must retain:
+- the same ivory mask
+- the same black-glass coat
+- the same body proportions
+- the same bronze seams
+- the same cyan glove
+- the same number of limbs and fingers
+- the same costume throughout the shot
+
+PROHIBITED
+
+- no text generated inside the video
+- no logos
+- no costume changes
+- no face appearing beneath the mask
+- no additional characters
+- no extra limbs
+- no warped hands
+- no character duplication
+- no fast action
+- no uncontrolled camera shake
+- no sudden zoom
+- no object morphing
+- no dramatic cape flapping
+- no weapons
+- no lip movement
+- no baked-in audio
+- no baked-in subtitles
+
+The title text and menu must be real HTML and CSS rendered over the video.
+Do not ask the video model to generate interface text.
+
+==================================================
+4. TITLE VIDEO IMPLEMENTATION
+==================================================
+
+Implement the title video as a presentation layer, not as gameplay.
+
+Use:
+
+- muted
+- loop
+- playsinline
+- poster fallback
+- object-fit: cover
+- no native video controls
+- no audio track
+- no remote media URL
+
+Load the title screen initially using the poster image.
+
+Set window.__READY__ when the essential title interface, controls and minimal
+game systems are ready. Do not make readiness depend on the entire title
+video downloading.
+
+Begin loading or playing the title loop after the essential experience is
+ready.
+
+Respect:
+
+- prefers-reduced-motion
+- the game's Reduced Motion setting
+- save-data environments
+- decoding or playback failure
+- mobile memory pressure
+
+When motion is reduced or video playback fails, retain the high-quality poster
+and add only subtle CSS or in-engine parallax.
+
+Do not produce a blank background while waiting for video.
+
+Create a configuration option:
+
+USE_TITLE_VIDEO
+
+When false, the complete game must still look professional and function using
+the poster or live in-engine background.
+
+==================================================
+5. FILE-SIZE BUDGET
+==================================================
+
+The complete live game must remain under the official transfer limit.
+
+Internal target:
+
+- title video: no more than 1.2 MB
+- title poster: no more than 180 KB
+- all music combined: no more than 2.2 MB
+- all sound effects combined: no more than 700 KB
+- complete final game: target no more than 8.5 MB
+
+Leave margin below the official maximum.
+
+Create:
+
+npm run media:audit
+
+It must print:
+- every video file size
+- every audio file size
+- every image file size
+- total game-folder size
+- approximate transfer budget
+- files over the internal targets
+
+The build must not silently exceed the budget.
+
+==================================================
+6. ENTER THE ARCHIVE TRANSITION
+==================================================
+
+When the player presses ENTER THE ARCHIVE:
+
+0.00–0.15 seconds
+- resume the Web Audio AudioContext from the real user gesture
+- play the UI confirm sound
+- lock repeated button activation
+- begin fading menu text
+
+0.15–0.45 seconds
+- title interface lines contract toward Mara's glove
+- cyan interface energy travels into the glove
+- title background darkens slightly
+- title music begins its crossfade into Atrium ambience
+
+0.45–0.85 seconds
+- camera blends from the title framing toward the gameplay camera
+- Mara takes one deliberate step forward
+- her coat panels settle
+- the archive responds with one distant mechanical movement
+
+0.85–1.20 seconds
+- the gameplay HUD fades in
+- BOOT ATRIUM objective appears
+- movement input becomes active
+- the camera reaches gameplay framing
+
+Movement must be active by 1.5 seconds at the absolute latest.
+
+The transition must be:
+- skippable
+- interrupt-safe
+- resize-safe
+- safe when audio is disabled
+- safe when the title video failed
+- safe when Reduced Motion is enabled
+
+For Reduced Motion:
+- use a 250 to 400 millisecond crossfade
+- avoid camera travel
+- activate gameplay immediately
+
+==================================================
+7. HIGGSFIELD MOTION-REFERENCE VIDEO
+==================================================
+
+Create a second Higgsfield video for animation reference only:
+
+production/higgsfield/references/mara-enter-archive-reference.mp4
+
+This video is not automatically shipped.
+
+SHOT
+
+- Full-body Mara viewed from rear three-quarter.
+- Mara stands still for approximately half a second.
+- Her glove activates.
+- She raises the glove slightly.
+- She turns her head toward the archive.
+- She takes two deliberate controlled steps.
+- Her weight transfers naturally.
+- Her coat panels lag subtly and settle.
+- The movement ends in a clean gameplay-ready stance.
+
+The camera performs a restrained dolly from a cinematic full-body frame toward
+an over-the-shoulder gameplay composition.
+
+No text.
+No cuts.
+No teleporting.
+No camera shake.
+No costume change.
+No extra characters.
+No face reveal.
+
+Use the output as timing and posing reference.
+
+Recreate the final entrance with the real Three.js character.
+Do not use the video as a substitute for gameplay animation.
+
+==================================================
+8. MARA RIG AND HIERARCHY
+==================================================
+
+The final 404-generated Mara asset must expose a controllable hierarchy.
+
+Required named groups or equivalent:
+
+maraRoot
+pelvis
+spineLower
+spineUpper
+neck
+head
+mask
+leftShoulder
+leftUpperArm
+leftForearm
+leftHand
+rightShoulder
+rightUpperArm
+rightForearm
+rightHand
+leftHip
+leftThigh
+leftShin
+leftFoot
+rightHip
+rightThigh
+rightShin
+rightFoot
+coatLeft
+coatRight
+coatBack
+shoulderPanel
+gloveCore
+gloveLight
+gloveRing
+
+Confirm every pivot visually before animation.
+
+Do not animate a monolithic character by rotating the entire model for every
+action.
+
+==================================================
+9. ANIMATION STATE MACHINE
+==================================================
+
+Implement a deterministic animation controller.
+
+Required states:
+
+BOOT_IDLE
+TITLE_IDLE
+ENTER_ARCHIVE
+IDLE
+WALK
+FAST_WALK
+START_MOVE
+STOP_MOVE
+TURN_LEFT
+TURN_RIGHT
+CONTROL_REACH
+CONTROL_PULL
+CONTROL_DRAG
+CONTROL_DEPLOY
+CONTROL_RETRIEVE
+SOCKET_LOCK_REACTION
+BRIDGE_REVEAL_REACTION
+CHECKPOINT
+REALIGN_FAILURE
+VICTORY_IDLE
+
+Transitions must be blended rather than snapping instantly.
+
+Mara's movement should include:
+
+- believable weight transfer
+- planted feet
+- restrained arm swing
+- glove arm remaining slightly more controlled
+- slight upper-body counter-rotation
+- head orientation toward important targets
+- subtle secondary movement in segmented coat panels
+- no uncontrolled rubber movement
+- no floating feet
+- no foot sliding during stationary interactions
+- no knees bending backward
+- no hands passing through the body
+- no character clipping into walls
+
+==================================================
+10. ANIMATION TIMING TARGETS
+==================================================
+
+TITLE_IDLE
+4.5 to 6 second seamless loop:
+- slow breathing
+- tiny shoulder movement
+- one subtle head turn
+- glove pulse
+- almost imperceptible coat motion
+
+ENTER_ARCHIVE
+1.0 to 1.2 seconds:
+- one controlled step
+- head and torso alignment
+- camera blend
+- no long performance that blocks input
+
+WALK
+Approximately 0.9 to 1.05 seconds per full cycle:
+- left foot plant
+- weight transfer
+- right foot plant
+- consistent movement speed
+
+CONTROL_PULL
+0.55 to 0.75 seconds:
+- hand opens toward HUD card
+- card detaches
+- glove reacts
+- body remains balanced
+
+CONTROL_DRAG
+Continuous:
+- hand aims generally toward the dragged card
+- elbow and shoulder remain within natural limits
+- glove pulse responds to socket proximity
+
+CONTROL_DEPLOY
+0.75 to 0.95 seconds:
+- brace stance
+- hand pushes card into socket
+- socket locks
+- hand receives a restrained reaction impulse
+- Mara looks toward the resulting world change
+
+REALIGN_FAILURE
+1.0 to 1.3 seconds:
+- Mara fractures into restrained interface particles
+- no gore
+- the scene reverses
+- immediate checkpoint return
+
+VICTORY
+2.5 to 4 seconds after gameplay is complete:
+- Mara faces the stabilized Kernel
+- the HUD components detach and become part of the Kernel
+- Mara lowers her glove
+- camera reveals the restored archive
+- results interface follows
+
+==================================================
+11. TOP-QUALITY ANIMATION REVIEW
+==================================================
+
+Create an animation review scene that can display every state independently.
+
+For each animation:
+- record a front view
+- record a side view
+- record a rear three-quarter gameplay view
+- inspect at normal speed
+- inspect at half speed
+- check foot sliding
+- check silhouette
+- check clipping
+- check transitions
+- check mobile frame rate
+
+Store review captures under:
+
+production/animation-review/
+
+An animation is not approved merely because it runs without errors.
+
+It must look intentional in motion.
+
+==================================================
+12. AUDIO ARCHITECTURE
+==================================================
+
+Implement a real Web Audio mixing system.
+
+Required buses:
+
+MASTER
+MUSIC
+AMBIENCE
+WORLD_SFX
+UI_SFX
+
+Required features:
+
+- user-gesture AudioContext unlock
+- master volume
+- music volume
+- effects volume
+- mute persistence
+- smooth gain changes
+- no clicks when starting or stopping sounds
+- loop crossfades
+- one-shot pooling
+- optional positional world audio
+- pause-state mixing
+- reduced sound option where appropriate
+- no duplicate sounds from repeated events
+- no audio continuing after returning to title
+- no simultaneous menu and gameplay music
+- no sudden full-volume startup
+
+Persist settings using local storage.
+
+==================================================
+13. AUDIO LOUDNESS AND MIX TARGETS
+==================================================
+
+Use restrained cinematic mixing.
+
+Targets:
+
+- master output limiter ceiling: approximately -1 dBTP
+- music integrated loudness: approximately -18 to -16 LUFS
+- ambience below music and dialogue-equivalent UI information
+- primary interaction effects clearly audible without being harsh
+- UI hover sounds quiet
+- confirm sounds slightly stronger than hover sounds
+- failure sound impactful but not startling
+- victory flourish clear but not dramatically louder than gameplay
+
+Do not normalize every asset to maximum volume.
+
+Avoid frequency buildup in:
+- low drones
+- bridge machinery
+- ambience
+- music bass
+
+Test with:
+- laptop speakers
+- phone speakers
+- headphones
+- system volume at 25 percent
+- system volume at 80 percent
+
+==================================================
+14. REQUIRED MUSIC
+==================================================
+
+Create or obtain original licensed/generated music for:
+
+A. TITLE
+File:
+game/media/audio/music/title-archive.mp3
+
+Direction:
+- 35 to 45 second seamless loop
+- elegant orchestral-electronic ambience
+- low cello or synthetic bass pulse
+- glass harmonics
+- distant wordless texture
+- sparse piano-like tones
+- approximately 70 to 76 BPM
+- mysterious and premium
+- no vocals
+- no trailer drums
+- no giant climax
+- no resemblance to an existing soundtrack
+
+B. BOOT ATRIUM
+File:
+game/media/audio/music/boot-atrium.mp3
+
+Direction:
+- 45 to 60 second seamless loop
+- monumental space
+- restrained low-frequency air
+- bronze resonances
+- sparse cyan electronic pulse
+- subtle movement
+- no distracting melody
+- supports puzzle concentration
+
+C. CLOCK GALLERY
+File:
+game/media/audio/music/clock-gallery.mp3
+
+Direction:
+- controlled rhythmic mechanical pulse
+- glass ticks
+- low strings
+- subtle evolving meter
+- never becomes arcade music
+
+D. KERNEL COLLAPSE
+File:
+game/media/audio/music/kernel-collapse.mp3
+
+Direction:
+- greater tension
+- reversed glass textures
+- slow bronze percussion
+- violet-corruption sound identity
+- loopable
+- no vocals
+- no generic action trailer style
+
+E. VICTORY
+File:
+game/media/audio/music/reality-stable.mp3
+
+Direction:
+- 3 to 5 second elegant resolving flourish
+- cyan glass tones and warm bronze resonance
+- emotional but restrained
+
+If size becomes a problem, combine sections into adaptive stems or reuse one
+high-quality music loop with filtered variations.
+
+==================================================
+15. REQUIRED SOUND EFFECTS
+==================================================
+
+Create these named assets:
+
+UI
+ui-hover
+ui-confirm
+ui-back
+ui-tab
+ui-toggle-on
+ui-toggle-off
+ui-slider-tick
+ui-pause-open
+ui-pause-close
+
+CONTROL SYSTEM
+control-unlock
+control-pickup
+control-drag-loop
+control-valid-target
+control-invalid-target
+control-magnetic-snap
+control-socket-lock
+control-retrieve
+control-return-hud
+
+WORLD
+bridge-energy-start
+bridge-segment-build
+bridge-complete
+archive-ring-move
+pendulum-pass
+kernel-hum
+corruption-pulse
+checkpoint-activate
+
+FAILURE AND SUCCESS
+failure-fracture
+failure-reverse
+recovery-complete
+rank-reveal
+
+FOOTSTEPS
+footstep-obsidian-01
+footstep-obsidian-02
+footstep-obsidian-03
+footstep-metal-01
+footstep-metal-02
+
+Sound identity:
+
+- cyan systems: clean glass, precise high-frequency detail
+- bronze mechanisms: warm metallic weight
+- ivory architecture: resonant ceramic texture
+- violet corruption: reversed granular movement
+- Mara: restrained mechanical fabric and articulated armor
+- UI: concise, elegant and never arcade-like
+
+==================================================
+16. SIGNATURE SOUND SEQUENCE
+==================================================
+
+The BRIGHTNESS deployment must have a deliberately layered sound sequence.
+
+At drag start:
+- short cyan glass release
+- quiet glove activation
+- low-volume drag hum begins
+
+Near a valid socket:
+- magnetic tonal pulse
+- pulse rate increases slightly with proximity
+
+At snap:
+- precise glass-metal click
+- low bronze mechanical lock
+- short cyan energy rise
+
+During bridge construction:
+- energy travels spatially from socket to bridge
+- individual segments produce restrained assembly impacts
+- a low architectural resonance grows
+
+At completion:
+- one clean resolved tone
+- music ducks briefly and returns
+- ambience becomes slightly brighter
+
+Do not trigger all layers at exactly the same sample.
+Sequence them over approximately 1.2 to 2 seconds.
+
+==================================================
+17. DYNAMIC AUDIO
+==================================================
+
+Implement simple dynamic mixing:
+
+TITLE
+- title music active
+- archive ambience low
+- no gameplay effects
+
+ENTER TRANSITION
+- crossfade title music to Boot Atrium
+- approximately 700 to 1000 milliseconds
+
+CONTROL DRAG
+- reduce music by approximately 1.5 to 2.5 dB
+- emphasize control hum and target feedback
+
+SOCKET LOCK
+- briefly reduce music by approximately 3 dB
+- restore smoothly over 500 milliseconds
+
+PAUSE
+- low-pass gameplay music slightly
+- reduce ambience
+- UI remains clear
+
+FAILURE
+- mute or filter high-frequency ambience briefly
+- play fracture and reverse
+- restore at checkpoint
+
+VICTORY
+- fade gameplay loop
+- play completion flourish
+- reveal results ambience
+
+==================================================
+18. AUDIO GENERATION AND RIGHTS
+==================================================
+
+Use Atlas audio tools or another permitted original generator available to
+the project.
+
+Record:
+- generator name
+- model or workflow
+- prompt
+- generation date
+- source file
+- edited file
+- final file
+- license or usage basis
+
+Do not use copyrighted music.
+Do not use audio ripped from films, games or online videos.
+Do not use recognizable franchise sounds.
+Do not ship files whose usage rights are unclear.
+
+Add the generators and provenance to the final entry documentation.
+
+==================================================
+19. WIN, LOSS AND CHECKPOINT PRESENTATION
+==================================================
+
+FAILURE
+
+Trigger examples:
+- Mara falls into the void
+- Mara contacts unstable corruption
+- the player reaches an invalid timed state
+
+Sequence:
+1. 80 to 120 millisecond impact pause
+2. coral fracture lines appear
+3. Mara and nearby world elements fragment into interface particles
+4. failure-fracture sound
+5. reverse movement begins
+6. failure-reverse sound
+7. restore latest checkpoint
+8. controls become available immediately
+
+Total duration:
+approximately 1.1 to 1.4 seconds.
+
+Do not display GAME OVER.
+Do not show a long loading screen.
+
+CHECKPOINT
+
+- thin cyan wave through the floor
+- brief glove response
+- restrained checkpoint sound
+- no full-screen interruption
+- update reset location
+
+WIN
+
+After the Kernel is restored:
+1. Disable normal movement.
+2. Complete the final world transformation.
+3. Detach the HUD cards.
+4. Install them into the Kernel.
+5. Remove the gameplay HUD.
+6. Reveal the restored archive.
+7. Play the victory animation.
+8. Play the completion flourish.
+9. Show REALITY STABLE.
+10. Open the results interface.
+
+The victory should feel earned and cinematic, not like a generic modal popup.
+
+==================================================
+20. ACCESSIBILITY
+==================================================
+
+Support:
+
+- subtitles or visual labels for important audio information
+- mute and volume controls
+- Reduced Motion
+- clear visual confirmation when sound is unavailable
+- no mechanic dependent only on hearing
+- pause when the page loses focus
+- safe resume after AudioContext suspension
+
+The game must remain understandable with audio muted.
+
+==================================================
+21. TESTING
+==================================================
+
+Create automated and manual tests for:
+
+TITLE VIDEO
+- poster appears immediately
+- video failure does not break menu
+- Reduced Motion prevents unnecessary playback
+- entering gameplay stops or suspends the title video
+- video does not continue decoding invisibly
+- title loop does not block __READY__
+- file remains within budget
+
+START FLOW
+- real #startb tap
+- audio context resumes
+- gameplay movement enabled within 1.5 seconds
+- intro can be skipped
+- repeated taps do not start duplicate transitions
+
+ANIMATION
+- no invalid transforms
+- no NaN values
+- no visible foot sliding during stationary actions
+- no clipping in key poses
+- state transitions complete
+- loss and victory cannot overlap
+
+AUDIO
+- no duplicate music loops
+- no sound after teardown
+- volume sliders persist
+- mute persists
+- pause mix restores correctly
+- no errors when a sound file cannot decode
+- mobile starts silently until real user gesture
+
+PERFORMANCE
+- title video disabled test
+- title video enabled test
+- 390 × 844 test
+- desktop test
+- 4G test
+- total transfer test
+- no console errors
+- no 404 responses
+
+==================================================
+22. RELEASE-BLOCKING FAILURES
+==================================================
+
+Do not release with any of the following:
+
+- character limb distortion
+- floating feet
+- visible animation snapping
+- camera clipping
+- video blocking gameplay
+- video exceeding its budget
+- broken mobile autoplay fallback
+- missing audio
+- audio starting before user interaction
+- overlapping music tracks
+- excessive audio volume
+- button sounds firing twice
+- failure state stuck in a loop
+- results appearing before victory finishes
+- title video continuing during gameplay
+- incorrect text
+- placeholder audio
+- sound copied from another game
+- console errors
+- missing files
+
+The release target is zero known release-blocking defects.
+
+==================================================
+23. EVIDENCE
+==================================================
+
+Store:
+
+production/higgsfield/title-cinematic/
+production/higgsfield/animation-references/
+production/animation-review/
+production/audio/
+production/audio/mix-tests/
+production/gate-runs/
+
+Include:
+- prompts
+- request IDs
+- model names
+- output paths
+- rejected outputs
+- compression settings
+- file sizes
+- animation comparisons
+- audio-generation records
+- phone test notes
+- final gate evidence
+
+Never store API keys.
+
+==================================================
+24. COMPLETION REPORT
+==================================================
+
+Report:
+
+1. Higgsfield model and workflow actually used.
+2. Title-video path and size.
+3. Poster path and size.
+4. Title-video fallback behavior.
+5. Time from pressing ENTER THE ARCHIVE to player control.
+6. Mara animation states completed.
+7. Animation states still temporary.
+8. Animation-review paths.
+9. Music files and sizes.
+10. Sound-effect files and sizes.
+11. Total audio size.
+12. Total video size.
+13. Total game size.
+14. Audio bus behavior.
+15. Mobile audio-unlock behavior.
+16. Failure sequence status.
+17. Victory sequence status.
+18. Exact automated test results.
+19. Exact gate result.
+20. Remaining visual or audio defects.
+
+Do not claim professional quality based only on generated media.
+
+Judge it inside the actual running game.

@@ -1,0 +1,33 @@
+{
+  "name": "animation-references/mara-entry",
+  "model": "kling-video/v3.0/std/image-to-video",
+  "input": {
+    "image_url": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/929c5493-ff6a-4ed9-a76b-7189877c3411.png",
+    "prompt": "Preserve EXACTLY the masked female interface conservator Mara shown in the reference board: slim elegant adult proportions, closed ivory ceramic mask with tiny cyan eye slits, no face or hair, black obsidian articulated long coat with fine champagne bronze seams, fitted waist and armored shoulder panels, black fitted trousers and elegant boots, luminous cyan LEFT glove. No weapon. No other character. Original game CTRL//REALITY. Realistic premium cinematic game key art. Never reproduce any text, UI, collage panels, labels, borders or watermark from the source. Six seconds motion study: poised stillness, one controlled left glove raise, cyan activation, then two measured forward steps and settle into still gameplay stance. Rear three-quarter full body, steady camera, physically plausible weight shift and rigid coat panel secondary motion. No text, cuts, face exposure, weapons or audio.",
+    "sound": "off",
+    "duration": 6,
+    "multi_shots": false,
+    "cfg_scale": 0.5
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "6.855",
+    "usd": "0.429",
+    "discount": {
+      "percentage": "15.00",
+      "credits": "1.210",
+      "usd": "0.076"
+    }
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "9b55c122-fc94-4526-844f-8db41678d6c4",
+    "status_url": "https://platform.higgsfield.ai/requests/9b55c122-fc94-4526-844f-8db41678d6c4/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/9b55c122-fc94-4526-844f-8db41678d6c4/cancel"
+  },
+  "date": "2026-09-24T03:07:52.800Z",
+  "local": "production/higgsfield/animation-references/mara-entry.mp4",
+  "sha256": "f5c32120e4beb83c675a4fea1074f70f0c5183909062553122cd05f99101eddf",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/25ec4b6d-e526-4746-a5de-aff5cfcd4aa3.mp4"
+}

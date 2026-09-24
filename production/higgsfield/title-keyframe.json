@@ -1,0 +1,30 @@
+{
+  "name": "title-keyframe",
+  "model": "xai/grok-imagine-image-2.0",
+  "input": {
+    "image_urls": [
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "medium",
+    "resolution": "2k",
+    "aspect_ratio": "16:9",
+    "prompt": "Preserve EXACTLY the masked female interface conservator Mara shown in the reference board: slim elegant adult proportions, closed ivory ceramic mask with tiny cyan eye slits, no face or hair, black obsidian articulated long coat with fine champagne bronze seams, fitted waist and armored shoulder panels, black fitted trousers and elegant boots, luminous cyan LEFT glove. No weapon. No other character. Original game CTRL//REALITY. Realistic premium cinematic game key art. Never reproduce any text, UI, collage panels, labels, borders or watermark from the source. Create ONE clean cinematic frame, not a board. Rear three-quarter full-body Mara at center-right, 55 percent of image height. Monumental impossible archive of obsidian glass, ivory vaulting, liquid bronze rings and suspended architectural fragments, dark reflective floor with restrained warm sunlight. Vast glowing reality kernel far away. Leave LEFT 45 percent very dark and visually quiet for separately rendered menu. Strong silhouette, intricate costume, physically coherent reflections. No text whatsoever."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "1.440",
+    "usd": "0.090",
+    "discount": null
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "ec513437-3924-4503-a433-46041b77667f",
+    "status_url": "https://platform.higgsfield.ai/requests/ec513437-3924-4503-a433-46041b77667f/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/ec513437-3924-4503-a433-46041b77667f/cancel"
+  },
+  "date": "2026-09-24T02:57:48.351Z",
+  "local": "production/higgsfield/title-keyframe.png",
+  "sha256": "c213499b2cec37527d8fcf1244ece657ffef163472340c99e0bbcaf75b2dfbe1",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/929c5493-ff6a-4ed9-a76b-7189877c3411.png"
+}

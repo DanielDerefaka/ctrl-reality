@@ -1,16 +1,17 @@
 {
-  "name": "second-hands",
-  "version": "0.1.0",
+  "name": "ctrl-reality",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "SECOND HANDS: ZERO HOUR \u2014 third-person combat echo presentation foundation",
+  "description": "CTRL//REALITY \u2014 Boot Atrium playable development slice",
   "scripts": {
     "setup": "node scripts/copy-three.mjs",
     "serve": "node scripts/serve.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "node scripts/check.mjs",
-    "gate": "node tools/second-hands-gate.mjs http://127.0.0.1:4173/game/",
-    "smoke": "node tools/zero-hour-smoke.mjs"
+    "gate": "node tools/ctrl-gate.mjs",
+    "smoke": "node tools/ctrl-gate.mjs",
+    "media:audit": "node tools/media-audit.mjs"
   },
   "dependencies": {
     "three": "0.180.0"

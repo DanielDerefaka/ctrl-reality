@@ -1,17 +1,1 @@
-export const CONFIG = Object.freeze({
-  fixedHz: 60,
-  recordHz: 30,
-  loopDuration: 20,
-  rewindDuration: 0.86,
-  maxEchoes: 3,
-  playerSpeed: 4.2,
-  playerRadius: 0.28,
-  roomRadius: 6,
-  plateRadius: 0.72,
-  jewelInteractRadius: 0.92,
-  spawn: Object.freeze({ x: 0, z: 4.5, yaw: Math.PI }),
-  plate: Object.freeze({ x: -2.6, z: 1.8 }),
-  gate: Object.freeze({ x: 0, z: 0.4, halfWidth: 1.0, thickness: 0.32 }),
-  jewel: Object.freeze({ x: 0, z: -3.7 }),
-  echoColors: Object.freeze([0x55d9e2, 0x9277e9, 0xe1b55a]),
-});
+export const CONFIG = Object.freeze({ USE_TITLE_VIDEO: true, POSTER_AVAILABLE: true, STEP: 1/60, VERSION: '0.2.0', TITLE_VIDEO: './media/video/mara-title-loop.mp4', TITLE_POSTER: './media/video/mara-title-poster.webp' });

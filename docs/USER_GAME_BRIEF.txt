@@ -1,0 +1,653 @@
+You are the lead game director, lead gameplay engineer, lead UI/UX designer,
+technical artist, audio director, QA lead, and release owner for a polished
+404 Game Jam submission.
+
+PROJECT TITLE
+CTRL//REALITY
+
+TAGLINE
+THE WORLD BROKE. THE CONTROLS DID NOT.
+
+ATTACHED REFERENCE
+Image A is the primary visual north star.
+Use Image A as the core reference for:
+- the title screen
+- the character silhouette and presentation
+- the premium sci-fi fantasy mood
+- the typography tone
+- the UI spacing and hierarchy
+- the menu structure
+- the gameplay HUD
+- the pause screen
+- the settings screen
+- the results screen
+
+IMPORTANT:
+Do not copy Image A as a flat poster.
+Use it as a target direction and build a real playable game and real interface
+system from it.
+
+The final game must feel like a real premium vertical slice, not a tech demo,
+not a rough prototype, and not a generic AI-generated mockup.
+
+==================================================
+1. GAME GOAL
+==================================================
+
+Build a highly polished, cinematic, third-person puzzle-adventure vertical
+slice for the 404 Game Jam.
+
+The game must:
+- look premium
+- play smoothly
+- have a real main menu
+- have a real HUD
+- have sound effects
+- have music
+- have a clean pause screen
+- have a clean settings screen
+- have a clear objective flow
+- have a win state
+- have a fail state
+- have checkpoints
+- work on desktop and mobile
+- avoid obvious glitches
+- avoid placeholder-looking UI
+- avoid debug-looking text
+- avoid generic AI-looking typography
+
+The core mechanic is:
+THE PLAYER PHYSICALLY PULLS CONTROLS OUT OF THE HUD AND INSTALLS THEM INTO
+THE WORLD.
+
+This is the identity of the game.
+
+==================================================
+2. FINAL EXPERIENCE
+==================================================
+
+This should feel like a real game from start to finish.
+
+Required screen flow:
+
+BOOT
+→ TITLE SCREEN
+→ HOW IT WORKS
+→ SETTINGS
+→ START GAME
+→ GAMEPLAY
+→ PAUSE
+→ CHECKPOINT RESTART
+→ FAILURE RESET
+→ MISSION COMPLETE / RESULTS
+→ REPLAY OR RETURN TO TITLE
+
+All visible buttons must function.
+Do not create fake menu items.
+
+==================================================
+3. WORLD, STORY, AND PLAYER FANTASY
+==================================================
+
+The game takes place inside a broken reality archive: a monumental impossible
+space made from obsidian glass, ivory ceramic, liquid bronze, luminous cyan
+interface glass, and violet corruption.
+
+The player character is:
+
+MARA
+A masked interface conservator who restores a collapsed system by taking user
+interface controls out of the HUD and attaching them to physical sockets in
+the world.
+
+The player fantasy is:
+“I am restoring a broken world using the interface itself as my tool.”
+
+There is no shooting.
+There are no generic drones.
+There is no wave combat.
+There is no inventory system.
+There is no open world.
+There is no giant content-heavy campaign.
+This is a focused premium 6 to 10 minute vertical slice.
+
+==================================================
+4. CHARACTER DESIGN
+==================================================
+
+Create the protagonist Mara as a premium original hero.
+
+Mara requirements:
+- female-coded but masked
+- elegant and mysterious
+- premium silhouette
+- ivory ceramic mask
+- black-glass segmented coat
+- liquid-bronze seams
+- cyan interface glove
+- rigid articulated costume panels
+- no visible face
+- no loose hair simulation
+- no weapon
+- no franchise resemblance
+- no overdesigned clutter
+- readable silhouette in gameplay
+
+Her silhouette must be strong enough that even in small screenshots she looks
+recognizable and expensive.
+
+If the final 404-compliant full production asset is not yet ready, create a
+high-quality controlled placeholder version first, then replace it.
+
+==================================================
+5. CHARACTER REFERENCE SHEET
+==================================================
+
+Before building the final playable presentation, create a formal character
+reference set for Mara.
+
+Required character reference outputs:
+1. three-quarter front
+2. three-quarter back
+3. left side
+4. right side
+5. mask close-up
+6. glove close-up
+7. neutral standing pose
+8. gameplay pose
+
+These references should be consistent and used as source material for the
+final character asset pipeline.
+
+Do not crop the body.
+Do not generate a low-quality generic anime or generic sci-fi character.
+The character must feel like the one implied by Image A.
+
+==================================================
+6. VISUAL STYLE
+==================================================
+
+Use this exact style sentence:
+
+A cinematic impossible archive built from obsidian glass, ivory ceramic,
+liquid bronze, fine machine engraving and luminous cyan interface glass,
+ruptured by violet reality corruption; elegant, monumental and tactile rather
+than generic cyberpunk.
+
+Palette:
+- Void: #05070A
+- Obsidian structure: #10151C
+- Ivory ceramic: #E7E1D5
+- Liquid bronze: #C99A4A
+- Active cyan: #56E8F2
+- Deep cyan: #0C7283
+- Corruption violet: #8C5CFF
+- Alert coral: #FF5268
+- Soft white: #F4F7F8
+
+Visual rules:
+- premium and sharp
+- clean typography
+- restrained effects
+- strong negative space
+- readable UI
+- deep scene layering
+- clear foreground, midground, background
+- no muddy fog everywhere
+- no over-bloom
+- no cheap neon overload
+- no cluttered screens
+- no ugly default HTML controls
+
+==================================================
+7. TYPOGRAPHY AND UI QUALITY
+==================================================
+
+The text and UI must NOT look AI-generated.
+
+This is a top priority.
+
+Build a professional typography system with:
+- one elegant display font feel for headings
+- one clean highly readable UI font for interface text
+- consistent spacing
+- consistent alignment
+- correct padding
+- correct letter spacing
+- thin premium separators
+- strong visual hierarchy
+- short restrained animations
+- no misspellings
+- no awkward line breaks
+- no overloaded panels
+
+Do not use sloppy decorative text.
+Do not use giant glowing text blocks.
+Do not use placeholder button styles.
+
+The UI should feel like a premium console/PC game menu adapted carefully for
+mobile.
+
+==================================================
+8. REQUIRED SCREENS
+==================================================
+
+A. TITLE SCREEN
+Must include:
+- game title: CTRL//REALITY
+- tagline: THE WORLD BROKE. THE CONTROLS DID NOT.
+- ENTER THE ARCHIVE
+- HOW IT WORKS
+- SETTINGS
+- CREATION LOG
+
+Use a live scene, not a dead flat screen.
+
+B. HOW IT WORKS
+Explain the mechanic clearly in three short panels:
+1. Drag a control from the HUD.
+2. Install it into a world socket.
+3. Change the world and continue.
+
+Use elegant motion and clear diagrams.
+
+C. SETTINGS
+Must contain:
+- Master Volume
+- Music Volume
+- Effects Volume
+- Camera Sensitivity
+- Reduced Motion
+- Touch Controls toggle
+- Invert Y Axis
+- Back
+
+D. GAMEPLAY HUD
+Must contain:
+Top left:
+- current sector
+- current objective
+
+Top center:
+- progress through the game:
+  ATRIUM → GALLERY → KERNEL
+
+Bottom center:
+- three control cards:
+  BRIGHTNESS
+  PAUSE
+  UNDO
+
+Bottom left:
+- resets
+- fragments
+
+Center:
+- minimal contextual interaction indicator
+
+Only BRIGHTNESS needs to be fully playable first.
+PAUSE and UNDO can be visible but locked until their mechanics are added.
+
+E. PAUSE SCREEN
+Must contain:
+- RESUME
+- RESTART CHECKPOINT
+- HOW IT WORKS
+- SETTINGS
+- RETURN TO TITLE
+
+F. RESULTS SCREEN
+Must contain:
+- REALITY STABLE
+- completion time
+- resets
+- fragments
+- control moves
+- recovery efficiency
+- rank
+- REPLAY ARCHIVE
+- RETURN TO TITLE
+
+G. FAILURE / RESET FEEDBACK
+When player fails:
+- short stylish reset effect
+- immediate restart from checkpoint
+- clear but elegant feedback
+- no long loading interruption
+
+==================================================
+9. GAME GEOGRAPHY AND STRUCTURE
+==================================================
+
+The game has three core sections:
+
+SECTION 1: BOOT ATRIUM
+Theme:
+- dark monumental hall
+- broken gap
+- first socket
+- bridge reveal
+
+Mechanic:
+- BRIGHTNESS
+
+Goal:
+- teach the control-to-world system
+
+SECTION 2: CLOCK GALLERY
+Theme:
+- moving architecture
+- pendulum
+- rotating structures
+- more dynamic vertical space
+
+Mechanic:
+- PAUSE
+
+Goal:
+- freeze one moving architectural element in place to cross
+
+SECTION 3: KERNEL COLLAPSE
+Theme:
+- largest and most dramatic room
+- suspended core
+- fractured structures
+- visible corruption
+- culmination of all visual themes
+
+Mechanic:
+- UNDO plus previous controls
+
+Goal:
+- stabilize the archive and restore the kernel
+
+The entire experience should first be built as a high-quality playable slice.
+Do not overscope.
+
+==================================================
+10. FIRST PRIORITY PLAYABLE MILESTONE
+==================================================
+
+Before trying to finish all mechanics, create one excellent first slice:
+
+BOOT ATRIUM must include:
+- polished title screen
+- polished transition into gameplay
+- third-person movement
+- guided cinematic camera
+- playable BRIGHTNESS card
+- drag from HUD into world
+- card becomes physical object
+- socket accepts card
+- bridge visibly forms
+- objective updates
+- checkpoint works
+- card can return to HUD
+- no ugly debug UI
+
+This first slice must already look premium.
+
+Do not make it a primitive test room.
+Do not make it look like a prototype arena.
+
+==================================================
+11. CAMERA
+==================================================
+
+Use a guided third-person three-quarter camera.
+
+Requirements:
+- character visible and important
+- no distant top-down look
+- no first-person
+- no totally free camera
+- smooth follow
+- subtle framing shifts
+- mobile-safe composition
+- strong cinematic screenshots
+
+The character should occupy roughly 18 to 24 percent of screen height during
+ordinary movement.
+
+==================================================
+12. SOUND AND MUSIC
+==================================================
+
+This game must have professional-feeling audio.
+
+Create and integrate:
+- main menu ambient track
+- gameplay ambient track
+- subtle tension music for the kernel section
+- UI hover and confirm sounds
+- menu transition sounds
+- control pickup sound
+- card drag sound
+- card socket lock-in sound
+- bridge reveal sound
+- checkpoint sound
+- failure reset sound
+- completion sound
+- results screen flourish
+
+Audio direction:
+- elegant
+- futuristic
+- atmospheric
+- not cheesy
+- not loud arcade noise
+- no random stock mismatch
+- no overdone sci-fi laser spam
+
+If custom generated or sourced audio is used, declare it properly and keep the
+final result cohesive.
+
+==================================================
+13. INTERACTION FEEL
+==================================================
+
+The BRIGHTNESS mechanic must feel premium.
+
+When the player drags the BRIGHTNESS card:
+- time subtly slows
+- valid sockets glow
+- card follows cleanly
+- movement remains responsive
+- the card feels magnetically pulled toward the correct socket
+- the HUD slot updates elegantly
+
+When installed:
+- the socket locks with a strong sound and visual response
+- the bridge draws into existence
+- light races through floor channels
+- the room becomes legible
+- the objective updates
+- the player clearly understands they changed the world
+
+This is the defining mechanic demo.
+
+==================================================
+14. MOBILE AND DESKTOP SUPPORT
+==================================================
+
+The game must work on:
+- desktop
+- mobile portrait
+
+Desktop:
+- WASD or arrows to move
+- mouse or trackpad for camera influence where appropriate
+- clear interaction prompt
+
+Mobile:
+- left joystick
+- right-side interaction support where needed
+- large touch targets
+- safe-area aware layout
+- no accidental browser scrolling
+- no broken touch capture
+- no tiny buttons
+
+The mobile UI must feel intentionally designed, not just squeezed down.
+
+==================================================
+15. ENGINEERING QUALITY
+==================================================
+
+The final experience should feel stable and polished.
+
+Requirements:
+- no console errors
+- no missing assets
+- no broken screen transitions
+- no non-functional menu buttons
+- no stuck inputs
+- no glitchy camera
+- no overlapping UI panels
+- no unreadable text
+- no obvious layout breakage
+- no fake metrics
+- truthful telemetry if used internally
+- fast restart behavior
+
+==================================================
+16. PRODUCTION PIPELINE
+==================================================
+
+Use the available tools properly:
+
+ATLAS
+Use Atlas for:
+- visual boards
+- UI planning
+- structure
+- scene direction
+- reference organization
+
+HIGGSFIELD
+Use Higgsfield for:
+- character reference generation
+- angle consistency
+- environment key frames
+- close-up references if needed
+
+404
+Use 404 workflow for:
+- final compliant 3D objects as editable Three.js code assets
+
+CODEX
+Use Codex for:
+- gameplay
+- scene implementation
+- menus
+- HUD
+- interactions
+- camera
+- transitions
+- testing
+- bug fixing
+- audio integration
+- polish
+
+==================================================
+17. REQUIRED IMPLEMENTATION ORDER
+==================================================
+
+Work in this order:
+
+1. Preserve current work and document discarded prototype direction.
+2. Lock the game identity as CTRL//REALITY.
+3. Build a polished title/menu shell.
+4. Build the final UI system and typography system.
+5. Build Mara reference set.
+6. Build or integrate a high-quality playable Mara placeholder.
+7. Build Boot Atrium with premium scene composition.
+8. Implement BRIGHTNESS gameplay.
+9. Implement professional audio shell.
+10. Add pause, settings, and results screens.
+11. Polish transitions and input behavior.
+12. Test desktop and mobile.
+13. Only then expand toward PAUSE and UNDO.
+
+Do not jump straight into building all three sections badly.
+Do not keep rough prototype composition.
+Do not settle for ugly text.
+
+==================================================
+18. WHAT MUST BE DELIVERED
+==================================================
+
+Deliver a professional playable game slice with:
+- real title screen
+- polished menus
+- polished gameplay HUD
+- polished BRIGHTNESS mechanic
+- polished character presence
+- quality audio
+- quality text
+- quality settings screen
+- quality pause screen
+- quality results screen
+- clear progression
+- clean transitions
+- reliable controls
+- elegant visual language
+
+Also deliver:
+- Mara angle reference sheet
+- documented scene plan
+- documented UI system
+- documented sound list
+- documented art direction
+- testing evidence
+
+==================================================
+19. ACCEPTANCE STANDARD
+==================================================
+
+Do not call the milestone complete unless all of these are true:
+
+- The game visually feels premium.
+- The text looks professionally designed.
+- The UI no longer looks AI-generated.
+- The main menu is strong.
+- The character feels special.
+- The first gameplay room feels like a real section of a real game.
+- BRIGHTNESS is satisfying and clear.
+- Audio improves the experience significantly.
+- Desktop flow works.
+- Mobile flow works.
+- No major visible glitches remain.
+- All visible buttons function.
+- Pause works.
+- Settings works.
+- Results works.
+- Failure reset works.
+- The build can be shown to a judge without embarrassment.
+
+==================================================
+20. REPORTING
+==================================================
+
+At the end of each milestone, report:
+
+1. What was built
+2. What screens now exist
+3. What remains placeholder
+4. What audio now exists
+5. What bugs were fixed
+6. What still feels weak visually
+7. What still feels weak interactively
+8. What the next milestone should be
+
+Do not fake progress.
+Do not fake tests.
+Do not fake visual quality.
+If something still looks bad, say so and improve it.
+
+Now begin by:
+1. preserving current work,
+2. locking the new direction,
+3. building the polished title/menu shell,
+4. building the Mara reference sheet,
+5. building the first premium Boot Atrium slice with the BRIGHTNESS mechanic.

@@ -1,0 +1,34 @@
+{
+  "name": "title-cinematic/mara-title-loop",
+  "model": "kling-video/v3.0/std/image-to-video",
+  "input": {
+    "image_url": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/929c5493-ff6a-4ed9-a76b-7189877c3411.png",
+    "last_image_url": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/929c5493-ff6a-4ed9-a76b-7189877c3411.png",
+    "prompt": "Preserve EXACTLY the masked female interface conservator Mara shown in the reference board: slim elegant adult proportions, closed ivory ceramic mask with tiny cyan eye slits, no face or hair, black obsidian articulated long coat with fine champagne bronze seams, fitted waist and armored shoulder panels, black fitted trousers and elegant boots, luminous cyan LEFT glove. No weapon. No other character. Original game CTRL//REALITY. Realistic premium cinematic game key art. Never reproduce any text, UI, collage panels, labels, borders or watermark from the source. Six-second seamless cinematic title loop. Very slow controlled push forward. Mara takes one slow deliberate step, cyan glove gradually illuminates and pulses; small head turn toward distant kernel, rigid coat panels subtly settle. Floating architecture almost still, huge distant rings rotate slowly, one far bridge flickers into existence. End pose lighting and composition closely match first frame for seamless loop. No shake, cuts, fast movement, extra limbs, environment morph, text, UI or audio.",
+    "sound": "off",
+    "duration": 6,
+    "multi_shots": false,
+    "cfg_scale": 0.5
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "6.855",
+    "usd": "0.429",
+    "discount": {
+      "percentage": "15.00",
+      "credits": "1.210",
+      "usd": "0.076"
+    }
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "98f5f607-58d1-47a5-b467-b78c17611365",
+    "status_url": "https://platform.higgsfield.ai/requests/98f5f607-58d1-47a5-b467-b78c17611365/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/98f5f607-58d1-47a5-b467-b78c17611365/cancel"
+  },
+  "date": "2026-09-24T03:03:04.003Z",
+  "local": "production/higgsfield/title-cinematic/mara-title-loop.mp4",
+  "sha256": "a49e9fc524835f99ea26eb9d55b40ec1b7a554a19c63effe099045377496b5db",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/4e47760e-7e19-476d-83c3-2a33c09f95fd.mp4"
+}

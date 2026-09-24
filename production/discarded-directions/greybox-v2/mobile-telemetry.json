@@ -1,0 +1,64 @@
+{
+  "screen": "hud",
+  "state": {
+    "x": 0,
+    "z": 6,
+    "y": 0,
+    "yaw": 3.141592653589793,
+    "installed": false,
+    "bridge": 0,
+    "elapsed": 1.6833333333333322,
+    "resets": 0,
+    "moves": 0,
+    "fragments": [],
+    "checkpoint": {
+      "x": 0,
+      "z": 6,
+      "installed": false
+    },
+    "failure": 0,
+    "won": false,
+    "checkpointReached": false,
+    "moving": false
+  },
+  "settings": {
+    "master": 80,
+    "music": 65,
+    "effects": 80,
+    "sensitivity": 50,
+    "mute": false,
+    "reduced": false,
+    "touch": true,
+    "invert": false
+  },
+  "audio": {
+    "unlocked": true,
+    "state": "running",
+    "beds": 2,
+    "oneShots": 0,
+    "buses": [
+      "MASTER",
+      "MUSIC",
+      "AMBIENCE",
+      "WORLD_SFX",
+      "UI_SFX"
+    ]
+  },
+  "metrics": {
+    "drawCalls": 100,
+    "triangles": 27774
+  },
+  "socket": {
+    "x": 99.8140167414556,
+    "y": 351.02588967255735,
+    "visible": true
+  },
+  "startLatency": 10.899999991059303,
+  "animation": "IDLE",
+  "video": {
+    "enabled": true,
+    "paused": true,
+    "src": false
+  },
+  "ready": true
+}
