@@ -1,0 +1,43 @@
+{
+  "generator": "Original deterministic modal synthesis; no samples",
+  "format": "24kHz mono MP3",
+  "mix": "LUFS targets per file, true peak −2 dBTP before runtime master limiter",
+  "files": [
+    {
+      "file": "game/media/audio/sfx/ui-back.mp3",
+      "duration": 0.4,
+      "bytes": 3885,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/ui-open.mp3",
+      "duration": 0.55,
+      "bytes": 5037,
+      "targetLUFS": -29
+    },
+    {
+      "file": "game/media/audio/sfx/ui-close.mp3",
+      "duration": 0.45,
+      "bytes": 4269,
+      "targetLUFS": -30
+    },
+    {
+      "file": "game/media/audio/sfx/ui-toggle.mp3",
+      "duration": 0.22,
+      "bytes": 2541,
+      "targetLUFS": -30
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-energy.mp3",
+      "duration": 1.85,
+      "bytes": 15597,
+      "targetLUFS": -27
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-segment.mp3",
+      "duration": 0.28,
+      "bytes": 2925,
+      "targetLUFS": -29
+    }
+  ]
+}

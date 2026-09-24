@@ -1,0 +1,5 @@
+
+> ctrl-reality@0.2.0 check
+> node scripts/check.mjs
+
+Static check PASS: 27 modules parsed, 34 local references verified; pinned vendor matches; no forbidden mesh files.

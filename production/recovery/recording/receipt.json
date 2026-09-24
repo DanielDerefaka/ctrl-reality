@@ -1,0 +1,15 @@
+{
+  "method": "Direct Chrome Page.startScreencast; original JPEG frames preserved. Real pointer and keyboard events only. Variable frame durations derive from Chrome wall-clock timestamps; no speed-up, state injection or compositing.",
+  "duration": 15,
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "frames": 600,
+  "captureElapsedMs": 23335,
+  "halfBridge": {
+    "value": 0.49549549549549593,
+    "telemetryDifferenceMs": 5.038818359375
+  },
+  "file": "ctrl-reality-recovery-15s.mp4"
+}

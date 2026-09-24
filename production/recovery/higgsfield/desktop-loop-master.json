@@ -1,0 +1,34 @@
+{
+  "name": "desktop-loop-master",
+  "model": "kling-video/v3.0/pro/image-to-video",
+  "input": {
+    "image_url": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/c5eb87ee-4831-4d58-b1ae-dd2db658c95a.png",
+    "last_image_url": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/c5eb87ee-4831-4d58-b1ae-dd2db658c95a.png",
+    "prompt": "Use the attached character reference EXACTLY. Mara is an elegant adult female masked interface conservator. Closed ivory ceramic mask, no face or hair, obsidian black segmented tailored long coat, fine champagne bronze seams, fitted waist, sculptural shoulders, long controlled panels, black boots and luminous cyan LEFT glove. No weapons or extra characters. No text, letters, logos, captions, interface or watermark. Six second seamless title-screen loop. Locked cinematic composition, almost imperceptible camera push returning smoothly to original position. Mara stays planted, one gentle breath, slight masked head turn toward distant Kernel, cyan glove slowly brightens then returns to its original intensity. Rigid coat panels settle naturally. Huge distant bronze rings turn very slowly. No morphing, no rapid motion, no camera shake, no text or audio. First and last pose and lighting match.",
+    "sound": "off",
+    "duration": 6,
+    "multi_shots": false,
+    "cfg_scale": 0.5
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "9.140",
+    "usd": "0.572",
+    "discount": {
+      "percentage": "15.00",
+      "credits": "1.613",
+      "usd": "0.101"
+    }
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "04c66b33-8a3f-4dd4-8da4-8a41c8c92ac0",
+    "status_url": "https://platform.higgsfield.ai/requests/04c66b33-8a3f-4dd4-8da4-8a41c8c92ac0/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/04c66b33-8a3f-4dd4-8da4-8a41c8c92ac0/cancel"
+  },
+  "date": "2026-09-24T05:05:45.150Z",
+  "local": "production/recovery/higgsfield/desktop-loop-master.mp4",
+  "sha256": "12c675fc25d4e4eafaff03073a35a23872ca60d37a0a035e1c9e98f28c843f51",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/9387de5c-60b9-4dd4-b254-01824b87acd9.mp4"
+}

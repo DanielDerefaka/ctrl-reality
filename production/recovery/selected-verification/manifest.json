@@ -1,0 +1,62 @@
+[
+  {
+    "path": "game/assets/production/card-housing.js",
+    "sha256": "774321b828ec318f21f00fb61ef96719027ea6a0bfc2d886ff65912344128e12",
+    "bytes": 3512
+  },
+  {
+    "path": "game/assets/production/mara.js",
+    "sha256": "8c8621f5e3c8a34e4cdd2a6a5ab3cabbdbd7252175a9f3d215fecbedd53cb972",
+    "bytes": 9891
+  },
+  {
+    "path": "game/assets/production/archive-arch.js",
+    "sha256": "af6b07efa566c86755e226df6fefd3167b2aadcb5691142a3a88f5f6d3e32404",
+    "bytes": 4019
+  },
+  {
+    "path": "game/assets/production/broken-fragment.js",
+    "sha256": "ef09a7a48ba80ab0286219ab3659364e6b640acb35ed1257fb86d4b5eb8bfac1",
+    "bytes": 3015
+  },
+  {
+    "path": "game/assets/production/bronze-trim.js",
+    "sha256": "d0cc65a3a188903534197db6e86f513148e2377462bc940b5dc771a533b71fb1",
+    "bytes": 2995
+  },
+  {
+    "path": "game/assets/production/bridge-segment.js",
+    "sha256": "b1ac97abcd28a87f618823e18284ab6fc6f1897d21d035199dc3dd43087d254c",
+    "bytes": 3287
+  },
+  {
+    "path": "game/assets/production/foreground-frame.js",
+    "sha256": "15a925aee15e93fb7102d0dd66abc00a48957b48ebd696386b727bc798e6e0bb",
+    "bytes": 3112
+  },
+  {
+    "path": "game/assets/production/archive-mechanism.js",
+    "sha256": "86bb26f56a2269ec384043e1c92896c8cdbbc6d4d25a4f7f58b98a0793c07a55",
+    "bytes": 3187
+  },
+  {
+    "path": "game/assets/production/floor-ledge.js",
+    "sha256": "56aeb19062c4d46bfdb75b2b3d437d4d23c52c1b34e4d77de570a3d498aeb341",
+    "bytes": 3857
+  },
+  {
+    "path": "game/assets/production/kernel-assembly.js",
+    "sha256": "dc2660afe016e7bf09cc07b1bcd45538aca6dd640e3466450d613798e99549a9",
+    "bytes": 3341
+  },
+  {
+    "path": "game/assets/production/recovery-platform.js",
+    "sha256": "7836194cf9a32d0cd5c3a10fdd5850f7cb742f630e41064e0dccd658484a5697",
+    "bytes": 2085
+  },
+  {
+    "path": "game/assets/production/socket-pedestal.js",
+    "sha256": "141a72dfb04fa3472cda6b1ead5fb539af3c361197493dc0659db7fbacd95caa",
+    "bytes": 4343
+  }
+]

@@ -1,0 +1,23 @@
+
+> ctrl-reality@0.2.0 media:audit
+> node tools/media-audit.mjs
+
+{
+  "sizes": {
+    "total": 7712872,
+    "music": 1142010,
+    "sfx": 213273,
+    "backgroundImages": 673138,
+    "desktopVideoAlternatives": 1438613,
+    "desktopPosterAlternatives": 696279,
+    "mobilePoster": 122051
+  },
+  "limits": {
+    "total": 8500000,
+    "music": 1600000,
+    "sfx": 500000,
+    "backgroundImages": 1500000,
+    "mobilePoster": 350000
+  },
+  "failures": []
+}

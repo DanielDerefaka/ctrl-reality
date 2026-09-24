@@ -1,0 +1,878 @@
+STOP ALL NEW FEATURE DEVELOPMENT.
+
+The current title screen is close to the approved quality target.
+
+The current gameplay is not.
+
+Do not build Clock Gallery, Kernel Collapse, PAUSE, UNDO, additional rooms,
+collectibles, or new mechanics until the title-loading problem, Boot Atrium
+visual quality, Mara character, core gameplay, animation, audio, and complete
+win/failure loop have been corrected.
+
+This is a recovery and finishing pass.
+
+==================================================
+1. REFERENCE CLASSIFICATION
+==================================================
+
+Treat the supplied references as follows:
+
+APPROVED VISUAL TARGET A
+The original premium CTRL//REALITY concept board.
+
+APPROVED VISUAL TARGET B
+The character and scene presentation board containing Mara, Boot Atrium,
+Clock Gallery, Kernel Collapse, menus, mobile UI, and results UI.
+
+CURRENT TITLE SCREEN
+Keep its core layout, typography hierarchy, black editorial panel, character
+placement, and menu structure. Improve loading speed and media sharpness.
+
+REJECTED HOW-IT-WORKS SCREEN
+The current How It Works screen is from an older UI direction. Replace it.
+
+REJECTED GAMEPLAY SCREENSHOTS
+The current gameplay logic may be preserved, but the visible composition,
+character, foreground geometry, materials, camera, bridge, socket, and lighting
+are not release quality.
+
+COMPARISON VIDEO
+Use only to study immediate motion, readable control, scene consistency, and
+clear direction of travel. Do not copy its art direction or gameplay.
+
+==================================================
+2. PRESERVE THE CURRENT BUILD
+==================================================
+
+Before modifications:
+
+1. Run all current tests.
+2. Capture the title, How It Works, desktop gameplay, and mobile gameplay.
+3. Save them under:
+
+production/recovery/before-final-pass/
+
+4. Commit the current functioning state.
+5. Tag it:
+
+ctrl-reality-pre-final-recovery
+
+6. Work on a new branch:
+
+feature/final-recovery-pass
+
+Do not delete working gameplay code.
+
+Preserve:
+
+- input systems
+- movement
+- menu routing
+- card dragging
+- socket detection
+- checkpoint logic
+- telemetry
+- settings persistence
+- existing tests
+- deployment configuration
+
+==================================================
+3. TITLE CHARACTER MUST APPEAR IMMEDIATELY
+==================================================
+
+The title screen currently waits too long before the character appears.
+
+This must be fixed structurally.
+
+Create:
+
+game/media/title/title-desktop-poster.avif
+game/media/title/title-desktop-poster.webp
+game/media/title/title-mobile-poster.avif
+game/media/title/title-desktop-loop.webm
+game/media/title/title-desktop-loop.mp4
+
+SOURCE QUALITY
+
+Generate or render a 4K master through Higgsfield using the approved character
+and environment reference.
+
+The 4K master is for source quality and trailer use.
+
+Do not ship the 4K master inside the live game.
+
+SHIPPED POSTERS
+
+Desktop poster:
+- source aspect ratio 16:9
+- target source resolution up to 3840 × 2160
+- character and environment sharp
+- AVIF preferred
+- WebP fallback
+- target transfer size below 550 KB
+
+Mobile poster:
+- portrait composition
+- target source resolution up to 1440 × 2560
+- character remains fully visible
+- target transfer size below 350 KB
+
+SHIPPED VIDEO
+
+- 1920 × 1080
+- 24 fps
+- 5 to 6 second loop
+- no audio track
+- target size below 1.6 MB
+- desktop only by default
+- WebM primary
+- MP4 fallback
+
+IMPLEMENTATION
+
+1. Preload the desktop or mobile poster using:
+   `<link rel="preload" as="image">`
+2. Use `fetchpriority="high"` for the active poster.
+3. Render the poster as the title background from first paint.
+4. Never make the poster wait for JavaScript, Three.js, audio, or video.
+5. Keep the poster behind the video permanently.
+6. Set the video opacity to zero initially.
+7. Load the video after the essential interface has rendered.
+8. Crossfade the video over the poster only after `loadeddata`.
+9. If video loading fails, retain the poster without any layout change.
+10. Do not delay `window.__READY__` for the video.
+11. Do not delay the start button for the video.
+12. Disable title video on:
+    - mobile gate mode
+    - `prefers-reduced-motion`
+    - Save-Data connections
+    - low-memory mode
+13. Use the portrait poster on mobile.
+14. Stop and unload the video when gameplay starts.
+
+TARGETS
+
+- title layout visible within the first paint
+- character visible in under 500 ms locally
+- character visible in under 1.5 seconds under the official 4G profile
+- no blank right side
+- no late content jump
+- no blurry upscaled runtime video
+
+Create automated tests for the poster fallback and delayed video.
+
+==================================================
+4. KEEP THE TITLE DESIGN
+==================================================
+
+Do not redesign the entire title screen.
+
+Keep:
+
+- black editorial panel
+- large CTRL//REALITY title
+- cyan slash
+- restrained gold accents
+- character on the right
+- ENTER THE ARCHIVE
+- HOW IT WORKS
+- SETTINGS
+- CREATION LOG
+
+Correct:
+
+- exact typography alignment
+- line height
+- responsive scaling
+- mobile composition
+- hover and focus states
+- audio feedback
+- media loading
+- sharpness
+- keyboard navigation
+- touch navigation
+
+All visible text must be real HTML/CSS.
+
+Do not bake text into the video or poster.
+
+==================================================
+5. COMPLETELY REBUILD HOW IT WORKS
+==================================================
+
+The existing How It Works screen is rejected.
+
+Do not retain its generic three-column icon layout.
+
+Create a premium three-step full-screen tutorial carousel matching the title
+screen.
+
+STEP 1
+PULL
+
+Heading:
+TAKE THE CONTROL
+
+Visual:
+A large real screenshot or controlled animated recreation of the BRIGHTNESS
+card detaching from the HUD.
+
+Copy:
+Pull BRIGHTNESS from the interface. The world slows while you choose where
+to install it.
+
+STEP 2
+INSTALL
+
+Heading:
+GIVE IT A PLACE
+
+Visual:
+Mara directing the card into the ivory and bronze socket. Show the magnetic
+snap and physical card transition.
+
+Copy:
+Bring the control to a matching socket. Valid mechanisms answer your glove.
+
+STEP 3
+RESTORE
+
+Heading:
+CHANGE THE WORLD
+
+Visual:
+The bridge constructing from the socket toward the distant platform.
+
+Copy:
+Installed controls alter reality. Retrieve a control when you need it
+somewhere else.
+
+DESIGN
+
+- retain the title screen's black editorial layout
+- use real game imagery
+- one dominant visual per step
+- crisp large typography
+- restrained cyan and bronze accents
+- previous and next controls
+- keyboard navigation
+- swipe navigation
+- progress indicator
+- Return button
+- no fully blurred generic background
+- no small placeholder icons
+- no old UI assets
+- no generated text inside images
+
+The How It Works screen must remain readable at 390 × 844.
+
+==================================================
+6. REMOVE INCOMPLETE FEATURES FROM THE RELEASE UI
+==================================================
+
+PAUSE and UNDO must not appear as permanently locked production promises.
+
+For the recovery milestone:
+
+- Hide PAUSE and UNDO from the gameplay HUD.
+- Keep only BRIGHTNESS.
+- Preserve their implementation branches if useful.
+- Do not delete prior design documents.
+
+They may return only after they are fully functional, tested, animated, and
+integrated.
+
+A single polished control is preferred over three incomplete controls.
+
+==================================================
+7. DEEPEN BRIGHTNESS INTO THE COMPLETE GAME
+==================================================
+
+BRIGHTNESS must become a real gameplay system, not a single unlock button.
+
+The deployed BRIGHTNESS control has three usable values:
+
+DIM
+- hidden symbols and shadow paths become visible
+- radiant structures disappear
+- corruption becomes less active
+
+BALANCED
+- sockets, engravings, and interactive markings become readable
+- ordinary architectural routes remain stable
+
+RADIANT
+- bridge segments and light architecture materialize
+- bronze channels energize
+- some unstable surfaces become dangerous
+
+Implement three short connected challenges:
+
+CHALLENGE 1: REVEAL
+
+- Pull BRIGHTNESS from the HUD.
+- Install it into the first socket.
+- Raise it to RADIANT.
+- Build the first bridge.
+- Cross to the next platform.
+
+CHALLENGE 2: READ
+
+- Retrieve BRIGHTNESS.
+- Install it in a gallery mechanism.
+- DIM reveals a sequence of archive glyphs.
+- BALANCED reveals the socket order.
+- RADIANT hides the glyph solution.
+- Player must inspect and remember the sequence.
+- Correct activation opens the next route.
+
+CHALLENGE 3: STABILIZE
+
+- Install BRIGHTNESS into the Reality Kernel.
+- DIM reveals corruption nodes.
+- BALANCED allows interaction with those nodes.
+- RADIANT rebuilds the Kernel after the nodes are cleared.
+- Complete the restoration sequence.
+
+This creates a complete beginning, middle, and ending using one mechanic.
+
+Do not add complicated combat or enemy AI.
+
+==================================================
+8. GAMEPLAY COMPOSITION RESET
+==================================================
+
+The current gameplay frame is rejected.
+
+The new frame must visually communicate:
+
+Mara
+→ BRIGHTNESS
+→ socket
+→ forming bridge
+→ destination
+→ distant Kernel
+
+CAMERA
+
+- third-person three-quarter framing
+- no top-down view
+- no completely centered corridor
+- normal FOV approximately 48 to 54 degrees
+- Mara positioned on the left or right third
+- objective placed on the opposing third
+- camera height near Mara's shoulder line
+- controlled camera zones
+- small player camera adjustment
+- smooth damping
+- no clipping
+- no excessive free rotation
+
+CHARACTER SCALE
+
+Mara must occupy approximately 22 to 28 percent of gameplay screen height.
+
+She must not look tiny.
+
+PLAYABLE AREA
+
+Replace the enormous featureless rectangular floor.
+
+Create:
+
+- a defined foreground arrival platform
+- one stepped transition
+- one visible gap
+- one destination platform
+- one strong bridge route
+- believable supports and broken edges
+- controlled negative space
+
+The player should not spend long periods crossing an empty slab.
+
+==================================================
+9. FOREGROUND AND BACKGROUND MUST MATCH
+==================================================
+
+The current matte background and foreground geometry appear to come from
+different games.
+
+Fix this through:
+
+- matching perspective
+- matching light direction
+- matching color grade
+- atmospheric depth
+- contact shadows
+- consistent material roughness
+- restrained background blur
+- parallax layers
+- occluding foreground elements
+- shared cyan and bronze light sources
+
+Use a hybrid composition:
+
+INTERACTIVE THREE.JS FOREGROUND
+- Mara
+- arrival platform
+- destination platform
+- socket
+- bridge
+- nearby arches
+- nearby mechanisms
+- collision surfaces
+
+NON-INTERACTIVE DISTANT LAYERS
+- monumental archive city
+- distant Kernel
+- far towers
+- floating ruins
+- distant ring systems
+
+Images, skies, textures, sound, and music are permitted external files when
+declared. Every interactive 3D object must still comply with the official 404
+Three.js-code process.
+
+Do not place bright primitive geometry against a photorealistic background.
+
+==================================================
+10. REMOVE THE CURRENT VISUAL PROBLEMS
+==================================================
+
+Remove or redesign:
+
+- oversized white arch fragments
+- floating curves with no function
+- plastic pure-white materials
+- giant flat mirror floor
+- random scribbled gold lines
+- tiny distant socket
+- generic square platforms
+- disconnected decorative objects
+- ungrounded structures
+- excessive empty foreground
+- developer-looking interaction markers
+- visible locked feature cards
+- tiny help text
+
+The gold floor design should become purposeful.
+
+Use:
+
+- engraved concentric archive geometry
+- controlled radial lines
+- one central symbolic motif
+- bronze channels connected to the socket
+- no random line intersections
+
+Reduce floor reflectivity.
+
+Use enough roughness to preserve silhouettes and UI legibility.
+
+==================================================
+11. FINAL MARA CHARACTER PASS
+==================================================
+
+The current gameplay character is not approved as final Mara.
+
+Mara must resemble the approved concept character:
+
+- elegant adult proportions
+- ivory mask
+- black segmented coat
+- narrow bronze seams
+- long controlled coat panels
+- cyan glove
+- strong shoulder silhouette
+- readable hands and boots
+- no toy-like cylindrical torso
+- no oversized robot joints
+- no tiny head
+- no generic mannequin appearance
+
+Use the approved multi-angle references.
+
+Follow the official 404 process:
+
+1. one clean reference set
+2. three independent candidates
+3. verification renders
+4. correct scale
+5. candidate comparison
+6. selected candidate
+7. rejected candidates preserved
+8. pivot hierarchy added
+9. gameplay-camera review
+10. production receipt
+
+Required animation states:
+
+- title idle
+- gameplay idle
+- walk
+- turn
+- pull card
+- drag card
+- install card
+- retrieve card
+- checkpoint reaction
+- failure realignment
+- victory
+
+Animation requirements:
+
+- planted feet
+- no sliding
+- no limb snapping
+- no clipping through coat
+- subtle coat-panel delay
+- glove remains readable
+- head turns toward important world events
+- smooth state blending
+
+==================================================
+12. BRIDGE AS THE HERO MOMENT
+==================================================
+
+The bridge construction must become the main visual spectacle.
+
+It cannot be one flat slab appearing instantly.
+
+Sequence:
+
+1. BRIGHTNESS locks into the socket.
+2. The socket's bronze ring rotates.
+3. Cyan energy enters the floor.
+4. Bronze channels illuminate from near to far.
+5. One bridge spine forms.
+6. Individual ivory and obsidian segments unfold.
+7. Cyan glass surfaces fill between segments.
+8. Energy travels beneath the bridge.
+9. Dust and small particles settle.
+10. A final warm completion pulse crosses the route.
+
+Duration:
+1.5 to 2.2 seconds.
+
+Camera:
+- subtle controlled push toward the bridge
+- Mara remains in frame
+- destination and distant Kernel remain visible
+- no unskippable long cutscene
+
+Sound:
+- glass release
+- bronze lock
+- energy travel
+- segment assembly
+- architectural resonance
+- resolved completion tone
+
+The bridge must cast light onto Mara and nearby surfaces.
+
+==================================================
+13. ENVIRONMENTAL MOTION
+==================================================
+
+The gameplay scene currently feels static.
+
+At least four restrained layers of continuous motion must be visible:
+
+- distant archive rings rotate slowly
+- fine dust or glass particles drift
+- cyan energy moves through active channels
+- Mara has a premium idle animation
+- distant suspended architecture moves subtly
+- lighting changes gently across the scene
+
+Do not create chaotic movement.
+
+Motion should make the environment feel alive without distracting from the
+puzzle.
+
+==================================================
+14. PROFESSIONAL AUDIO PASS
+==================================================
+
+Implement and mix:
+
+MUSIC
+- title ambience
+- Boot Atrium ambience
+- Kernel completion flourish
+
+UI
+- hover
+- confirm
+- back
+- open panel
+- close panel
+- slider
+- toggle
+
+GAMEPLAY
+- footsteps
+- card detach
+- card drag loop
+- valid target pulse
+- invalid target response
+- magnetic snap
+- socket lock
+- bridge energy travel
+- bridge segment assembly
+- checkpoint
+- failure fracture
+- failure reverse
+- victory
+
+Audio must be:
+
+- cohesive
+- restrained
+- original or properly licensed
+- locally stored
+- declared in provenance
+- compressed efficiently
+- mixed without clipping
+- unlocked from a real user gesture
+- adjustable from Settings
+
+Do not bake audio into the title video.
+
+==================================================
+15. COMPLETE WIN AND FAILURE LOOP
+==================================================
+
+FAILURE
+
+Failure triggers:
+
+- falling into the void
+- touching active corruption
+- entering an unstable route at the wrong brightness state
+
+Sequence:
+
+1. short impact pause
+2. coral fracture lines
+3. Mara and nearby particles reverse
+4. return to latest checkpoint
+5. restore card state
+6. return input immediately
+
+Total duration:
+1.0 to 1.4 seconds.
+
+Do not display GAME OVER.
+
+WIN
+
+After the final Kernel sequence:
+
+1. remove active corruption
+2. reconstruct the central rings
+3. detach the BRIGHTNESS HUD card
+4. install it permanently into the Kernel
+5. remove gameplay HUD
+6. reveal restored archive lighting
+7. play Mara's victory idle
+8. display REALITY STABLE
+9. open the results screen
+
+RESULTS
+
+Show:
+
+- completion time
+- resets
+- fragments
+- brightness deployments
+- recovery efficiency
+- final rank
+- replay archive
+- return to title
+
+Every button must work.
+
+==================================================
+16. MEDIA AND TRANSFER BUDGET
+==================================================
+
+The official gate allows no more than 10 MB transferred.
+
+Use these internal limits:
+
+- desktop title video: <= 1.6 MB
+- desktop title poster: <= 550 KB
+- mobile title poster: <= 350 KB
+- all music: <= 1.6 MB
+- all sound effects: <= 500 KB
+- all background images: <= 1.5 MB
+- complete game opening/play transfer: <= 8.5 MB
+
+Create:
+
+npm run media:audit
+
+It must report:
+
+- file path
+- file type
+- dimensions
+- duration
+- individual size
+- grouped size
+- total game size
+- files exceeding target
+
+Do not claim the game is optimized without this audit.
+
+==================================================
+17. READY AND STARTUP BEHAVIOR
+==================================================
+
+`window.__READY__` must not wait for:
+
+- title video
+- nonessential music
+- hidden later-section assets
+- optional screens
+- future game sections
+
+The official gate runs at a phone viewport over simulated 4G.
+
+Targets:
+
+- essential poster and interface visible under 1.5 seconds
+- `window.__READY__` under 5 seconds
+- title character visible immediately through the poster
+- start button usable immediately
+- gameplay movement active within 1.5 seconds after pressing start
+
+Lazy-load nonessential assets after readiness.
+
+==================================================
+18. SCREENSHOT AND MOTION APPROVAL GATE
+==================================================
+
+Capture the actual browser game at:
+
+1440 × 900
+390 × 844
+
+Required states:
+
+1. title before video is ready
+2. title after video is ready
+3. new How It Works step 1
+4. new How It Works step 2
+5. new How It Works step 3
+6. Mara standing in Boot Atrium
+7. BRIGHTNESS dragging
+8. socket lock
+9. bridge at 50 percent construction
+10. completed bridge
+11. failure realignment
+12. restored Kernel
+13. results screen
+14. mobile title
+15. mobile gameplay
+
+Also capture a 15-second browser recording containing:
+
+- title visible instantly
+- Enter the Archive
+- gameplay begins
+- Mara moves
+- BRIGHTNESS detaches
+- socket accepts it
+- bridge starts constructing
+
+Use a direct screen capture.
+
+Do not film the laptop with a phone.
+
+==================================================
+19. VISUAL APPROVAL REQUIREMENTS
+==================================================
+
+Do not call the recovery complete unless:
+
+- title character appears immediately
+- title image is sharp
+- no blank title region appears
+- How It Works matches the new title UI
+- Mara resembles the approved concept
+- Mara is large enough
+- foreground and background share one visual language
+- the floor no longer dominates the frame
+- gold line work appears designed
+- the socket is readable
+- the bridge is visually memorable
+- at least four restrained motion layers are present
+- BRIGHTNESS has multiple meaningful uses
+- failure works
+- victory works
+- results work
+- audio significantly improves feedback
+- desktop works
+- mobile works
+- no visible feature is permanently locked
+- no console errors exist
+- no missing requests exist
+- transfer remains below budget
+- the official gate passes
+
+==================================================
+20. PRIORITY ORDER
+==================================================
+
+Work in this order:
+
+1. Fix instant title poster.
+2. Replace How It Works.
+3. Hide incomplete control cards.
+4. Fix gameplay composition and camera.
+5. Replace Mara.
+6. Rebuild socket and bridge.
+7. Deepen BRIGHTNESS.
+8. Add failure and victory.
+9. Add audio and animation.
+10. Run mobile and gate tests.
+
+Do not start another section before these are complete.
+
+==================================================
+21. END REPORT
+==================================================
+
+Report:
+
+1. Branch and commit.
+2. Startup time locally.
+3. Startup time under the official 4G profile.
+4. Time until title character is visible.
+5. Poster paths, dimensions, formats, and sizes.
+6. Video paths, dimensions, duration, and sizes.
+7. How It Works screen status.
+8. Mara final-asset status.
+9. 404 verification evidence.
+10. Camera changes.
+11. Environment changes.
+12. BRIGHTNESS gameplay sequence.
+13. Failure sequence status.
+14. Victory sequence status.
+15. Audio files and total size.
+16. Total transfer size.
+17. Desktop screenshots.
+18. Mobile screenshots.
+19. Direct browser recording.
+20. Exact automated test result.
+21. Exact jam-gate result.
+22. Remaining visual defects.
+23. Remaining gameplay defects.
+
+STOP after this report.
+
+Do not add PAUSE, UNDO, Clock Gallery, or another large section without user
+approval.

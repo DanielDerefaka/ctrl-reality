@@ -1,0 +1,36 @@
+{
+  "name": "mobile-master",
+  "model": "marketing-studio/image",
+  "input": {
+    "image_urls": [
+      "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/c5eb87ee-4831-4d58-b1ae-dd2db658c95a.png",
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "high",
+    "resolution": "2k",
+    "aspect_ratio": "9:16",
+    "enhance_prompt": false,
+    "prompt": "Use the attached character reference EXACTLY. Mara is an elegant adult female masked interface conservator. Closed ivory ceramic mask, no face or hair, obsidian black segmented tailored long coat, fine champagne bronze seams, fitted waist, sculptural shoulders, long controlled panels, black boots and luminous cyan LEFT glove. No weapons or extra characters. No text, letters, logos, captions, interface or watermark. Recompose the first image into a vertical portrait title-screen. Full-body rear three-quarter Mara on the RIGHT third, from 29 percent to 76 percent image height, including boots. Quiet dark negative space on left half and top 20 percent for separately rendered menu. Exact same monumental archive, distant bronze rings and warm right-side light as first image. Delicate cyan glove glow. Character must not be cropped. No text or interface."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "3.327",
+    "usd": "0.208",
+    "discount": {
+      "percentage": "25.00",
+      "credits": "1.109",
+      "usd": "0.070"
+    }
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "395169f8-3218-41da-b49a-ebcbb34f12de",
+    "status_url": "https://platform.higgsfield.ai/requests/395169f8-3218-41da-b49a-ebcbb34f12de/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/395169f8-3218-41da-b49a-ebcbb34f12de/cancel"
+  },
+  "date": "2026-09-24T05:04:17.267Z",
+  "local": "production/recovery/higgsfield/mobile-master.png",
+  "sha256": "317eadbab91823fee2901c575acbfdb74a625a962100a2f3ed9c062cc1218415",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/b115cae5-2591-402e-863c-c3947a909a6d.png"
+}

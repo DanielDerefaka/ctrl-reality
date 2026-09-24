@@ -1,4 +1,5 @@
 import http from 'node:http';
+import {gzipSync} from 'node:zlib';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -16,7 +17,7 @@ const TYPES = new Map([
   ['.json', 'application/json; charset=utf-8'],
   ['.svg', 'image/svg+xml'],
   ['.png', 'image/png'],
-  ['.webp', 'image/webp'],
+  ['.webp', 'image/webp'],['.avif','image/avif'],['.webm','video/webm'],['.woff2','font/woff2'],
   ['.ogg', 'audio/ogg'],
   ['.wav', 'audio/wav'], ['.mp3','audio/mpeg'], ['.mp4','video/mp4'], ['.ttf','font/ttf'],
 ]);
@@ -43,10 +44,15 @@ const server = http.createServer(async (req, res) => {
       filePath = path.join(filePath, 'index.html');
       info = await stat(filePath);
     }
-    const body = await readFile(filePath);
+    let body = await readFile(filePath);
+    const compress=/\.(html|css|js|json|svg)$/.test(filePath)&&/gzip/.test(req.headers['accept-encoding']||'');
+    if(compress)body=gzipSync(body);
+
     res.writeHead(200, {
       'Content-Type': TYPES.get(path.extname(filePath).toLowerCase()) || 'application/octet-stream',
       'Cache-Control': 'no-store',
+      ...(compress?{'Content-Encoding':'gzip','Vary':'Accept-Encoding'}:{}),
+      'Content-Length':body.length,
       'Cross-Origin-Resource-Policy': 'same-origin',
     });
     res.end(body);

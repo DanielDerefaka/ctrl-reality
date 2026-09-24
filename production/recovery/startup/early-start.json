@@ -1,0 +1,30 @@
+{
+  "marks": [
+    {
+      "name": "archive-construct-start",
+      "ms": 1514.5
+    },
+    {
+      "name": "archive-assets-loaded",
+      "ms": 2085.7999999970198
+    },
+    {
+      "name": "archive-lighting-ready",
+      "ms": 2177.2999999970198
+    },
+    {
+      "name": "archive-geometry-ready",
+      "ms": 2283.4000000059605
+    }
+  ],
+  "date": "2026-09-24T05:59:06.207Z",
+  "before": {
+    "ready": false,
+    "time": 1050.4000000059605
+  },
+  "readyMs": 2799.2999999970198,
+  "startLatencyMs": 1332.199999988079,
+  "posterMs": 1043.9000000059605,
+  "pass": true,
+  "scope": "Real tap as soon as DOM and portrait poster exist, before waiting for __READY__, 4G and 2× CPU"
+}

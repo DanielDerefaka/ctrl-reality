@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-24T05:52:47.719Z",
+  "checks": [
+    "Title is real DOM and audio stays gesture-locked",
+    "Settings and mute update from keyboard and pointer",
+    "Settings survive reload",
+    "Reduced motion unloads title video",
+    "Enter gives simulation control in under 1.5 seconds",
+    "Video is stopped and unloaded in gameplay",
+    "Mara occupies 22–28% of gameplay height",
+    "Only BRIGHTNESS is offered in the control HUD",
+    "Invalid remote drop returns the card",
+    "Void failure restores checkpoint exactly once",
+    "Original fragment collection remains functional",
+    "Real pointer drag installs BRIGHTNESS",
+    "Installation alone does not create the bridge",
+    "RADIANT completes the physical bridge",
+    "Installed control can be retrieved",
+    "Keyboard-only installation and value selection work",
+    "Pause freezes simulation",
+    "Tutorial has three distinct real images and keyboard navigation",
+    "Crossing reaches the relay checkpoint",
+    "DIM reveals the archive sequence",
+    "RADIANT hides the glyph answer",
+    "Wrong sequence produces one realignment",
+    "Remembered sequence opens the next threshold",
+    "Second checkpoint advances to stabilization",
+    "DIM reveals three corruption nodes",
+    "BALANCED clears all three fractures",
+    "Complete win loop preserves all three fragments",
+    "Results expose deployments and replay controls",
+    "Replay resets the entire sequence",
+    "Return to title works",
+    "Mobile uses portrait poster and no video",
+    "Mobile tutorial controls fit",
+    "Real touch starts the game",
+    "Touch joystick moves Mara",
+    "Touch drag installs the real card",
+    "Touch changes brightness and restores the bridge",
+    "Mobile settings fit",
+    "Orientation change retains gameplay",
+    "No browser exceptions or missing requests"
+  ],
+  "errors": [],
+  "devices": [
+    {
+      "name": "desktop",
+      "readyMs": 727.2000000029802,
+      "posterMs": 95.79999999701977,
+      "startLatency": 28.299999997019768,
+      "metrics": {
+        "drawCalls": 276,
+        "triangles": 162166,
+        "fps": 60,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 27.3,
+        "fov": 50
+      },
+      "transferBytes": 2392875
+    },
+    {
+      "name": "390×844 touch emulation",
+      "physicalDevice": false,
+      "startLatency": 17.100000008940697,
+      "metrics": {
+        "drawCalls": 367,
+        "triangles": 248066,
+        "fps": 60,
+        "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
+        "maraFrameHeight": 26.8,
+        "fov": 50
+      }
+    }
+  ],
+  "pass": true
+}

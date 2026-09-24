@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 24,
+  "tris": 3668,
+  "materials": 3,
+  "size": [
+   8.72,
+   2.059,
+   10.25
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0367,
+    "edgeDensity": 0.3539
+   },
+   "right": {
+    "coverage": 0.0683,
+    "edgeDensity": 0.2093
+   },
+   "back": {
+    "coverage": 0.1972,
+    "edgeDensity": 0.0942
+   },
+   "left": {
+    "coverage": 0.1874,
+    "edgeDensity": 0.0838
+   }
+  },
+  "error": null,
+  "name": "01-chamfered-corbel",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 42,
+  "tris": 4316,
+  "materials": 3,
+  "size": [
+   8.59,
+   2.059,
+   10.15
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0941,
+    "edgeDensity": 0.151
+   },
+   "right": {
+    "coverage": 0.1283,
+    "edgeDensity": 0.1503
+   },
+   "back": {
+    "coverage": 0.1925,
+    "edgeDensity": 0.1574
+   },
+   "left": {
+    "coverage": 0.1957,
+    "edgeDensity": 0.1293
+   }
+  },
+  "error": null,
+  "name": "02-separated-flags",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 34,
+  "tris": 3844,
+  "materials": 3,
+  "size": [
+   8.655,
+   2.059,
+   10.057
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.021,
+    "edgeDensity": 0.2084
+   },
+   "right": {
+    "coverage": 0.069,
+    "edgeDensity": 0.1249
+   },
+   "back": {
+    "coverage": 0.1471,
+    "edgeDensity": 0.087
+   },
+   "left": {
+    "coverage": 0.167,
+    "edgeDensity": 0.0573
+   }
+  },
+  "error": null,
+  "name": "03-fan-vault",
+  "problems": []
+ }
+]

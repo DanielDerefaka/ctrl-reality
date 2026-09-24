@@ -10,3 +10,6 @@ production/gate-runs/*.png
 .env.*
 !.env.example
 .codex/config.toml
+
+# Raw direct-capture frames remain local; the 15-second film and receipt are versioned.
+production/recovery/recording/frames/

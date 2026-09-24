@@ -5,18 +5,21 @@
   "type": "module",
   "description": "CTRL//REALITY \u2014 Boot Atrium playable development slice",
   "scripts": {
-    "setup": "node scripts/copy-three.mjs",
+    "setup": "node scripts/copy-three.mjs && node scripts/build-three.mjs",
     "serve": "node scripts/serve.mjs",
     "test": "node --test tests/*.test.mjs",
     "check": "node scripts/check.mjs",
-    "gate": "node tools/ctrl-gate.mjs",
-    "smoke": "node tools/ctrl-gate.mjs",
-    "media:audit": "node tools/media-audit.mjs"
+    "gate": "node tools/recovery-gate.mjs",
+    "smoke": "node tools/recovery-gate.mjs",
+    "media:audit": "node tools/media-audit.mjs",
+    "test:startup": "node tools/recovery-startup.mjs",
+    "build:vendor": "node scripts/build-three.mjs"
   },
   "dependencies": {
     "three": "0.180.0"
   },
   "devDependencies": {
+    "esbuild": "0.25.10",
     "puppeteer": "25.11.0"
   },
   "engines": {

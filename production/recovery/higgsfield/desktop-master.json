@@ -1,0 +1,36 @@
+{
+  "name": "desktop-master",
+  "model": "marketing-studio/image",
+  "input": {
+    "image_urls": [
+      "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/929c5493-ff6a-4ed9-a76b-7189877c3411.png",
+      "https://d3snorpfx4xhv8.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/bd8da112-abca-4a8d-8c3c-d1fdc43e949d.png"
+    ],
+    "quality": "high",
+    "resolution": "4k",
+    "aspect_ratio": "16:9",
+    "enhance_prompt": false,
+    "prompt": "Use the attached character reference EXACTLY. Mara is an elegant adult female masked interface conservator. Closed ivory ceramic mask, no face or hair, obsidian black segmented tailored long coat, fine champagne bronze seams, fitted waist, sculptural shoulders, long controlled panels, black boots and luminous cyan LEFT glove. No weapons or extra characters. No text, letters, logos, captions, interface or watermark. Re-render the first image as one exceptionally sharp cinematic title-screen master. Preserve its rear three-quarter full-body Mara placement at 72 percent across and 54 percent image height. Leave left 45 percent almost black for separately composited interface. Monumental coherent archive architecture of aged ivory, obsidian and fine bronze, warm light from upper right, enormous distant bronze rings, dark rough polished floor. Refine true costume and architectural detail, realistic material roughness. Calm, premium and restrained. No collage. Full body including boots must be visible."
+  },
+  "estimate": {
+    "type": "estimate",
+    "credits": "5.299",
+    "usd": "0.332",
+    "discount": {
+      "percentage": "25.00",
+      "credits": "1.767",
+      "usd": "0.111"
+    }
+  },
+  "job": {
+    "status": "queued",
+    "request_id": "0dbc7f4e-a341-4da1-93bc-628cc04082a0",
+    "status_url": "https://platform.higgsfield.ai/requests/0dbc7f4e-a341-4da1-93bc-628cc04082a0/status",
+    "cancel_url": "https://platform.higgsfield.ai/requests/0dbc7f4e-a341-4da1-93bc-628cc04082a0/cancel"
+  },
+  "date": "2026-09-24T05:02:44.160Z",
+  "local": "production/recovery/higgsfield/desktop-master.png",
+  "sha256": "34ca1d3473fc97f9b6a48533ff9ca7f4dce806946a4a6e4ceb07cb22eaa68497",
+  "status": "completed",
+  "remote": "https://d3u0tzju9qaucj.cloudfront.net/c135a71e-0d09-4031-9f52-2e7da6cb9c3d/c5eb87ee-4831-4d58-b1ae-dd2db658c95a.png"
+}

@@ -1,1 +1,1 @@
-export const CONFIG = Object.freeze({ USE_TITLE_VIDEO: true, POSTER_AVAILABLE: true, STEP: 1/60, VERSION: '0.2.0', TITLE_VIDEO: './media/video/mara-title-loop.mp4', TITLE_POSTER: './media/video/mara-title-poster.webp' });
+export const CONFIG = Object.freeze({ USE_TITLE_VIDEO: true, POSTER_AVAILABLE: true, STEP: 1/60, VERSION: '0.2.0', TITLE_VIDEO: './media/title/title-desktop-loop.mp4', TITLE_POSTER: './media/title/title-desktop-poster.webp' });

@@ -17,3 +17,8 @@ No 404 MCP tools were exposed. Used the recipe's explicit agent-authored workflo
 Higgsfield produced twelve new references/layers; one compressed distant matte is shipped. The alternate depth plate is retained only as reference. No Atlas outputs are used. Runtime images are local. Final captures used hardware ANGLE Metal on Apple M5, not SwiftShader; portrait captures remain emulation. Chrome screencast frames provide precise short-stage evidence after normal PNG encoding missed the first attempt. No game state was injected.
 
 New modal/noise Atrium audio has its own synthesis receipt. All rendering passes are included in reported draw calls and triangles. See visual-lock/REPORT.md.
+
+
+## 2026-09-24 — final recovery pass
+
+No native Atlas, Higgsfield or 404 MCP tools were exposed. Existing authenticated Higgsfield API integration produced native 4K poster sources and native 1080p Pro video. Official 404 local verifier used for all selected assets. avifenc, ffmpeg, Chrome canvas, fontTools/Brotli and pinned esbuild 0.25.10 used locally; provider receipts and provenance retained. No secrets in runtime.

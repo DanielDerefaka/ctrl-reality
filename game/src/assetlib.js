@@ -26,7 +26,7 @@
  *    three ratios silently halves anything whose proportions differ from what
  *    the caller assumed.
  */
-import * as THREE from '../vendor/three.module.js';
+import * as THREE from '../vendor/archive-three.js';
 import * as BufferGeometryUtils from '../vendor/BufferGeometryUtils.js';
 import { applySurfaces } from './surfaces.js';
 

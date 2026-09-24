@@ -1,0 +1,458 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 47,
+  "tris": 20908,
+  "materials": 3,
+  "size": [
+   7.446,
+   9.162,
+   1.386
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1241,
+    "edgeDensity": 0.3955
+   },
+   "right": {
+    "coverage": 0.0784,
+    "edgeDensity": 0.2793
+   },
+   "back": {
+    "coverage": 0.1228,
+    "edgeDensity": 0.3515
+   },
+   "left": {
+    "coverage": 0.0778,
+    "edgeDensity": 0.2293
+   }
+  },
+  "error": null,
+  "name": "archive-arch",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 9,
+  "tris": 4916,
+  "materials": 3,
+  "size": [
+   1.77,
+   2.616,
+   2.439
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1022,
+    "edgeDensity": 0.3471
+   },
+   "right": {
+    "coverage": 0.0858,
+    "edgeDensity": 0.4298
+   },
+   "back": {
+    "coverage": 0.1056,
+    "edgeDensity": 0.3023
+   },
+   "left": {
+    "coverage": 0.1075,
+    "edgeDensity": 0.3228
+   }
+  },
+  "error": null,
+  "name": "archive-mechanism",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 7,
+  "tris": 2804,
+  "materials": 4,
+  "size": [
+   2.828,
+   0.454,
+   0.528
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1433,
+    "edgeDensity": 0.1771
+   },
+   "right": {
+    "coverage": 0.073,
+    "edgeDensity": 0.1497
+   },
+   "back": {
+    "coverage": 0.1419,
+    "edgeDensity": 0.1781
+   },
+   "left": {
+    "coverage": 0.0788,
+    "edgeDensity": 0.1466
+   }
+  },
+  "error": null,
+  "name": "bridge-segment",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 5,
+  "tris": 460,
+  "materials": 3,
+  "size": [
+   1.118,
+   2.844,
+   0.482
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1154,
+    "edgeDensity": 0.1263
+   },
+   "right": {
+    "coverage": 0.109,
+    "edgeDensity": 0.0758
+   },
+   "back": {
+    "coverage": 0.1167,
+    "edgeDensity": 0.0555
+   },
+   "left": {
+    "coverage": 0.1042,
+    "edgeDensity": 0.0727
+   }
+  },
+  "error": null,
+  "name": "broken-fragment",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 5,
+  "tris": 624,
+  "materials": 3,
+  "size": [
+   3.09,
+   0.257,
+   0.17
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0264,
+    "edgeDensity": 0.7271
+   },
+   "right": {
+    "coverage": 0.0197,
+    "edgeDensity": 0.4608
+   },
+   "back": {
+    "coverage": 0.0264,
+    "edgeDensity": 0.6905
+   },
+   "left": {
+    "coverage": 0.0195,
+    "edgeDensity": 0.6053
+   }
+  },
+  "error": null,
+  "name": "bronze-trim",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 20,
+  "tris": 7628,
+  "materials": 4,
+  "size": [
+   0.322,
+   0.442,
+   0.126
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.3565,
+    "edgeDensity": 0.0938
+   },
+   "right": {
+    "coverage": 0.1524,
+    "edgeDensity": 0.1328
+   },
+   "back": {
+    "coverage": 0.375,
+    "edgeDensity": 0.0673
+   },
+   "left": {
+    "coverage": 0.1524,
+    "edgeDensity": 0.1209
+   }
+  },
+  "error": null,
+  "name": "card-housing",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 48,
+  "tris": 11908,
+  "materials": 3,
+  "size": [
+   11.21,
+   3.304,
+   13.21
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2029,
+    "edgeDensity": 0.1489
+   },
+   "right": {
+    "coverage": 0.2112,
+    "edgeDensity": 0.1876
+   },
+   "back": {
+    "coverage": 0.2025,
+    "edgeDensity": 0.1807
+   },
+   "left": {
+    "coverage": 0.2113,
+    "edgeDensity": 0.1898
+   }
+  },
+  "error": null,
+  "name": "floor-ledge",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 3,
+  "tris": 900,
+  "materials": 3,
+  "size": [
+   3.797,
+   7.091,
+   0.985
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1055,
+    "edgeDensity": 0.1915
+   },
+   "right": {
+    "coverage": 0.072,
+    "edgeDensity": 0.1276
+   },
+   "back": {
+    "coverage": 0.1066,
+    "edgeDensity": 0.0811
+   },
+   "left": {
+    "coverage": 0.1039,
+    "edgeDensity": 0.0812
+   }
+  },
+  "error": null,
+  "name": "foreground-frame",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 54,
+  "tris": 15120,
+  "materials": 3,
+  "size": [
+   8.694,
+   10.515,
+   9.829
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0513,
+    "edgeDensity": 0.8023
+   },
+   "right": {
+    "coverage": 0.0737,
+    "edgeDensity": 0.7939
+   },
+   "back": {
+    "coverage": 0.0497,
+    "edgeDensity": 0.6548
+   },
+   "left": {
+    "coverage": 0.0655,
+    "edgeDensity": 0.7349
+   }
+  },
+  "error": null,
+  "name": "kernel-assembly",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 93,
+  "tris": 18776,
+  "materials": 6,
+  "size": [
+   0.684,
+   1.8,
+   0.484
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1662,
+    "edgeDensity": 0.1515
+   },
+   "right": {
+    "coverage": 0.106,
+    "edgeDensity": 0.1569
+   },
+   "back": {
+    "coverage": 0.1689,
+    "edgeDensity": 0.133
+   },
+   "left": {
+    "coverage": 0.1066,
+    "edgeDensity": 0.1672
+   }
+  },
+  "error": null,
+  "name": "mara",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 24,
+  "tris": 3668,
+  "materials": 3,
+  "size": [
+   8.72,
+   2.059,
+   10.25
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0367,
+    "edgeDensity": 0.3539
+   },
+   "right": {
+    "coverage": 0.0683,
+    "edgeDensity": 0.2093
+   },
+   "back": {
+    "coverage": 0.1972,
+    "edgeDensity": 0.0942
+   },
+   "left": {
+    "coverage": 0.1874,
+    "edgeDensity": 0.0838
+   }
+  },
+  "error": null,
+  "name": "recovery-platform",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 12,
+  "tris": 9108,
+  "materials": 5,
+  "size": [
+   0.548,
+   1.122,
+   0.548
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2053,
+    "edgeDensity": 0.1536
+   },
+   "right": {
+    "coverage": 0.1731,
+    "edgeDensity": 0.1512
+   },
+   "back": {
+    "coverage": 0.1975,
+    "edgeDensity": 0.1301
+   },
+   "left": {
+    "coverage": 0.1729,
+    "edgeDensity": 0.1535
+   }
+  },
+  "error": null,
+  "name": "socket-pedestal",
+  "problems": []
+ }
+]

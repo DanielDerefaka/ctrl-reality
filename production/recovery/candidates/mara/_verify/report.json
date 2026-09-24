@@ -1,0 +1,116 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 93,
+  "tris": 18776,
+  "materials": 6,
+  "size": [
+   0.684,
+   1.8,
+   0.484
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1662,
+    "edgeDensity": 0.1515
+   },
+   "right": {
+    "coverage": 0.106,
+    "edgeDensity": 0.1569
+   },
+   "back": {
+    "coverage": 0.1689,
+    "edgeDensity": 0.133
+   },
+   "left": {
+    "coverage": 0.1066,
+    "edgeDensity": 0.1672
+   }
+  },
+  "error": null,
+  "name": "01-lofted-couture",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 86,
+  "tris": 13260,
+  "materials": 6,
+  "size": [
+   0.751,
+   1.8,
+   0.436
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1756,
+    "edgeDensity": 0.1313
+   },
+   "right": {
+    "coverage": 0.0957,
+    "edgeDensity": 0.1937
+   },
+   "back": {
+    "coverage": 0.1809,
+    "edgeDensity": 0.1075
+   },
+   "left": {
+    "coverage": 0.0961,
+    "edgeDensity": 0.1941
+   }
+  },
+  "error": null,
+  "name": "02-tailored-profiles",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 117,
+  "tris": 23504,
+  "materials": 6,
+  "size": [
+   0.758,
+   1.8,
+   0.513
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1594,
+    "edgeDensity": 0.2012
+   },
+   "right": {
+    "coverage": 0.1079,
+    "edgeDensity": 0.2143
+   },
+   "back": {
+    "coverage": 0.1682,
+    "edgeDensity": 0.1703
+   },
+   "left": {
+    "coverage": 0.1104,
+    "edgeDensity": 0.2403
+   }
+  },
+  "error": null,
+  "name": "03-segmented-panels",
+  "problems": []
+ }
+]

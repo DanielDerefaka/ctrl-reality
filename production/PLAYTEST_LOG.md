@@ -7,3 +7,8 @@ Automated path tests are recorded by tools/ctrl-gate.mjs under production/gate-r
 ## Visual-lock regression and review
 
 Final gate: 24/24 pass on Chromium, real pointer/key events and emulated CDP touch. Seven pure-logic tests also pass. No browser exceptions or failed runtime requests. Desktop/portrait screenshots, third-person proportions and front/side/rear articulation views inspected. Actual viewport sizes are 1440×900 and 390×844. The latter is a Mac browser emulation, not a physical phone. Audio files are generated and triggered by real interactions; subjective listening/mix approval remains outstanding.
+
+
+## 2026-09-24 — final recovery pass
+
+Recovery gate passes 39 real-input checks on 1440×900 desktop and 390×844 touch emulation, including the full Reveal/Read/Stabilize sequence, wrong glyph and void realignment, checkpoints, settings, replay and results. Screenshot review found socket/body interpenetration; physical pedestal collision added and regression-tested. This is not physical-device evidence. Visual match and listening approval remain pending.

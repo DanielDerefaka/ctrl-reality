@@ -1,261 +1,937 @@
 {
-  "date": "2026-09-24T04:52:13.028Z",
+  "date": "2026-09-24T05:59:57.784Z",
   "sizes": {
-    "total": 4410059,
+    "total": 7712872,
     "music": 1142010,
-    "sfx": 179019,
-    "video": 142473,
-    "poster": 94210
+    "sfx": 213273,
+    "backgroundImages": 673138,
+    "desktopVideoAlternatives": 1438613,
+    "desktopPosterAlternatives": 696279,
+    "mobilePoster": 122051
   },
   "limits": {
     "total": 8500000,
-    "music": 2200000,
-    "sfx": 700000,
-    "video": 1200000,
-    "poster": 180000
+    "music": 1600000,
+    "sfx": 500000,
+    "backgroundImages": 1500000,
+    "mobilePoster": 350000
   },
   "files": [
     {
       "file": "game/assets/mara.js",
-      "bytes": 3802
+      "type": "js",
+      "bytes": 4237,
+      "target": null
     },
     {
       "file": "game/assets/production/archive-arch.js",
-      "bytes": 4019
+      "type": "js",
+      "bytes": 4019,
+      "target": null
     },
     {
       "file": "game/assets/production/archive-mechanism.js",
-      "bytes": 3187
+      "type": "js",
+      "bytes": 3187,
+      "target": null
     },
     {
       "file": "game/assets/production/bridge-segment.js",
-      "bytes": 3287
+      "type": "js",
+      "bytes": 3287,
+      "target": null
     },
     {
       "file": "game/assets/production/broken-fragment.js",
-      "bytes": 3015
+      "type": "js",
+      "bytes": 3015,
+      "target": null
     },
     {
       "file": "game/assets/production/bronze-trim.js",
-      "bytes": 2995
+      "type": "js",
+      "bytes": 2995,
+      "target": null
     },
     {
       "file": "game/assets/production/card-housing.js",
-      "bytes": 3512
+      "type": "js",
+      "bytes": 3512,
+      "target": null
     },
     {
       "file": "game/assets/production/floor-ledge.js",
-      "bytes": 3857
+      "type": "js",
+      "bytes": 3857,
+      "target": null
     },
     {
       "file": "game/assets/production/foreground-frame.js",
-      "bytes": 3112
+      "type": "js",
+      "bytes": 3112,
+      "target": null
     },
     {
       "file": "game/assets/production/kernel-assembly.js",
-      "bytes": 3341
+      "type": "js",
+      "bytes": 3341,
+      "target": null
     },
     {
       "file": "game/assets/production/mara.js",
-      "bytes": 9282
+      "type": "js",
+      "bytes": 9891,
+      "target": null
+    },
+    {
+      "file": "game/assets/production/recovery-platform.js",
+      "type": "js",
+      "bytes": 2085,
+      "target": null
     },
     {
       "file": "game/assets/production/socket-pedestal.js",
-      "bytes": 4343
+      "type": "js",
+      "bytes": 4343,
+      "target": null
     },
     {
       "file": "game/config.js",
-      "bytes": 222
+      "type": "js",
+      "bytes": 228,
+      "target": null
     },
     {
       "file": "game/favicon.svg",
-      "bytes": 189
+      "type": "svg",
+      "bytes": 189,
+      "target": null
     },
     {
       "file": "game/index.html",
-      "bytes": 7820
+      "type": "html",
+      "bytes": 9308,
+      "target": null
     },
     {
       "file": "game/main.js",
-      "bytes": 15531
+      "type": "js",
+      "bytes": 20749,
+      "target": null
     },
     {
       "file": "game/media/audio/music/boot-atrium.mp3",
-      "bytes": 661005
+      "type": "mp3",
+      "bytes": 661005,
+      "dimensions": null,
+      "duration": 55,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/music/title-archive.mp3",
-      "bytes": 481005
+      "type": "mp3",
+      "bytes": 481005,
+      "dimensions": null,
+      "duration": 40,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/bridge-complete.mp3",
-      "bytes": 10221
+      "type": "mp3",
+      "bytes": 10221,
+      "dimensions": null,
+      "duration": 1.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-energy.mp3",
+      "type": "mp3",
+      "bytes": 15597,
+      "dimensions": null,
+      "duration": 1.85,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/bridge-reveal.mp3",
-      "bytes": 12333
+      "type": "mp3",
+      "bytes": 12333,
+      "dimensions": null,
+      "duration": 1.45,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/audio/sfx/bridge-segment.mp3",
+      "type": "mp3",
+      "bytes": 2925,
+      "dimensions": null,
+      "duration": 0.28,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/checkpoint.mp3",
-      "bytes": 12717
+      "type": "mp3",
+      "bytes": 12717,
+      "dimensions": null,
+      "duration": 1.5,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/control-drag.mp3",
-      "bytes": 16749
+      "type": "mp3",
+      "bytes": 16749,
+      "dimensions": null,
+      "duration": 2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/control-invalid.mp3",
-      "bytes": 3885
+      "type": "mp3",
+      "bytes": 3885,
+      "dimensions": null,
+      "duration": 0.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/control-pickup.mp3",
-      "bytes": 7149
+      "type": "mp3",
+      "bytes": 7149,
+      "dimensions": null,
+      "duration": 0.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/control-retrieve.mp3",
-      "bytes": 9453
+      "type": "mp3",
+      "bytes": 9453,
+      "dimensions": null,
+      "duration": 1.1,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/control-socket.mp3",
-      "bytes": 12717
+      "type": "mp3",
+      "bytes": 12717,
+      "dimensions": null,
+      "duration": 1.5,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/failure-fracture.mp3",
-      "bytes": 3309
+      "type": "mp3",
+      "bytes": 3309,
+      "dimensions": null,
+      "duration": 0.32,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/failure-reverse.mp3",
-      "bytes": 10221
+      "type": "mp3",
+      "bytes": 10221,
+      "dimensions": null,
+      "duration": 1.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/footstep-1.mp3",
-      "bytes": 3501
+      "type": "mp3",
+      "bytes": 3501,
+      "dimensions": null,
+      "duration": 0.34,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/footstep-2.mp3",
-      "bytes": 3501
+      "type": "mp3",
+      "bytes": 3501,
+      "dimensions": null,
+      "duration": 0.34,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/footstep-3.mp3",
-      "bytes": 3501
+      "type": "mp3",
+      "bytes": 3501,
+      "dimensions": null,
+      "duration": 0.34,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/footstep-4.mp3",
-      "bytes": 3501
+      "type": "mp3",
+      "bytes": 3501,
+      "dimensions": null,
+      "duration": 0.34,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/footstep-5.mp3",
-      "bytes": 3501
+      "type": "mp3",
+      "bytes": 3501,
+      "dimensions": null,
+      "duration": 0.34,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/fragment.mp3",
-      "bytes": 11181
+      "type": "mp3",
+      "bytes": 11181,
+      "dimensions": null,
+      "duration": 1.3,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/pause-close.mp3",
-      "bytes": 4653
+      "type": "mp3",
+      "bytes": 4653,
+      "dimensions": null,
+      "duration": 0.5,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/pause-open.mp3",
-      "bytes": 4653
+      "type": "mp3",
+      "bytes": 4653,
+      "dimensions": null,
+      "duration": 0.5,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/socket-valid.mp3",
-      "bytes": 6381
+      "type": "mp3",
+      "bytes": 6381,
+      "dimensions": null,
+      "duration": 0.7,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/audio/sfx/ui-back.mp3",
+      "type": "mp3",
+      "bytes": 3885,
+      "dimensions": null,
+      "duration": 0.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/audio/sfx/ui-close.mp3",
+      "type": "mp3",
+      "bytes": 4269,
+      "dimensions": null,
+      "duration": 0.45,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/ui-confirm.mp3",
-      "bytes": 5997
+      "type": "mp3",
+      "bytes": 5997,
+      "dimensions": null,
+      "duration": 0.65,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/ui-hover.mp3",
-      "bytes": 3117
+      "type": "mp3",
+      "bytes": 3117,
+      "dimensions": null,
+      "duration": 0.3,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/audio/sfx/ui-open.mp3",
+      "type": "mp3",
+      "bytes": 5037,
+      "dimensions": null,
+      "duration": 0.55,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/ui-tick.mp3",
-      "bytes": 2157
+      "type": "mp3",
+      "bytes": 2157,
+      "dimensions": null,
+      "duration": 0.18,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/audio/sfx/ui-toggle.mp3",
+      "type": "mp3",
+      "bytes": 2541,
+      "dimensions": null,
+      "duration": 0.22,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/audio/sfx/victory.mp3",
-      "bytes": 24621
+      "type": "mp3",
+      "bytes": 24621,
+      "dimensions": null,
+      "duration": 3,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/environment/archive-matte.webp",
-      "bytes": 259220
+      "type": "webp",
+      "bytes": 259220,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "webp",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/fonts/cormorant-LICENSE.txt",
-      "bytes": 4387
+      "type": "txt",
+      "bytes": 4387,
+      "target": null
     },
     {
       "file": "game/media/fonts/cormorant.ttf",
-      "bytes": 290236
+      "type": "ttf",
+      "bytes": 290236,
+      "target": null
+    },
+    {
+      "file": "game/media/fonts/cormorant.woff2",
+      "type": "woff2",
+      "bytes": 17660,
+      "target": null
     },
     {
       "file": "game/media/fonts/manrope-LICENSE.txt",
-      "bytes": 4387
+      "type": "txt",
+      "bytes": 4387,
+      "target": null
     },
     {
       "file": "game/media/fonts/manrope.ttf",
-      "bytes": 94972
+      "type": "ttf",
+      "bytes": 94972,
+      "target": null
+    },
+    {
+      "file": "game/media/fonts/manrope.woff2",
+      "type": "woff2",
+      "bytes": 13056,
+      "target": null
+    },
+    {
+      "file": "game/media/title/title-desktop-loop.mp4",
+      "type": "mp4",
+      "bytes": 680313,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 6,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "target": 1600000
+    },
+    {
+      "file": "game/media/title/title-desktop-loop.webm",
+      "type": "webm",
+      "bytes": 758300,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration": 6,
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "target": 1600000
+    },
+    {
+      "file": "game/media/title/title-desktop-poster.avif",
+      "type": "avif",
+      "bytes": 339965,
+      "dimensions": [
+        3840,
+        2160
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "av1",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "r_frame_rate": "1/1"
+        }
+      ],
+      "target": 550000
+    },
+    {
+      "file": "game/media/title/title-desktop-poster.webp",
+      "type": "webp",
+      "bytes": 356314,
+      "dimensions": [
+        2560,
+        1440
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "webp",
+          "codec_type": "video",
+          "width": 2560,
+          "height": 1440,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "target": 550000
+    },
+    {
+      "file": "game/media/title/title-mobile-poster.avif",
+      "type": "avif",
+      "bytes": 122051,
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "av1",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "1/1"
+        }
+      ],
+      "target": 350000
+    },
+    {
+      "file": "game/media/tutorial/install.webp",
+      "type": "webp",
+      "bytes": 139728,
+      "dimensions": [
+        1440,
+        900
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "webp",
+          "codec_type": "video",
+          "width": 1440,
+          "height": 900,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/tutorial/pull.webp",
+      "type": "webp",
+      "bytes": 134144,
+      "dimensions": [
+        1440,
+        900
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "webp",
+          "codec_type": "video",
+          "width": 1440,
+          "height": 900,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/media/tutorial/restore.webp",
+      "type": "webp",
+      "bytes": 140046,
+      "dimensions": [
+        1440,
+        900
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "webp",
+          "codec_type": "video",
+          "width": 1440,
+          "height": 900,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/video/mara-title-loop.mp4",
-      "bytes": 142473
+      "type": "mp4",
+      "bytes": 142473,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "duration": 6.041667,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "target": null
     },
     {
       "file": "game/media/video/mara-title-poster.webp",
-      "bytes": 94210
+      "type": "webp",
+      "bytes": 94210,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "duration": null,
+      "streams": [
+        {
+          "codec_name": "webp",
+          "codec_type": "video",
+          "width": 1600,
+          "height": 900,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "target": null
+    },
+    {
+      "file": "game/src/animations.js",
+      "type": "js",
+      "bytes": 320,
+      "target": null
     },
     {
       "file": "game/src/assetlib.js",
-      "bytes": 14340
+      "type": "js",
+      "bytes": 14341,
+      "target": null
     },
     {
       "file": "game/src/audio.js",
-      "bytes": 4844
+      "type": "js",
+      "bytes": 4844,
+      "target": null
     },
     {
       "file": "game/src/model.js",
-      "bytes": 2329
+      "type": "js",
+      "bytes": 5502,
+      "target": null
     },
     {
       "file": "game/src/scene.js",
-      "bytes": 16824
+      "type": "js",
+      "bytes": 21566,
+      "target": null
     },
     {
       "file": "game/src/surfaces.js",
-      "bytes": 13551
+      "type": "js",
+      "bytes": 13551,
+      "target": null
+    },
+    {
+      "file": "game/src/tutorial.js",
+      "type": "js",
+      "bytes": 1886,
+      "target": null
     },
     {
       "file": "game/styles.css",
-      "bytes": 22963
+      "type": "css",
+      "bytes": 29634,
+      "target": null
     },
     {
       "file": "game/vendor/BufferGeometryUtils.js",
-      "bytes": 35534
+      "type": "js",
+      "bytes": 35535,
+      "target": null
     },
     {
       "file": "game/vendor/README.md",
-      "bytes": 128
+      "type": "md",
+      "bytes": 128,
+      "target": null
     },
     {
       "file": "game/vendor/Reflector.js",
-      "bytes": 9469
+      "type": "js",
+      "bytes": 9469,
+      "target": null
     },
     {
       "file": "game/vendor/THREE-LICENSE.txt",
-      "bytes": 1081
+      "type": "txt",
+      "bytes": 1081,
+      "target": null
+    },
+    {
+      "file": "game/vendor/archive-three.js",
+      "type": "js",
+      "bytes": 540347,
+      "target": null
     },
     {
       "file": "game/vendor/three.core.js",
-      "bytes": 1403455
+      "type": "js",
+      "bytes": 1403455,
+      "target": null
     },
     {
       "file": "game/vendor/three.module.js",
-      "bytes": 603113
+      "type": "js",
+      "bytes": 603113,
+      "target": null
     }
   ],
+  "failures": [],
   "pass": true,
-  "note": "Uncompressed on-disk runtime bytes; browser transfer measured separately. Production reference files excluded."
+  "note": "Total is all on-disk runtime files, including alternate codecs. Each client selects one poster and one video. Browser opening/play transfer is measured separately; all production masters are outside game/."
 }
