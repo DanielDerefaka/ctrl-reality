@@ -190,3 +190,4 @@ input[type=range]::-moz-range-track{height:6px;border-radius:6px}input[type=rang
 .tutorial-editorial #lesson-hint{padding:8px 10px}
 body[data-dual=true] .control-card{width:92px;height:92px}body[data-dual=true] #brightness-values button,body[data-dual=true] #gravity-values button{min-width:150px;min-height:40px}
 }
+@media(max-width:700px){#context{bottom:132px;left:18px;right:18px;max-width:none;width:auto;text-align:center;font-size:11px;line-height:1.35;padding:6px 10px;border-left:0;border-bottom:2px solid var(--amber);border-radius:6px}body[data-dual=true] #context{bottom:400px}}
