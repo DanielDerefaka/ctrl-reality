@@ -12,18 +12,18 @@
     ],
     "format": {
       "duration": "15.000000",
-      "size": "2198263"
+      "size": "2896908"
     }
   },
   "viewport": {
     "width": 1440,
     "height": 900
   },
-  "frames": 761,
-  "captureElapsedMs": 27100,
+  "frames": 860,
+  "captureElapsedMs": 21117,
   "halfBridge": {
-    "value": 0.49549549549549593,
-    "telemetryDifferenceMs": 5.82958984375
+    "value": 0.5045045045045035,
+    "telemetryDifferenceMs": 3.708740234375
   },
   "file": "ctrl-reality-recovery-15s.mp4"
 }

@@ -875,4 +875,37 @@ Report:
 STOP after this report.
 
 Do not add PAUSE, UNDO, Clock Gallery, or another large section without user
-approval.
+approval.approval.
+
+==================================================
+SCOPE OVERRIDE (2026-09-25, user approved)
+==================================================
+
+After playing the recovered Atrium the user said "no level 2 the game
+doesnt look fun fr", was told this brief forbids new sections, and chose
+"Both": add pressure to the three Atrium challenges AND build a second
+sector with a second control. The card chosen was GRAVITY.
+
+Atrium pressure (Sector 01):
+- RADIANT at the first socket surges for 8 seconds, then drops to
+  BALANCED and the bridge retracts. Cross while it holds.
+- A started plate order cools after 4 seconds between plates.
+- Sealed fractures reopen unless all three close within 12 seconds.
+
+Sector 02, the Gravity Well, opens below the restored Kernel:
+- The Kernel returns BRIGHTNESS to hand and yields GRAVITY
+  (LOW / NORMAL / HEAVY, keys 4 / 5 / 6, violet sockets only).
+- LIFT: LOW raises three sunken slabs; LOW spends in 9 seconds and slows
+  Mara. Cross before it drops.
+- ANCHOR: three anchors drift in orbit. HEAVY freezes them so they can be
+  pinned by walking onto them; the deck crumbles while HEAVY holds and
+  collapses after about 11 seconds. Pins survive the realignment.
+- SYNC: both cards in adjacent sockets. DIM + HEAVY shows three locks;
+  walk them under HEAVY. RADIANT + LOW raises the core; step onto it.
+  RADIANT burns the deck edges beyond the core.
+- Two extra fragments (five total). Results count both controls.
+
+Everything else in this brief stands: no PAUSE, UNDO, combat, Clock
+Gallery or Kernel Collapse. No new media was produced; the fourth
+handbook step reuses the install capture and says so in the report.
+Existing sound effects are reused for the Well.

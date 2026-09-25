@@ -1,25 +1,6 @@
-
-> ctrl-reality@0.2.0 test
-> node --test tests/*.test.mjs
-
-✔ a socket cannot accept a remote HUD card (1.087917ms)
-✔ the crossing needs RADIANT, builds over 1.85 seconds and retracts before its checkpoint (1.68125ms)
-✔ fall resets once at 1.25 seconds and restores baseline controls (0.208125ms)
-✔ far checkpoint preserves the crossing and the exact installed card state (0.686292ms)
-✔ fragments collect once and do not inflate after resets (0.836042ms)
-✔ diagonal motion is normalized and identical fixed steps are deterministic (0.276708ms)
-✔ restoration requires the complete sequence and freezes results (0.414666ms)
-✔ values require proximity and installation at the active relay (0.208792ms)
-✔ DIM reveals a sequence, BALANCED accepts it, RADIANT cannot bypass it (0.21075ms)
-✔ wrong sequence realigns and never opens the threshold (0.524458ms)
-✔ Kernel nodes require discovery then BALANCED, cannot be cleared twice (0.193792ms)
-✔ RADIANT activates corruption and unstable edges (0.281375ms)
-✔ physical socket collision keeps Mara outside the pedestal (0.066583ms)
-ℹ tests 13
-ℹ suites 0
-ℹ pass 13
+ℹ pass 26
 ℹ fail 0
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 67.468166
+ℹ duration_ms 54.775208

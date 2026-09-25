@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-24T05:59:57.784Z",
+  "date": "2026-09-25T00:27:29.343Z",
   "sizes": {
-    "total": 7712872,
+    "total": 7760192,
     "music": 1142010,
     "sfx": 213273,
     "backgroundImages": 673138,
@@ -110,13 +110,13 @@
     {
       "file": "game/index.html",
       "type": "html",
-      "bytes": 9308,
+      "bytes": 11495,
       "target": null
     },
     {
       "file": "game/main.js",
       "type": "js",
-      "bytes": 20749,
+      "bytes": 34864,
       "target": null
     },
     {
@@ -861,13 +861,13 @@
     {
       "file": "game/src/model.js",
       "type": "js",
-      "bytes": 5502,
+      "bytes": 14746,
       "target": null
     },
     {
       "file": "game/src/scene.js",
       "type": "js",
-      "bytes": 21566,
+      "bytes": 37969,
       "target": null
     },
     {
@@ -879,13 +879,13 @@
     {
       "file": "game/src/tutorial.js",
       "type": "js",
-      "bytes": 1886,
+      "bytes": 2973,
       "target": null
     },
     {
       "file": "game/styles.css",
       "type": "css",
-      "bytes": 29634,
+      "bytes": 33918,
       "target": null
     },
     {
