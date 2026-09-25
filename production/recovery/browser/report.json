@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25T22:21:09.592Z",
+  "date": "2026-09-25T22:32:41.798Z",
   "checks": [
     "Title is real DOM and audio stays gesture-locked",
     "Settings and mute update from keyboard and pointer",
@@ -61,27 +61,27 @@
   "devices": [
     {
       "name": "desktop",
-      "readyMs": 1198,
-      "posterMs": 449.40000000596046,
-      "startLatency": 49.400000005960464,
+      "readyMs": 181.80000001192093,
+      "posterMs": 24,
+      "startLatency": 12.900000005960464,
       "metrics": {
         "drawCalls": 257,
         "triangles": 266104,
-        "fps": 59.9,
+        "fps": 60.1,
         "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
         "maraFrameHeight": 28.2,
         "fov": 50
       },
-      "transferBytes": 2287385
+      "transferBytes": 2287474
     },
     {
       "name": "390×844 touch emulation",
       "physicalDevice": false,
-      "startLatency": 13.799999982118607,
+      "startLatency": 14.400000005960464,
       "metrics": {
         "drawCalls": 593,
         "triangles": 806498,
-        "fps": 59.2,
+        "fps": 60,
         "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)",
         "maraFrameHeight": 23.9,
         "fov": 50
