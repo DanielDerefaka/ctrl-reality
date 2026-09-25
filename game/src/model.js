@@ -87,6 +87,8 @@ export function step(s,input,dt){
  for(const socket of SOCKETS){const dx=s.x-socket.x,dz=s.z-socket.z,d=Math.hypot(dx,dz),radius=.66;if(d<radius){s.x=socket.x+(d>.001?dx/d:0)*radius;s.z=socket.z+(d>.001?dz/d:1)*radius;}}
  const unstable=s.brightness==='RADIANT'&&((s.stage===1||s.stage===2)&&s.x>3.1&&s.z<-9||(s.stage===5&&here(s,'brightness')&&Math.hypot(s.x-CORE.x,s.z-CORE.z)>2.9));
  const corrupt=s.stage===2&&s.brightness==='RADIANT'&&NODES.some((n,i)=>!s.cleared.includes(i)&&Math.hypot(s.x-n.x,s.z-n.z)<.5);
+ // The Atrium rim is sealed until the crossing is built: walking into the gap stops Mara at the edge instead of dropping her.
+ if(s.stage===0&&s.bridge<.99&&s.z<-2.9&&s.z>=-3.6&&Math.abs(s.x)<1.35){s.z=-2.9;s.moving=false;}
  if(!groundAt(s.x,s.z,s)||unstable||corrupt){s.failure=.001;s.moving=false;events.push('failure');return events;}
  s.y=floorY(s.z);
  // The second threshold is physically sealed until the remembered sequence is correct.
